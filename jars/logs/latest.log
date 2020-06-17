@@ -1,13 +1,13 @@
-[01:05:52] [Client thread/INFO]: Setting user: §dHitler
-[01:05:52] [Client thread/INFO]: (Session ID is token:0:§dHitler)
-[01:05:52] [Client thread/INFO]: LWJGL Version: 2.9.4
-[01:05:53] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[01:05:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:05:53] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[01:05:53] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:05:54] [Thread-7/INFO]: OpenAL initialized.
-[01:05:54] [Sound Library Loader/INFO]: Sound engine started
-[01:05:55] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[01:32:02] [Client thread/INFO]: Setting user: §dHitler
+[01:32:02] [Client thread/INFO]: (Session ID is token:0:§dHitler)
+[01:32:02] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:32:03] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[01:32:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:32:04] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[01:32:04] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:32:04] [Thread-7/INFO]: OpenAL initialized.
+[01:32:04] [Sound Library Loader/INFO]: Sound engine started
+[01:32:06] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -20,7 +20,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[01:05:55] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[01:32:06] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -33,59 +33,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[01:05:56] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[01:06:16] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[01:06:16] [Server thread/INFO]: Generating keypair
-[01:06:16] [Server thread/INFO]: Preparing start region for level 0
-[01:06:17] [Server thread/INFO]: Changing view distance to 8, from 10
-[01:06:19] [Server thread/INFO]: §dHitler[local:E:ea54fe62] logged in with entity id 527 at (574.7347558423988, 69.0, 153.5499962219561)
-[01:06:19] [Server thread/INFO]: §dHitler joined the game
-[01:06:19] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[01:06:22] [Server thread/INFO]: Saving and pausing game...
-[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:06:25] [Server thread/INFO]: Saving and pausing game...
-[01:06:25] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:06:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:06:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:06:27] [Server thread/INFO]: Saving and pausing game...
-[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:06:33] [Server thread/INFO]: Saving and pausing game...
-[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:09:23] [Server thread/INFO]: Saving and pausing game...
-[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:09:24] [Server thread/INFO]: Saving and pausing game...
-[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:09:34] [Server thread/INFO]: Saving and pausing game...
-[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:09:58] [Server thread/INFO]: Saving and pausing game...
-[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:10:01] [Server thread/INFO]: Saving and pausing game...
-[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:10:17] [Server thread/INFO]: Saving and pausing game...
-[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:10:20] [Server thread/INFO]: Saving and pausing game...
-[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[01:10:30] [Server thread/INFO]: Saving and pausing game...
-[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:32:06] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[01:32:09] [Client thread/INFO]: Stopping!
+[01:32:09] [Client thread/INFO]: SoundSystem shutting down...
+[01:32:09] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

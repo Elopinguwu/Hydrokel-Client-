@@ -32,7 +32,6 @@ public class  ModuleManager {
 		modules.add(new Aura());
 		modules.add(new Step());
 		modules.add(new Disabler());
-		modules.add(new ShowPing());
 		modules.add(new Regen());
 		modules.add(new Negre());
 		modules.add(new SpeedHack());
