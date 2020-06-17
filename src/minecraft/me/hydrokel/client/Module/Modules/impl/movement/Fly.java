@@ -122,10 +122,10 @@ public class Fly extends Module {
 			if (MovementUtils.isMoving()) {
 				MovementUtils.setSpeed(0.40);
 				if (mc.thePlayer.ticksExisted % 3 == 0) {
-					mc.thePlayer.motionY = 0.25;
-					MovementUtils.setSpeed(2.65);
+					//mc.thePlayer.motionY = 0.25;
+					MovementUtils.setSpeed(3.20);
 				} else {
-					mc.thePlayer.motionY -= 0.15;
+					//mc.thePlayer.motionY -= 0.15;
 
 				}
 			}
