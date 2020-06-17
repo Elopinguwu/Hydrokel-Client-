@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../src/minecraft"/>
+	<levels>
+		<level name="authlib-1.5.21" value="project"/>
+		<level name="1.8.8" value="project"/>
+		<level name="KotlinJavaRuntime" value="project"/>
+		<level name="slick" value="project"/>
+	</levels>
+</component>

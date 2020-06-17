@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/authlib-1.5.21"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/1.8.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/KotlinJavaRuntime"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/slick"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

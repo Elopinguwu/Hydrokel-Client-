@@ -1,0 +1,318 @@
+{
+    "name": "Alex",
+    "primaryMesh": "body",
+    "scale": 0.9375,
+    "scaleItems": 1,
+    "scaleGui": 0.9375,
+    "renderHeldItems": true,
+    "leftHands": {
+        "low_left_arm.end": {
+            "rx": -90,
+            "ry": 180,
+            "z": -0.1,
+            "y": 0.1
+        }
+    },
+    "rightHands": {
+        "low_right_arm.end": {
+            "rx": -90,
+            "ry": 180,
+            "z": -0.1,
+            "y": 0.1
+        }
+    },
+    "head": "head",
+    "meshes": {
+        "prop_popcorn": {
+            "visible": false,
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:common/models/props/popcorn.png"
+        },
+
+        "prop_grave": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/grave.png"
+        },
+        "prop_grave_base": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:textures/blocks/dirt.png"
+        },
+        "prop_coffin": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/coffin.png"
+        },
+        "prop_broom": {
+            "visible": false,
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:common/models/props/broom.png"
+        },
+        "prop_candy_bag": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/candy_bag.png"
+        },
+
+        "prop_football": {
+            "visible": false,
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:common/models/props/football.png"
+        },
+        "prop_turkey": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/turkey.png"
+        },
+        "prop_hunt_gun": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/hunt_gun.png"
+        },
+
+        "prop_cloud": {
+            "visible": false,
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:common/models/props/cloud.png"
+        },
+        "prop_present": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/present.png"
+        },
+        "prop_iceberg": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:textures/blocks/ice.png"
+        },
+        "prop_chimney": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/chimney.png"
+        },
+        "prop_snowman_head": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:textures/entity/snowman.png"
+        },
+        "prop_snowman_body": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:textures/entity/snowman.png"
+        },
+        "prop_snowman_butt": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:textures/entity/snowman.png"
+        },
+        "prop_skates": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/skates.png"
+        },
+
+        "prop_champagne_bottle": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/palette.png"
+        },
+        "prop_champagne_cork": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/palette.png"
+        },
+        "prop_champagne_flying_cork": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/palette.png"
+        },
+        "prop_rocket": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/palette.png"
+        },
+        "prop_rocket_base": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/palette.png"
+        },
+
+        "prop_heart": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/heart.png"
+        },
+        "prop_heart_1": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/heart.png"
+        },
+        "prop_heart_2": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/heart.png"
+        },
+        "prop_rose": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/rose.png"
+        },
+        "prop_egg_juggle_bottom_1": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_bottom.png"
+        },
+        "prop_egg_juggle_bottom_2": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_bottom.png"
+        },
+        "prop_egg_juggle_bottom_3": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_bottom.png"
+        },
+        "prop_egg_juggle_top_1": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_top.png"
+        },
+        "prop_egg_juggle_top_2": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_top.png"
+        },
+        "prop_egg_juggle_top_3": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_top.png"
+        },
+        "prop_egg_l_top": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_top.png"
+        },
+        "prop_egg_l_bottom": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_bottom.png"
+        },
+        "prop_l": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/l.png"
+        },
+        "prop_egg_in_a_basket_bottom": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_bottom.png"
+        },
+        "prop_egg_in_a_basket_top": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/egg_top.png"
+        },
+        "prop_easter_basket": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/basket.png"
+        },
+        "prop_party_popper": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/party_popper_top.png"
+        },
+        "prop_party_popper_top": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/party_popper_top.png"
+        },
+        "prop_lawn_chair": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/lawn_chair.png"
+        },
+        "prop_sandcastle": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/sandcastle.png"
+        },
+        "prop_bucket": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/bucket.png"
+        },
+        "prop_bucket_handle": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/handle.png"
+        },
+        "prop_rainbow": {
+            "visible": false,
+            "normals": true,
+            "texture": "minecraft:common/models/props/rainbow.png"
+        },
+
+        "body": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "headwear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "bodywear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "left_armwear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "left_legwear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "right_armwear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+        "right_legwear": {
+            "normals": true,
+            "smooth": true,
+            "texture": "minecraft:textures/entity/alex.png"
+        },
+
+        "armor_helmet": {
+        	"visible": false,
+        	"normals": true,
+            "smooth": true
+        },
+        "armor_chest": {
+        	"visible": false,
+        	"normals": true,
+            "smooth": true
+        },
+        "armor_leggings": {
+        	"visible": false,
+        	"normals": true,
+            "smooth": true
+        },
+        "armor_feet": {
+        	"visible": false,
+        	"normals": true,
+            "smooth": true
+        }
+    }
+}
