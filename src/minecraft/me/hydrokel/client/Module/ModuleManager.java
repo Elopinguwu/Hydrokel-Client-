@@ -35,6 +35,7 @@ public class  ModuleManager {
 		modules.add(new ShowPing());
 		modules.add(new Regen());
 		modules.add(new Negre());
+		modules.add(new SpeedHack());
 		//modules.add(new BaseModule());
 	}
 	

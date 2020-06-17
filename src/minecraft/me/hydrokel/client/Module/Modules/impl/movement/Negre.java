@@ -14,7 +14,9 @@ import me.hydrokel.client.notifications.NotificationType;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockAir;
 import net.minecraft.network.Packet;
+import net.minecraft.network.play.client.C00PacketKeepAlive;
 import net.minecraft.network.play.client.C03PacketPlayer;
+import net.minecraft.network.play.client.C0FPacketConfirmTransaction;
 import net.minecraft.util.AxisAlignedBB;
 import org.lwjgl.input.Keyboard;
 
@@ -22,21 +24,26 @@ import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Negre extends Module {
     public Negre() {
-        super("Negre", Keyboard.KEY_NONE, Category.MOVEMENT);
+        super("Negre", Keyboard.KEY_NONE, Category.MISC);
 
     }
 
     @EventTarget
     public void onPacket(EventSendPacket event) {
         Packet packet = event.getPacket();
-              mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX, mc.thePlayer.posY, mc.thePlayer.posZ, true));
-              mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX, mc.thePlayer.posY + 0.18D, mc.thePlayer.posZ, true));
-              mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX, mc.thePlayer.posY + 0.08D, mc.thePlayer.posZ, true));
-             //je test des truc ici
-        //test github 2
+        if (event.getPacket() instanceof C0FPacketConfirmTransaction) {
+            C0FPacketConfirmTransaction packetConfirmTransaction = (C0FPacketConfirmTransaction) event.getPacket();
+            mc.thePlayer.sendQueue.addToSendQueue((Packet) new C0FPacketConfirmTransaction(2147483647, packetConfirmTransaction.getUid(), false));
+            event.setCancelled(true);
+        }
+        if (event.getPacket() instanceof C00PacketKeepAlive) {
+            mc.thePlayer.sendQueue.addToSendQueue((Packet) new C00PacketKeepAlive(Integer.MIN_VALUE + (new Random()).nextInt(100)));
+            event.setCancelled(true);
+        }
     }
 }
 
