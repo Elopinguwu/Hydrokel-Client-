@@ -23,6 +23,11 @@ public class SpeedHack extends Module {
 
         @Override
         public void onDisable() {
+            mc.thePlayer.motionY = 0F;
+            mc.thePlayer.motionX = 0F;
+            mc.thePlayer.motionZ = 0F;
+
+            mc.timer.timerSpeed = 1;
             NotificationManager.show(new Notification(NotificationType.INFO, "SpeedHack", "You untoggled SpeedHack.", 1));
             super.onDisable();
         }
@@ -45,7 +50,7 @@ public class SpeedHack extends Module {
 
         @EventTarget
         public void onUpdate(EventUpdate event) {
-            if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft")) {
+            if (Main.instance.setmgr.getSettingByName("SpeedHack Mode").getValString().equalsIgnoreCase("Cubecraft")) {
                 mc.timer.timerSpeed = 0.31F;
                 if (MovementUtils.isMoving()) {
                     MovementUtils.setSpeed(0.40);

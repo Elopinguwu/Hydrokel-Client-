@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import me.hydrokel.client.Utils.RainbowUtils;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.ScaledResolution;
@@ -26,29 +27,16 @@ import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
 
 
- /**
-  *  Made by HeroCode
-  *  it's free to use
-  *  but you have to credit me
-  *
-  *  @author HeroCode
-  */
+
+
+
 public class ClickGUI extends GuiScreen {
 	public static ArrayList<Panel> panels;
 	public static ArrayList<Panel> rpanels;
 	private ModuleButton mb = null;
 	public SettingsManager setmgr;
 	
-	/*
-	 * Konstrukor sollte nur einmal aufgerufen werden => in der MainMethode des eigenen Codes
-	 * hier Client.startClient()
-	 * das GUI wird dann so geöffnet: 
-	 * 		mc.displayGuiScreen(Client.clickgui);
-	 * 		this.setToggled(false);
-	 * das Module wird sofort wieder beendet damit
-	 * nächstes mal nicht 2mal der z.B. 'RSHIFT' Knopf gedrückt
-	 * werden muss
-	 */
+
 	public ClickGUI() {
 		setmgr = Main.instance.setmgr;
 		
@@ -60,9 +48,7 @@ public class ClickGUI extends GuiScreen {
 		double py = 10;
 		double pyplus = pheight + 10;
 		
-		/*
-		 * Zum Sortieren der Panels einfach die Reihenfolge im Enum ändern ;)
-		 */
+
 		for (Category c : Category.values()) {
 			String title = Character.toUpperCase(c.name().toLowerCase().charAt(0)) + c.name().toLowerCase().substring(1);
 			ClickGUI.panels.add(new Panel(title, px, py, pwidth, pheight, false, this) {
@@ -77,16 +63,7 @@ public class ClickGUI extends GuiScreen {
 			py += pyplus;
 		}
 		
-		/*
-		 * Wieso nicht einfach
-		 * 		rpanels = panels;
-		 * 		Collections.reverse(rpanels);
-		 * Ganz eifach:
-		 * 		durch diese Zuweisung wird rpanels einfach nur eine Weiterleitung
-		 * 		zu panels, was mit 'Collections.reverse(rpanels);' nicht ganz 
-		 * 		funktionieren würde. Und da die Elemente nur 'rüberkopiert' werden
-		 * 		gibt es keine Probleme ;)
-		 */
+
 		rpanels = new ArrayList<Panel>();
 		for (Panel p : panels) {
 			rpanels.add(p);
@@ -97,14 +74,7 @@ public class ClickGUI extends GuiScreen {
 
 	@Override
 	public void drawScreen(int mouseX, int mouseY, float partialTicks) {
-		/*
-		 * Panels und damit auch Buttons rendern.
-		 * panels wird NUR hier im Code verwendet, da das
-		 * zuletzt gerenderte Panel ganz oben ist 
-		 * Auch wenn es manchmal egal wäre ob panels/rpanels
-		 * benutzt wird habe ich mich einfach mal dazu entschieden,
-		 * einfach weil es einfacher ist nur einmal panels zu benutzen
-		 */
+
 		for (Panel p : panels) {
 			p.drawScreen(mouseX, mouseY, partialTicks);
 		}
@@ -117,11 +87,7 @@ public class ClickGUI extends GuiScreen {
 	GL11.glPopMatrix();
 		
 		mb = null;
-		/*
-		 * Überprüfen ob ein Button listening == true hat, wenn
-		 * ja, dann soll nicht mehr gesucht werden, nicht dass 
-		 * 1+ auf listening steht...
-		 */
+
 		listen:
 		for (Panel p : panels) {
 			if (p != null && p.visible && p.extended && p.Elements != null
@@ -135,11 +101,7 @@ public class ClickGUI extends GuiScreen {
 			}
 		}
 		
-		/*
-		 * Settings rendern. Da Settings über alles gerendert werden soll,
-		 * abgesehen vom ListeningOverlay werden die Elements von hier aus
-		 * fast am Schluss gerendert
-		 */
+
 		for (Panel panel : panels) {
 			if (panel.extended && panel.visible && panel.Elements != null) {
 				for (ModuleButton b : panel.Elements) {
@@ -163,51 +125,31 @@ public class ClickGUI extends GuiScreen {
 
 		}
 		
-		/*
-		 * Wenn mb != null ist => ein Button listening == true
-		 * dann wird das Overlay gerendert mit ein paar Informationen.
-		 */
+
 		if(mb != null){
 			drawRect(0, 0, this.width, this.height, 0x88101010);
 			GL11.glPushMatrix();
 			GL11.glTranslatef(s.getScaledWidth() / 2, s.getScaledHeight() / 2, 0.0F);
 			GL11.glScalef(4.0F, 4.0F, 0F);
-			FontUtil.drawTotalCenteredStringWithShadow("Listening...", 0, -10, 0xffffffff);
+			FontUtil.drawTotalCenteredStringWithShadow("Listening...", 0, -10, RainbowUtils.effect(1, 0.5F, 5).getRGB());;
 			GL11.glScalef(0.5F, 0.5F, 0F);
-			FontUtil.drawTotalCenteredStringWithShadow("Press 'ESCAPE' to unbind " + mb.mod.getName() + (mb.mod.getKey() > -1 ? " (" + Keyboard.getKeyName(mb.mod.getKey())+ ")" : ""), 0, 0, 0xffffffff);
+			FontUtil.drawTotalCenteredStringWithShadow("Press 'ESCAPE' to unbind " + mb.mod.getName() + (mb.mod.getKey() > -1 ? " (" + Keyboard.getKeyName(mb.mod.getKey())+ ")" : ""), 0, 0, RainbowUtils.effect(1, 0.5F, 5).getRGB());;
 			GL11.glScalef(0.25F, 0.25F, 0F);
-			FontUtil.drawTotalCenteredStringWithShadow("by HeroCode", 0, 20, 0xffffffff);
+			//FontUtil.drawTotalCenteredStringWithShadow("by HeroCode", 0, 20, 0xffffffff);
 			GL11.glPopMatrix();
 		}
 		
-		/*
-		 * Nicht benötigt, aber es ist so einfach sauberer ;)
-		 * Und ohne diesen call können keine GUIButtons/andere Elemente
-		 * gerendert werden
-		 */
+
 		super.drawScreen(mouseX, mouseY, partialTicks);
 	}
 
 	@Override
 	public void mouseClicked(int mouseX, int mouseY, int mouseButton) {
-		/*
-		 * Damit man nicht nochmal den Listeningmode aktivieren kann,
-		 * wenn er schon aktiviert ist
-		 */
+
+
 		if(mb != null)return;
 		
-		/*
-		 * Benötigt damit auch mit Elements interagiert werden kann
-		 * besonders zu beachten ist dabei, dass zum einen rpanels aufgerufen
-		 * wird welche eine Eigenständige Kopie von panels ist, genauer oben erklärt
-		 * Also rpanels damit zuerst das panel 'untersucht' wird, dass als letztes
-		 * gerendert wurde => Ganz oben ist!
-		 * sodass der Nutzer nicht mit dem Unteren interagiern kann, weil er es wohl
-		 * nicht will. Und damit nicht einfach mit Panels  anstatt Elements interagiert wird
-		 * werden hier nur die Settings untersucht. Und wenn wirklich interagiert wurde, dann
-		 * endet diese Methode hier.
-		 * Das ist auch in anderen Loops zu beobachten
-		 */
+
 		for (Panel panel : rpanels) {
 			if (panel.extended && panel.visible && panel.Elements != null) {
 				for (ModuleButton b : panel.Elements) {
@@ -221,18 +163,13 @@ public class ClickGUI extends GuiScreen {
 			}
 		}
 
-		/*
-		 * Benötigt damit mit ModuleButtons interagiert werden kann
-		 * und Panels 'gegriffen' werden können
-		 */
+
 		for (Panel p : rpanels) {
 			if (p.mouseClicked(mouseX, mouseY, mouseButton))
 				return;
 		}
 		
-		/*
-		 * Nicht benötigt, aber es ist so einfach sauberer ;)
-		 */
+
 		try {
 			super.mouseClicked(mouseX, mouseY, mouseButton);
 		} catch (IOException e) {
@@ -242,17 +179,10 @@ public class ClickGUI extends GuiScreen {
 
 	@Override
 	public void mouseReleased(int mouseX, int mouseY, int state) {
-		/*
-		 * Damit man nicht nochmal den Listeningmode aktivieren kann,
-		 * wenn er schon aktiviert ist
-		 */
+
 		if(mb != null)return;
 		
-		/*
-		 * Eigentlich nur für die Slider benötigt, aber
-		 * durch diesen Call erfährt jedes Element, wenn
-		 * z.B. Rechtsklick losgelassen wurde
-		 */
+
 		for (Panel panel : rpanels) {
 			if (panel.extended && panel.visible && panel.Elements != null) {
 				for (ModuleButton b : panel.Elements) {
@@ -265,25 +195,18 @@ public class ClickGUI extends GuiScreen {
 			}
 		}
 		
-		/*
-		 * Benötigt damit Slider auch losgelassen werden können und nicht
-		 * immer an der Maus 'festkleben' :>
-		 */
+
 		for (Panel p : rpanels) {
 			p.mouseReleased(mouseX, mouseY, state);
 		}
 		
-		/*
-		 * Nicht benötigt, aber es ist so einfach sauberer ;)
-		 */
+
 		super.mouseReleased(mouseX, mouseY, state);
 	}
 
 	@Override
 	protected void keyTyped(char typedChar, int keyCode) {
-		/*
-		 * Benötigt für die Keybindfunktion
-		 */
+
 		for (Panel p : rpanels) {
 			if (p != null && p.visible && p.extended && p.Elements != null && p.Elements.size() > 0) {
 				for (ModuleButton e : p.Elements) {
@@ -296,10 +219,7 @@ public class ClickGUI extends GuiScreen {
 			}
 		}
 
-		/*
-		 * keyTyped in GuiScreen MUSS aufgerufen werden, damit 
-		 * man mit z.B. ESCAPE aus dem GUI gehen kann
-		 */
+
 		try {
 			super.keyTyped(typedChar, keyCode);
 		} catch (IOException e2) {
@@ -309,9 +229,7 @@ public class ClickGUI extends GuiScreen {
 
 	@Override
 	public void initGui() {
-		/*
-		 * Start blur
-		 */
+
 		if (OpenGlHelper.shadersSupported && mc.getRenderViewEntity() instanceof EntityPlayer) {
 			if (mc.entityRenderer.theShaderGroup != null) {
 				mc.entityRenderer.theShaderGroup.deleteShaderGroup();
@@ -322,16 +240,12 @@ public class ClickGUI extends GuiScreen {
 
 	@Override
 	public void onGuiClosed() {
-		/*
-		 * End blur 
-		 */
+
 		if (mc.entityRenderer.theShaderGroup != null) {
 			mc.entityRenderer.theShaderGroup.deleteShaderGroup();
 			mc.entityRenderer.theShaderGroup = null;
 		}
-		/*
-		 * Sliderfix
-		 */
+
 		for (Panel panel : ClickGUI.rpanels) {
 			if (panel.extended && panel.visible && panel.Elements != null) {
 				for (ModuleButton b : panel.Elements) {

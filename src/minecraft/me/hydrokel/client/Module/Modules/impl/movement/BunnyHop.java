@@ -56,7 +56,7 @@ public class BunnyHop extends Module {
                 if (MovementUtils.isMoving())
                     MovementUtils.setSpeed(2.65);
                 //mc.thePlayer.jump();
-                   // mc.thePlayer.motionY += 0.24;
+                    mc.thePlayer.motionY += 0.24;
 
             } else {
                 mc.timer.timerSpeed = 1F;

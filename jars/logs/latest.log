@@ -1,145 +1,13 @@
-[00:13:24] [Client thread/INFO]: Setting user: §dHitler
-[00:13:24] [Client thread/INFO]: (Session ID is token:0:§dHitler)
-[00:13:25] [Client thread/INFO]: LWJGL Version: 2.9.4
-[00:13:26] [Client thread/INFO]: Reloading ResourceManager: Default
-[00:13:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:13:26] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[00:13:26] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:13:26] [Thread-7/INFO]: OpenAL initialized.
-[00:13:27] [Sound Library Loader/INFO]: Sound engine started
-[00:13:30] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[00:15:06] [Alt Login Thread/INFO]: Logging in with username & password
-[00:15:22] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:15:37] [Alt Login Thread/INFO]: Logging in with username & password
-[00:15:44] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:16:03] [Alt Login Thread/INFO]: Logging in with username & password
-[00:16:06] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:16:16] [Alt Login Thread/INFO]: Logging in with username & password
-[00:16:18] [Alt Login Thread/INFO]: Logging in with username & password
-[00:16:20] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:16:45] [Alt Login Thread/INFO]: Logging in with username & password
-[00:16:47] [Alt Login Thread/INFO]: Logging in with username & password
-[00:17:09] [Alt Login Thread/INFO]: Logging in with username & password
-[00:17:11] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:17:21] [Alt Login Thread/INFO]: Logging in with username & password
-[00:17:24] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:17:35] [Alt Login Thread/INFO]: Logging in with username & password
-[00:17:37] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:18:02] [Alt Login Thread/INFO]: Logging in with username & password
-[00:18:23] [Alt Login Thread/INFO]: Logging in with username & password
-[00:18:24] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:18:50] [Alt Login Thread/INFO]: Logging in with username & password
-[00:18:52] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:19:21] [Alt Login Thread/INFO]: Logging in with username & password
-[00:19:24] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:19:27] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:19:43] [Alt Login Thread/INFO]: Logging in with username & password
-[00:19:45] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:20:10] [Alt Login Thread/INFO]: Logging in with username & password
-[00:20:12] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:20:34] [Alt Login Thread/INFO]: Logging in with username & password
-[00:20:49] [Alt Login Thread/INFO]: Logging in with username & password
-[00:20:51] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:21:13] [Alt Login Thread/INFO]: Logging in with username & password
-[00:21:15] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:21:36] [Alt Login Thread/INFO]: Logging in with username & password
-[00:21:41] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:21:47] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[00:21:47] [Server thread/INFO]: Generating keypair
-[00:21:47] [Server thread/INFO]: Preparing start region for level 0
-[00:21:48] [Server thread/INFO]: Boogs10[local:E:f2ad00da] logged in with entity id 645 at (580.5, 68.0, 158.5)
-[00:21:48] [Server thread/INFO]: Boogs10 joined the game
-[00:21:48] [Server thread/INFO]: Changing view distance to 8, from 10
-[00:21:48] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[00:21:49] [Server thread/INFO]: Saving and pausing game...
-[00:21:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:21:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:21:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:21:57] [Server thread/INFO]: Boogs10 has just earned the achievement [Taking Inventory]
-[00:21:57] [Client thread/INFO]: [CHAT] Boogs10 has just earned the achievement [Taking Inventory]
-[00:22:02] [Server thread/INFO]: Saving and pausing game...
-[00:22:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:06] [Server thread/INFO]: Saving and pausing game...
-[00:22:06] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:06] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:06] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:27] [Server thread/INFO]: Saving and pausing game...
-[00:22:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:33] [Server thread/INFO]: Saving and pausing game...
-[00:22:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:36] [Server thread/INFO]: Saving and pausing game...
-[00:22:36] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:36] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:36] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:40] [Server thread/INFO]: Saving and pausing game...
-[00:22:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:40] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:41] [Server thread/INFO]: Stopping server
-[00:22:41] [Server thread/INFO]: Saving players
-[00:22:41] [Server thread/INFO]: Saving worlds
-[00:22:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[00:22:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[00:22:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[00:22:50] [Client thread/INFO]: Connecting to play.erisium.fr, 25565
-[00:22:53] [Client thread/INFO]: [CHAT] 
-  ERISIUM ? Version beta 
- 
-    PRIDE MONTH
-      En soutien à l'association Le Refuge une partie des
-      revenus du SUB leur seront reversés (? Clique).
-
-    LANGUE
-      Modifie ta langue avec la commande /lang (? Clique).
-
-[00:22:55] [Client thread/INFO]: [CHAT] AMI MrBuzzer_ a lancé son serveur.  [? Jouer]
-[00:23:10] [Client thread/INFO]: [CHAT] DEV Means1 a rejoint le hub.
-[00:23:16] [Client thread/INFO]: [CHAT] Zero_KOR » wowwww shdoune :o
-[00:23:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.knockback
-[00:23:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
-[00:23:26] [Client thread/INFO]: [CHAT] 
-
-
-  » Serveur Public ? FanDeTapisBleu
-
-  ? Hôte: FanDeTapisBleu
-  ? Jeu: UHC Loup-Garou
-
-  [!] Avoir son serveur customisé ? [Cliquez-ici]
-
-  [? Règlement]  [? Mods autorisés]  [? Signalement]
-
-[00:23:26] [Client thread/INFO]: [CHAT]        
-[00:23:29] [Client thread/INFO]: [CHAT] 
-? HOTE FanDeTapisBleu » je vais force mur a 10 mins donc no kill border svp stoppez le fight a se moment les gens en bo
-
-[00:23:32] [Client thread/INFO]: [CHAT] ULTRA FanDeTapisBleu ? ? » der
-[00:23:58] [Client thread/INFO]: [CHAT] LG UHC ? Chargement du terrain pour la téléportation ...
-[00:24:00] [Client thread/INFO]: [CHAT] LG UHC ? Vous avez été téléporté avec succès !
-[00:24:07] [Client thread/INFO]: [CHAT] 
-? HOTE FanDeTapisBleu » centre naturel
-
-[00:24:15] [Client thread/INFO]: [CHAT] §c§lLG UHC §f? §r§e§lDétails sur la partie §8| §3[§bCliquez§3] §8(/uhc)
-[00:24:15] [Client thread/INFO]: [CHAT] §c§lLG UHC §f? §r§e§lScénarios de la partie §8| §2[§aCliquez§2] §8(/scenario)
-[00:24:15] [Client thread/INFO]: [CHAT] LG UHC ? Vous êtes invincible pendant 30 secondes.
-[00:24:15] [Client thread/INFO]: [CHAT] 
-  ? JOUR 1 ?
-
-[00:24:22] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[00:24:23] [Client thread/INFO]: SoundSystem shutting down...
-[00:24:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[00:24:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:24:23] [Thread-93/INFO]: Initializing LWJGL OpenAL
-[00:24:23] [Thread-93/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:24:24] [Thread-93/INFO]: OpenAL initialized.
-[00:24:24] [Sound Library Loader/INFO]: Sound engine started
-[00:24:25] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[01:05:52] [Client thread/INFO]: Setting user: §dHitler
+[01:05:52] [Client thread/INFO]: (Session ID is token:0:§dHitler)
+[01:05:52] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:05:53] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[01:05:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:05:53] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[01:05:53] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:05:54] [Thread-7/INFO]: OpenAL initialized.
+[01:05:54] [Sound Library Loader/INFO]: Sound engine started
+[01:05:55] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -147,21 +15,12 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.resources.model.ModelBakery.loadSprites(ModelBakery.java:600) [OwO2/:?]
 	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:82) [OwO2/:?]
 	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [OwO2/:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:118) [OwO2/:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:105) [OwO2/:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:800) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.actionPerformed(GuiScreenResourcePacks.java:197) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:503) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.mouseClicked(GuiScreenResourcePacks.java:210) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:599) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.handleMouseInput(GuiScreenResourcePacks.java:82) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:568) [OwO2/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1777) [OwO2/:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1104) [OwO2/:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:420) [OwO2/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [OwO2/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:548) [OwO2/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[00:24:25] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[01:05:55] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -169,475 +28,64 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.resources.model.ModelBakery.loadSprites(ModelBakery.java:600) [OwO2/:?]
 	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:82) [OwO2/:?]
 	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [OwO2/:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:118) [OwO2/:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:105) [OwO2/:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:800) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.actionPerformed(GuiScreenResourcePacks.java:197) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:503) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.mouseClicked(GuiScreenResourcePacks.java:210) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:599) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreenResourcePacks.handleMouseInput(GuiScreenResourcePacks.java:82) [OwO2/:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:568) [OwO2/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1777) [OwO2/:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1104) [OwO2/:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:420) [OwO2/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [OwO2/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:548) [OwO2/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[00:24:26] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[00:24:27] [Client thread/INFO]: [CHAT] CHAT ? Visibilité des messages dans une région de 50 blocs.
-[00:24:45] [Client thread/INFO]: [CHAT] LG UHC ? Invincibilité: Désactivée
-[00:24:45] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 30 secondes.
-[00:24:50] [Client thread/INFO]: [CHAT] 
-  ROLE: LOUP-GAROU
-
-? Objectif: Éliminer tous les villageois.
-
-  COMPETENCE ? [? Compétence passive]
-? À chaque kill, vous obtiendrez 1 minute de vitesse
-? et deux coeurs d'absorption.
-
-[00:24:50] [Client thread/INFO]: [CHAT] ? Liste des loups-garous :
-? AlampSs, Boogs10, K0N0A, Syroxx__, bejeb, HypnoGams, _Seaz_, FanDeTapisBleu, Gazelouf
-[00:24:55] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 20 secondes.
-[00:25:05] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 10 secondes.
-[00:25:10] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 5 secondes.
-[00:25:11] [Client thread/INFO]: [CHAT] ? ? YANIS2010 a quitté la partie. [Reconnexion: ?]
-[00:25:11] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 4 secondes.
-[00:25:12] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 3 secondes.
-[00:25:13] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 2 secondes.
-[00:25:14] [Client thread/INFO]: [CHAT] LG UHC ? Activation du PVP dans 1 seconde.
-[00:25:15] [Client thread/INFO]: [CHAT] +---------------------------------------------------+
-
-  » Phase: PvP activé
-
-  ? Info: Désormais, les joueurs peuvent s’entre-tuer.
-
-+---------------------------------------------------+
-[00:25:18] [Client thread/INFO]: [CHAT] 
-  ????? VILLAGE ? ANNONCE DE MORT ?????
-
-? Le village a perdu un de ses villageois:
-? YANIS2010 qui était Salvateur.
-
-[00:25:23] [Client thread/INFO]: [CHAT] ? ? K0N0A a quitté la partie. [Reconnexion: ?]
-[00:25:29] [Client thread/INFO]: [CHAT] 
-  ????? VILLAGE ? ANNONCE DE MORT ?????
-
-? Le village a perdu un de ses villageois:
-? K0N0A qui était Loup-garou.
-
-[00:25:32] [Client thread/INFO]: [CHAT] 
-  ????? VILLAGE ? ANNONCE DE MORT ?????
-
-? Le village a perdu un de ses villageois:
-? _Seaz_ qui était Loup-garou.
-
-[00:25:33] [Client thread/INFO]: [CHAT] Syroxx__ » nice cheater
-[00:25:54] [Client thread/INFO]: Connecting to play.erisium.fr, 25565
-[00:26:10] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:26:20] [Alt Login Thread/INFO]: Logging in with username & password
-[00:26:23] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:27:06] [Alt Login Thread/INFO]: Logging in with username & password
-[00:27:08] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:27:24] [Client thread/INFO]: Connecting to eu.cubecraft.net, 25565
-[00:27:24] [Server Connector #22/ERROR]: Couldn't connect to server
-java.net.UnknownHostException: eu.cubecraft.net
-	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_251]
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_251]
-	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_251]
-	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
-[00:29:08] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
-[00:29:09] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:29:09] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:29:09] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:29:09] [Client thread/INFO]: [CHAT]                                  
-                     Privacy Agreement
-           We collect data to process in line with our 
-         Privacy Policy. By playing on ||CubeCraft||, you
-         are confirming that you are over 13 years of
-         age, or have the permission of your guardian,
-        and consent to us processing your data in these
-                              ways.
-
-          You can opt-out at anytime by simply visiting
-                your Settings or by clicking here.
-                                 
-[00:30:38] [Client thread/INFO]: [CHAT] 40
-[00:30:38] [Client thread/INFO]: [CHAT] 40
-[00:30:38] [Client thread/INFO]: [CHAT] 40
-[00:30:38] [Client thread/INFO]: [CHAT] 40
-[00:30:38] [Client thread/INFO]: [CHAT] 40
-[00:30:38] [Client thread/INFO]: [CHAT] 52
-[00:30:38] [Client thread/INFO]: [CHAT] 52
-[00:30:39] [Client thread/INFO]: [CHAT] 52
-[00:30:39] [Client thread/INFO]: [CHAT] 52
-[00:30:39] [Client thread/INFO]: [CHAT] 52
-[00:30:39] [Client thread/INFO]: [CHAT] 52
-[00:30:39] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:40] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:30:42] [Client thread/INFO]: [CHAT] 52
-[00:31:05] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:31:05] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:31:05] [Client thread/INFO]: [CHAT] [+] Maggieowl joined your game (1/12).
-[00:31:06] [Client thread/INFO]: [CHAT] [+] luschito joined your game (2/12).
-[00:31:07] [Client thread/INFO]: [CHAT] [+] PGFragio joined your game (3/12).
-[00:31:07] [Client thread/INFO]: [CHAT] [+] izMarck joined your game (4/12).
-[00:31:07] [Client thread/INFO]: [CHAT] [+] Empireon joined your game (5/12).
-[00:31:07] [Client thread/INFO]: [CHAT] [+] ImSpain joined your game (6/12).
-[00:31:07] [Client thread/INFO]: [CHAT] [+] Only9CpS joined your game (7/12).
-[00:31:08] [Client thread/INFO]: [CHAT] [+] pug_swager95 joined your game (8/12).
-[00:31:08] [Client thread/INFO]: [CHAT] [+] TheRichGames88 joined your game (9/12).
-[00:31:08] [Client thread/INFO]: [CHAT] Server is now FULL! Game starting in 10 seconds!
-[00:31:09] [Client thread/INFO]: [CHAT] SkyWars is starting in 10 seconds.
-[00:31:09] [Client thread/INFO]: [CHAT] [+] cqrlos99 joined your game (10/12).
-[00:31:09] [Client thread/INFO]: [CHAT] [-] ImSpain left your game (11/12).
-[00:31:09] [Client thread/INFO]: [CHAT] [-] Only9CpS left your game (10/12).
-[00:31:09] [Client thread/INFO]: [CHAT] [+] AlexYTX joined your game (12/12).
-[00:31:09] [Client thread/INFO]: [CHAT] [+] l1lSl0w_voiid joined your game (11/12).
-[00:31:10] [Client thread/INFO]: [CHAT] [+] Dilan_Pretel joined your game (11/12).
-[00:31:11] [Client thread/INFO]: [CHAT] [+] lamamatiscaBv joined your game (12/12).
-[00:31:11] [Client thread/INFO]: [CHAT] [-] cqrlos99 left your game (11/12).
-[00:31:12] [Client thread/INFO]: [CHAT] [-] Dilan_Pretel left your game (11/12).
-[00:31:13] [Client thread/INFO]: [CHAT] [+] SherlockBBC joined your game (12/12).
-[00:31:13] [Client thread/INFO]: [CHAT]  
-[00:31:13] [Client thread/INFO]: [CHAT] Selected Normal projectiles!
-[00:31:13] [Client thread/INFO]: [CHAT]  
-[00:31:13] [Client thread/INFO]: [CHAT] [+] Jaco_280 joined your game (12/12).
-[00:31:14] [Client thread/INFO]: [CHAT] SkyWars is starting in 5 seconds.
-[00:31:15] [Client thread/INFO]: [CHAT] SkyWars is starting in 4 seconds.
-[00:31:16] [Client thread/INFO]: [CHAT] SkyWars is starting in 3 seconds.
-[00:31:17] [Client thread/INFO]: [CHAT] SkyWars is starting in 2 seconds.
-[00:31:18] [Client thread/INFO]: [CHAT] SkyWars is starting in 1 second.
-[00:31:19] [Client thread/INFO]: [CHAT] Teaming is not allowed in Solo SkyWars!
-[00:31:19] [Client thread/INFO]: [CHAT]  
-[00:31:19] [Client thread/INFO]: [CHAT] Selected Normal chest items!
-[00:31:19] [Client thread/INFO]: [CHAT] Selected Day time!
-[00:31:19] [Client thread/INFO]: [CHAT]  
-[00:31:19] [Client thread/INFO]: [CHAT] Let the games begin!
-[00:31:42] [Client thread/INFO]: [CHAT] luschito died in the void while escaping Maggieowl.
-[00:31:42] [Client thread/INFO]: [CHAT] 
-[00:31:42] [Client thread/INFO]: [CHAT]                    ? Achievement Gained! ?
-[00:31:42] [Client thread/INFO]: [CHAT]                           Beginnings
-[00:31:42] [Client thread/INFO]: [CHAT]                Get your first kill in solo SkyWars.
-[00:31:42] [Client thread/INFO]: [CHAT] 
-[00:31:42] [Client thread/INFO]: [CHAT] +3 Points.
-[00:31:45] [Client thread/INFO]: [CHAT] SherlockBBC died in the void.
-[00:31:45] [Client thread/INFO]: [CHAT] PGFragio died in the void.
-[00:31:50] [Client thread/INFO]: [CHAT] Jaco_280 died in the void.
-[00:31:54] [Client thread/INFO]: [CHAT] :Stone: izMarck: xd
-[00:31:55] [Client thread/INFO]: [CHAT] 
-[00:31:55] [Client thread/INFO]: [CHAT]                    ? Achievement Gained! ?
-[00:31:55] [Client thread/INFO]: [CHAT]                            Double kill
-[00:31:55] [Client thread/INFO]: [CHAT]                     Kill 2 players in one game.
-[00:31:55] [Client thread/INFO]: [CHAT] 
-[00:31:55] [Client thread/INFO]: [CHAT] izMarck died in the void while escaping Maggieowl.
-[00:31:55] [Client thread/INFO]: [CHAT] +3 Points.
-[00:32:02] [Client thread/INFO]: [CHAT] 
-[00:32:02] [Client thread/INFO]: [CHAT]                    ? Achievement Gained! ?
-[00:32:02] [Client thread/INFO]: [CHAT]                          Killing spree
-[00:32:02] [Client thread/INFO]: [CHAT]                     Kill 3 players in one game.
-[00:32:02] [Client thread/INFO]: [CHAT] 
-[00:32:02] [Client thread/INFO]: [CHAT] Empireon died in the void while escaping Maggieowl.
-[00:32:02] [Client thread/INFO]: [CHAT] +3 Points.
-[00:32:07] [Client thread/INFO]: [CHAT] :Stone: Empireon: nice hacker
-[00:32:10] [Client thread/INFO]: [CHAT] lamamatiscaBv burned to death while fighting TheRichGames88.
-[00:32:21] [Client thread/INFO]: [CHAT] TheRichGames88 was slain by Maggieowl.
-[00:32:21] [Client thread/INFO]: [CHAT] +3 Points.
-[00:32:21] [Client thread/ERROR]: Item entity 391 has no item?!
-[00:32:21] [Client thread/ERROR]: Item entity 391 has no item?!
-[00:32:23] [Client thread/INFO]: [CHAT] l1lSl0w_voiid burnt to a crisp while fighting pug_swager95.
-[00:32:35] [Client thread/INFO]: [CHAT] AlexYTX was slain by pug_swager95.
-[00:33:40] [Client thread/INFO]: [CHAT] Maggieowl was slain by pug_swager95.
-[00:33:40] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:33:40] [Client thread/INFO]: [CHAT] ? You got 2nd place
-[00:33:40] [Client thread/INFO]: [CHAT] ? Game length: 2 minutes and 21 seconds
-[00:33:40] [Client thread/INFO]: [CHAT] ? Kills: 4
-[00:33:40] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:33:40] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:33:40] [Client thread/INFO]: [CHAT] pug_swager95 won the game!
-[00:33:40] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:33:40] [Client thread/INFO]: [CHAT] +5 Experience.
-[00:33:40] [Client thread/INFO]: [CHAT]         -----------------------------------------
-              Thank you for playing SkyWars
-              Play Again • Auto Mode • Leave
-        -----------------------------------------
-[00:33:48] [Client thread/INFO]: [CHAT] Game found, sending you to g6l17!
-[00:33:48] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:33:48] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:33:49] [Client thread/INFO]: [CHAT] [+] Maggieowl joined your game (9/12).
-[00:33:52] [Client thread/INFO]: [CHAT] [+] gabyglom joined your game (10/12).
-[00:33:52] [Client thread/INFO]: [CHAT] Server is now FULL! Game starting in 10 seconds!
-[00:33:52] [Client thread/INFO]: [CHAT] [+] _J_E_C_C_ joined your game (11/12).
-[00:33:52] [Client thread/INFO]: [CHAT] SkyWars is starting in 10 seconds.
-[00:33:53] [Client thread/INFO]: [CHAT] [+] tOOnYY2005 joined your game (12/12).
-[00:33:56] [Client thread/INFO]: [CHAT]  
-[00:33:56] [Client thread/INFO]: [CHAT] Selected Normal projectiles!
-[00:33:56] [Client thread/INFO]: [CHAT]  
-[00:33:57] [Client thread/INFO]: [CHAT] SkyWars is starting in 5 seconds.
-[00:33:58] [Client thread/INFO]: [CHAT] SkyWars is starting in 4 seconds.
-[00:33:59] [Client thread/INFO]: [CHAT] SkyWars is starting in 3 seconds.
-[00:34:00] [Client thread/INFO]: [CHAT] SkyWars is starting in 2 seconds.
-[00:34:01] [Client thread/INFO]: [CHAT] SkyWars is starting in 1 second.
-[00:34:02] [Client thread/INFO]: [CHAT] Teaming is not allowed in Solo SkyWars!
-[00:34:02] [Client thread/INFO]: [CHAT]  
-[00:34:02] [Client thread/INFO]: [CHAT] Selected Normal chest items!
-[00:34:02] [Client thread/INFO]: [CHAT] Selected Day time!
-[00:34:02] [Client thread/INFO]: [CHAT]  
-[00:34:02] [Client thread/INFO]: [CHAT] Let the games begin!
-[00:34:34] [Client thread/INFO]: [CHAT] BeoMu was slain by zSeba.
-[00:34:34] [Client thread/INFO]: [CHAT] 10 players remain alive!
-[00:34:36] [Client thread/INFO]: [CHAT] tOOnYY2005 was slain by skyhightide.
-[00:34:37] [Client thread/INFO]: [CHAT] ItzProxero79 died in the void.
-[00:34:40] [Client thread/INFO]: [CHAT] StealthOfDoge couldn't fly.
-[00:34:40] [Client thread/INFO]: [CHAT] 7 players remain alive!
-[00:34:41] [Client thread/INFO]: [CHAT] Maggieowl was slain by gabyglom.
-[00:34:41] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:34:41] [Client thread/INFO]: [CHAT] ? You got 8th place
-[00:34:41] [Client thread/INFO]: [CHAT] ? Game length: 39 seconds
-[00:34:41] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:34:41] [Client thread/ERROR]: Item entity 504 has no item?!
-[00:34:41] [Client thread/ERROR]: Item entity 504 has no item?!
-[00:34:41] [Client thread/INFO]: [CHAT] +5 Experience.
-[00:34:41] [Client thread/INFO]: [CHAT]         -----------------------------------------
-              Thank you for playing SkyWars
-              Play Again • Auto Mode • Leave
-        -----------------------------------------
-[00:34:46] [Client thread/INFO]: [CHAT] zSeba was slain by RextorMc.
-[00:34:47] [Client thread/INFO]: [CHAT] Game found, sending you to g6j0a!
-[00:34:48] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:34:48] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:34:48] [Client thread/INFO]: [CHAT] [+] TheFrizerGame joined your game (9/12).
-[00:34:48] [Client thread/INFO]: [CHAT] [+] Maggieowl joined your game (9/12).
-[00:34:49] [Client thread/INFO]: [CHAT] [+] El_Melle joined your game (10/12).
-[00:34:49] [Client thread/INFO]: [CHAT] Server is now FULL! Game starting in 10 seconds!
-[00:34:50] [Client thread/INFO]: [CHAT] [+] CloockCubitoHD joined your game (11/12).
-[00:34:50] [Client thread/INFO]: [CHAT] SkyWars is starting in 10 seconds.
-[00:34:50] [Client thread/INFO]: [CHAT] pirex3 voted for Normal chest items. 1 vote
-[00:34:50] [Client thread/INFO]: [CHAT] [+] Ewxut joined your game (12/12).
-[00:34:54] [Client thread/INFO]: [CHAT]  
-[00:34:54] [Client thread/INFO]: [CHAT] Selected Normal projectiles!
-[00:34:54] [Client thread/INFO]: [CHAT]  
-[00:34:55] [Client thread/INFO]: [CHAT] SkyWars is starting in 5 seconds.
-[00:34:55] [Client thread/INFO]: [CHAT] pirex3 voted for Day time. 1 vote
-[00:34:56] [Client thread/INFO]: [CHAT] SkyWars is starting in 4 seconds.
-[00:34:57] [Client thread/INFO]: [CHAT] Ewxut voted for Basic chest items. 1 vote
-[00:34:57] [Client thread/INFO]: [CHAT] SkyWars is starting in 3 seconds.
-[00:34:58] [Client thread/INFO]: [CHAT] SkyWars is starting in 2 seconds.
-[00:34:59] [Client thread/INFO]: [CHAT] SkyWars is starting in 1 second.
-[00:35:00] [Client thread/INFO]: [CHAT] Teaming is not allowed in Solo SkyWars!
-[00:35:00] [Client thread/INFO]: [CHAT]  
-[00:35:00] [Client thread/INFO]: [CHAT] Selected Normal chest items!
-[00:35:00] [Client thread/INFO]: [CHAT] Selected Day time!
-[00:35:00] [Client thread/INFO]: [CHAT]  
-[00:35:00] [Client thread/INFO]: [CHAT] Let the games begin!
-[00:35:23] [Client thread/INFO]: [CHAT] ElPollo_Amarillo was slain by Maggieowl.
-[00:35:23] [Client thread/INFO]: [CHAT] +3 Points.
-[00:35:25] [Client thread/INFO]: [CHAT] LudiYT died in the void while escaping Joaomgpr.
-[00:35:26] [Client thread/INFO]: [CHAT] TheFrizerGame died in the void.
-[00:35:28] [Client thread/INFO]: [CHAT] CloockCubitoHD died in the void while escaping El_Melle.
-[00:35:29] [Client thread/INFO]: [CHAT] El_Melle thought they could survive in the void while escaping CloockCubitoHD.
-[00:35:33] [Client thread/INFO]: [CHAT] Joaomgpr got sent into the void by IcraK_YT.
-[00:35:38] [Client thread/INFO]: [CHAT] MAHER_YTX was slain by Maggieowl.
-[00:35:38] [Client thread/INFO]: [CHAT] +3 Points.
-[00:35:50] [Client thread/INFO]: [CHAT] IcraK_YT was slain by pirex3.
-[00:35:50] [Client thread/ERROR]: Item entity 467 has no item?!
-[00:35:58] [Client thread/INFO]: [CHAT] :Diamond: pirex3: mejora
-[00:36:12] [Client thread/INFO]: [CHAT] Maggieowl died in the void while escaping pirex3.
-[00:36:12] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:36:12] [Client thread/INFO]: [CHAT] ? You got 4th place
-[00:36:12] [Client thread/INFO]: [CHAT] ? Game length: 1 minute and 13 seconds
-[00:36:12] [Client thread/INFO]: [CHAT] ? Kills: 2
-[00:36:12] [Client thread/INFO]: [CHAT] §7-------------------------------
-[00:36:12] [Client thread/INFO]: [CHAT] +5 Experience.
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/ERROR]: Item entity 521 has no item?!
-[00:36:12] [Client thread/INFO]: [CHAT]         -----------------------------------------
-              Thank you for playing SkyWars
-              Play Again • Auto Mode • Leave
-        -----------------------------------------
-[00:36:15] [Client thread/INFO]: [CHAT] Game found, sending you to g690b!
-[00:36:15] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:36:15] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:36:16] [Client thread/INFO]: [CHAT] [+] Gravi_foxer joined your game (6/12).
-[00:36:16] [Client thread/INFO]: [CHAT] [+] Maggieowl joined your game (7/12).
-[00:36:16] [Client thread/INFO]: [CHAT] [+] KazutoSenpai joined your game (8/12).
-[00:36:16] [Client thread/INFO]: [CHAT] Server is now FULL! Game starting in 10 seconds!
-[00:36:16] [Client thread/INFO]: [CHAT] SkyWars is starting in 10 seconds.
-[00:36:16] [Client thread/INFO]: [CHAT] [+] Genit4les joined your game (9/12).
-[00:36:17] [Client thread/INFO]: [CHAT] [+] XBrianz joined your game (10/12).
-[00:36:17] [Client thread/INFO]: [CHAT] [+] T4litosBR joined your game (11/12).
-[00:36:17] [Client thread/INFO]: [CHAT] [+] franGAMERPVPLOL joined your game (12/12).
-[00:36:20] [Client thread/INFO]: [CHAT]  
-[00:36:20] [Client thread/INFO]: [CHAT] Selected Normal projectiles!
-[00:36:20] [Client thread/INFO]: [CHAT]  
-[00:36:21] [Client thread/INFO]: [CHAT] SkyWars is starting in 5 seconds.
-[00:36:22] [Client thread/INFO]: [CHAT] SkyWars is starting in 4 seconds.
-[00:36:23] [Client thread/INFO]: [CHAT] SkyWars is starting in 3 seconds.
-[00:36:24] [Client thread/INFO]: [CHAT] SkyWars is starting in 2 seconds.
-[00:36:25] [Client thread/INFO]: [CHAT] SkyWars is starting in 1 second.
-[00:36:26] [Client thread/INFO]: [CHAT] Teaming is not allowed in Solo SkyWars!
-[00:36:26] [Client thread/INFO]: [CHAT]  
-[00:36:26] [Client thread/INFO]: [CHAT] Selected Normal chest items!
-[00:36:26] [Client thread/INFO]: [CHAT] Selected Day time!
-[00:36:26] [Client thread/INFO]: [CHAT]  
-[00:36:26] [Client thread/INFO]: [CHAT] Let the games begin!
-[00:36:34] [Client thread/INFO]: [CHAT] Jaco_280 died in the void.
-[00:36:45] [Client thread/INFO]: [CHAT] XBrianz died.
-[00:36:45] [Client thread/INFO]: [CHAT] 9 players remain alive!
-[00:36:48] [Client thread/INFO]: [CHAT] KazutoSenpai was slain by Maggieowl.
-[00:36:48] [Client thread/INFO]: [CHAT] +3 Points.
-[00:36:48] [Client thread/ERROR]: Item entity 238 has no item?!
-[00:36:48] [Client thread/ERROR]: Item entity 238 has no item?!
-[00:36:58] [Client thread/INFO]: [CHAT]         -----------------------------------------
-              Get involved beyond the game!
-                Discord • Forums • Facebook
-                      YouTube • Twitter
-        -----------------------------------------
-[00:37:08] [Client thread/INFO]: [CHAT] Unexpected? Report this (g690b): [Proxy] Lost connection to server.
-[00:37:08] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:37:09] [Client thread/INFO]: [CHAT] The server you were previously on went down, you have been connected to the lobby
-[00:37:09] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:37:09] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:37:09] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:37:11] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
-[00:37:36] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:37:52] [Alt Login Thread/INFO]: Logging in with username & password
-[00:38:06] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
-[00:40:49] [Alt Login Thread/INFO]: Logging in with username & password
-[00:40:52] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
-[00:41:09] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
-[00:41:11] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:41:11] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:41:11] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:41:11] [Client thread/INFO]: [CHAT]                                  
-                     Privacy Agreement
-           We collect data to process in line with our 
-         Privacy Policy. By playing on ||CubeCraft||, you
-         are confirming that you are over 13 years of
-         age, or have the permission of your guardian,
-        and consent to us processing your data in these
-                              ways.
-
-          You can opt-out at anytime by simply visiting
-                your Settings or by clicking here.
-                                 
-[00:41:28] [Client thread/INFO]: [CHAT] Unexpected? Report this (g0a03): Kicked for flying (or related)
-[00:41:28] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:41:29] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:41:29] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:41:29] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:41:29] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:41:44] [Client thread/INFO]: [CHAT] Unexpected? Report this (g2404): Kicked for flying (or related)
-[00:41:44] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:41:45] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:41:45] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:41:45] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:41:45] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:42:54] [Client thread/INFO]: [CHAT] :Stone: fernand1234: añademe
-[00:42:55] [Client thread/INFO]: [CHAT] §aStarted parkour! Get to the end as quick as possible.
-[00:42:57] [Client thread/INFO]: [CHAT] §aStarted parkour! Get to the end as quick as possible.
-[00:43:04] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:43:39] [Client thread/INFO]: [CHAT] :Stone: FamousGuy6: 6t
-[00:44:01] [Client thread/INFO]: [CHAT] Unexpected? Report this (g3z0c): Kicked for flying (or related)
-[00:44:01] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:44:02] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:44:02] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:44:02] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:44:02] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:44:19] [Client thread/INFO]: [CHAT] Unexpected? Report this (g620f): Kicked for flying (or related)
-[00:44:19] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:44:20] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:44:20] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:44:20] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:44:20] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:44:48] [Client thread/INFO]: [CHAT] [YouTuber] ? IcraK_YT ? has joined the lobby!
-[00:44:51] [Client thread/INFO]: [CHAT] Unexpected? Report this (g2404): Kicked for flying (or related)
-[00:44:51] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:44:52] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:44:52] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:44:52] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:44:52] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:44:58] [Client thread/INFO]: [CHAT] Unexpected? Report this (g3z0c): Kicked for flying (or related)
-[00:44:58] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:44:59] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:44:59] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:44:59] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
-[00:44:59] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
-[00:45:14] [Client thread/INFO]: [CHAT] Unexpected? Report this (g620f): Kicked for flying (or related)
-[00:45:14] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
-[00:45:15] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
-[00:45:15] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
-                             Links
-                 Website, Store, Twitter, Discord
-                           Commands
-                   Friends, Parties, Extra help
-                                  
-[00:45:15] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[01:05:56] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[01:06:16] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[01:06:16] [Server thread/INFO]: Generating keypair
+[01:06:16] [Server thread/INFO]: Preparing start region for level 0
+[01:06:17] [Server thread/INFO]: Changing view distance to 8, from 10
+[01:06:19] [Server thread/INFO]: §dHitler[local:E:ea54fe62] logged in with entity id 527 at (574.7347558423988, 69.0, 153.5499962219561)
+[01:06:19] [Server thread/INFO]: §dHitler joined the game
+[01:06:19] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[01:06:22] [Server thread/INFO]: Saving and pausing game...
+[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:06:22] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:06:25] [Server thread/INFO]: Saving and pausing game...
+[01:06:25] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:06:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:06:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:06:27] [Server thread/INFO]: Saving and pausing game...
+[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:06:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:06:33] [Server thread/INFO]: Saving and pausing game...
+[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:06:33] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:09:23] [Server thread/INFO]: Saving and pausing game...
+[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:09:23] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:09:24] [Server thread/INFO]: Saving and pausing game...
+[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:09:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:09:34] [Server thread/INFO]: Saving and pausing game...
+[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:09:34] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:09:58] [Server thread/INFO]: Saving and pausing game...
+[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:09:58] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:10:01] [Server thread/INFO]: Saving and pausing game...
+[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:10:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:10:17] [Server thread/INFO]: Saving and pausing game...
+[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:10:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:10:20] [Server thread/INFO]: Saving and pausing game...
+[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:10:20] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[01:10:30] [Server thread/INFO]: Saving and pausing game...
+[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[01:10:30] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
