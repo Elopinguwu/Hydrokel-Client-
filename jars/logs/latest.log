@@ -1,0 +1,36 @@
+[01:50:47] [Client thread/INFO]: Setting user: Player374
+[01:50:47] [Client thread/INFO]: (Session ID is token:0:Player374)
+[01:50:56] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:51:04] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[01:51:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:51:07] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[01:51:07] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:51:08] [Thread-7/INFO]: OpenAL initialized.
+[01:51:08] [Sound Library Loader/INFO]: Sound engine started
+[01:51:17] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+java.lang.RuntimeException: invalid frameindex 1
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadSprites(TextureMap.java:98) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadSprites(ModelBakery.java:600) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:82) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [OwO2/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [OwO2/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:548) [OwO2/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
+	at Start.main(Start.java:11) [OwO2/:?]
+[01:51:17] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+java.lang.RuntimeException: invalid frameindex 1
+	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadSprites(TextureMap.java:98) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadSprites(ModelBakery.java:600) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:82) [OwO2/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [OwO2/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [OwO2/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:548) [OwO2/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
+	at Start.main(Start.java:11) [OwO2/:?]
+[01:51:18] [Client thread/INFO]: Created: 2048x1024 textures-atlas
