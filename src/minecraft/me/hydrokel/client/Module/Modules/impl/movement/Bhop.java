@@ -16,10 +16,10 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
 
-public class BunnyHop extends Module {
+public class Bhop extends Module {
 
-    public BunnyHop() {
-        super("BunnyHop", Keyboard.KEY_B, Category.MOVEMENT);
+    public Bhop() {
+        super("Bhop", Keyboard.KEY_B, Category.MOVEMENT);
 
     }
 
