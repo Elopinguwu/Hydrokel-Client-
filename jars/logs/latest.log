@@ -1,13 +1,13 @@
-[15:01:21] [Client thread/INFO]: Setting user: §dHitler
-[15:01:21] [Client thread/INFO]: (Session ID is token:0:§dHitler)
-[15:01:22] [Client thread/INFO]: LWJGL Version: 2.9.4
-[15:01:23] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[15:01:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[15:01:23] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[15:01:23] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:01:23] [Thread-7/INFO]: OpenAL initialized.
-[15:01:23] [Sound Library Loader/INFO]: Sound engine started
-[15:01:25] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[16:09:09] [Client thread/INFO]: Setting user: §dHitler
+[16:09:09] [Client thread/INFO]: (Session ID is token:0:§dHitler)
+[16:09:10] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:09:11] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[16:09:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:09:11] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[16:09:11] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:09:11] [Thread-7/INFO]: OpenAL initialized.
+[16:09:12] [Sound Library Loader/INFO]: Sound engine started
+[16:09:13] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -20,7 +20,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[15:01:25] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[16:09:13] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -33,46 +33,56 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[15:01:25] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[15:01:31] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[15:01:31] [Server thread/INFO]: Generating keypair
-[15:01:31] [Server thread/INFO]: Preparing start region for level 0
-[15:01:31] [Server thread/INFO]: Changing view distance to 11, from 10
-[15:01:32] [Server thread/INFO]: §dHitler[local:E:2b3bd354] logged in with entity id 205 at (26.27947376602755, 64.0, 1061.074564198685)
-[15:01:33] [Server thread/INFO]: §dHitler joined the game
-[15:01:33] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[15:01:35] [Server thread/INFO]: Saving and pausing game...
-[15:01:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:01:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:01:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:01:37] [Server thread/INFO]: Saving and pausing game...
-[15:01:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:01:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:01:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:01:46] [Server thread/INFO]: [§dHitler: Set own game mode to Survival Mode]
-[15:01:46] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[15:01:51] [Server thread/INFO]: Saving and pausing game...
-[15:01:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:01:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:01:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:02:06] [Server thread/INFO]: Saving and pausing game...
-[15:02:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:02:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:02:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:02:07] [Server thread/INFO]: Saving and pausing game...
-[15:02:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:02:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:02:09] [Server thread/INFO]: Saving and pausing game...
-[15:02:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:02:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:02:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:02:10] [Client thread/INFO]: Stopping!
-[15:02:10] [Client thread/INFO]: SoundSystem shutting down...
-[15:02:10] [Server thread/INFO]: Stopping server
-[15:02:10] [Server thread/INFO]: Saving players
-[15:02:10] [Server thread/INFO]: Saving worlds
-[15:02:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:02:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:02:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:02:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:09:13] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[16:09:16] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[16:09:16] [Server thread/INFO]: Generating keypair
+[16:09:17] [Server thread/INFO]: Preparing start region for level 0
+[16:09:17] [Server thread/INFO]: Changing view distance to 11, from 10
+[16:09:18] [Server thread/INFO]: §dHitler[local:E:5d33fc1d] logged in with entity id 206 at (21.855888069364205, 69.0, 1049.1641635647486)
+[16:09:18] [Server thread/INFO]: §dHitler joined the game
+[16:09:18] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[16:09:20] [Server thread/INFO]: Saving and pausing game...
+[16:09:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:09:20] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[16:09:20] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2563, defaulting to 0 (Ocean)
+[16:09:20] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2563, defaulting to 0 (Ocean)
+[16:09:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:09:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:09:30] [Server thread/INFO]: Saving and pausing game...
+[16:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:09:45] [Server thread/INFO]: [§dHitler: Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds]
+[16:09:45] [Client thread/INFO]: [CHAT] Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds
+[16:09:54] [Server thread/INFO]: §dHitler fell from a high place
+[16:09:54] [Client thread/INFO]: [CHAT] §dHitler fell from a high place
+[16:09:58] [Server thread/INFO]: [§dHitler: Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds]
+[16:09:58] [Client thread/INFO]: [CHAT] Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds
+[16:11:33] [Server thread/INFO]: Saving and pausing game...
+[16:11:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:11:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:11:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:11:53] [Server thread/INFO]: Saving and pausing game...
+[16:11:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:11:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:11:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:11:59] [Server thread/INFO]: Saving and pausing game...
+[16:11:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:11:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:11:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:12:02] [Server thread/INFO]: Saving and pausing game...
+[16:12:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:12:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:12:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:12:16] [Server thread/INFO]: Saving and pausing game...
+[16:12:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:12:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:12:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:13:09] [Server thread/INFO]: Saving and pausing game...
+[16:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:13:10] [Server thread/INFO]: Saving and pausing game...
+[16:13:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:13:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:13:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
