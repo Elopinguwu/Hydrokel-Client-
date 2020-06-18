@@ -10,7 +10,7 @@ import net.minecraft.client.Minecraft;
 import org.lwjgl.opengl.Display;
 
 public class Main {
-	public static String name = "Hydrokel", version = "b1", creators = "Eloping & whispered";
+	public static String name = "Hydrokel", version = "B2", creators = "Eloping & whispered";
 	
     public static Main instance = new Main();
     

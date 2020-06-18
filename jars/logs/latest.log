@@ -1,11 +1,13 @@
-[02:51:02] [Client thread/INFO]: Setting user: Player364
-[02:51:02] [Client thread/INFO]: (Session ID is token:0:Player364)
-[02:51:15] [Client thread/INFO]: LWJGL Version: 2.9.4
-[02:51:17] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[02:51:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[02:51:19] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[02:51:19] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[02:51:27] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[03:07:02] [Client thread/INFO]: Setting user: §dHitler
+[03:07:02] [Client thread/INFO]: (Session ID is token:0:§dHitler)
+[03:07:03] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:07:04] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[03:07:04] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:07:04] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[03:07:04] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:07:04] [Thread-7/INFO]: OpenAL initialized.
+[03:07:05] [Sound Library Loader/INFO]: Sound engine started
+[03:07:06] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -18,12 +20,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
-	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:58) [uiDesigner.jar:?]
-[02:51:27] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[03:07:06] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -36,6 +33,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
+<<<<<<< HEAD
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
@@ -192,3 +190,38 @@ java.lang.RuntimeException: invalid frameindex 1
 [03:05:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
 [03:05:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2777ms behind, skipping 55 tick(s)
 [03:08:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2171ms behind, skipping 43 tick(s)
+=======
+[03:07:06] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[03:07:09] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[03:07:09] [Server thread/INFO]: Generating keypair
+[03:07:09] [Server thread/INFO]: Preparing start region for level 0
+[03:07:10] [Server thread/INFO]: Changing view distance to 2, from 10
+[03:07:11] [Server thread/INFO]: §dHitler[local:E:fddaae46] logged in with entity id 274 at (-139.0080717793336, 79.24918707874468, 166.45074038633845)
+[03:07:11] [Server thread/INFO]: §dHitler joined the game
+[03:07:12] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[03:07:13] [Server thread/INFO]: Saving and pausing game...
+[03:07:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:07:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:07:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:07:46] [Server thread/INFO]: Saving and pausing game...
+[03:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:07:49] [Server thread/INFO]: Saving and pausing game...
+[03:07:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:07:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:07:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:08:11] [Server thread/INFO]: Saving and pausing game...
+[03:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:08:17] [Server thread/INFO]: Saving and pausing game...
+[03:08:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:08:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:08:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:09:23] [Server thread/INFO]: Saving and pausing game...
+[03:09:23] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:09:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:09:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:09:27] [Client Shutdown Thread/INFO]: Stopping server
+>>>>>>> 0abd78c9de5b3d17abeccbe1015d8a287a6230ee
