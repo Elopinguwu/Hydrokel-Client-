@@ -1,10 +1,13 @@
 # Project exclude paths
 /out/
 bin
-jars/options.txt
-jars/optionsof.txt
-jars/saves
-jars/logs
+jars/
+!jars/options.txt
+!jars/optionsof.txt
+!jars/libraries/
+!jars/assets/
+!jars/versions/
+
 logs
 temp
 docs
