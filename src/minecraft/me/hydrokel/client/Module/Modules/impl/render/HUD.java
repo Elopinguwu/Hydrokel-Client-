@@ -44,12 +44,12 @@ public class HUD extends Module {
     private void onRender(Event2D event) {
     	//--------------------//
 		GL11.glPushMatrix();
-		GL11.glScalef(1F, 1F, 1F);
-		mc.fontRendererObj.drawStringWithShadow("Hydrokel Erisium Client", 3, 2, RainbowUtils.effect(1, 0.5F, 5).getRGB());
-		mc.fontRendererObj.drawStringWithShadow("By Eloping", 3, 13, RainbowUtils.effect(1, 0.5F, 5).getRGB());
+		GL11.glScalef(1.5F, 1.5F, 1.5F);
+		mc.fontRendererObj.drawStringWithShadow(Main.name + " "+ Main.version, 3, 2,
+				RainbowUtils.effect(1, 0.5F, 5).getRGB());
+		mc.fontRendererObj.drawStringWithShadow("By "+Main.creators, 3, 13, RainbowUtils.effect(1, 0.5F, 5).getRGB());
 
 		//mc.fontRendererObj.drawStringWithShadow("Client", 52, 2, 0xffff00ff);
-		GL11.glScalef(1F, 1F, 1F);
 		GL11.glPopMatrix();
     	//--------------------//
 		

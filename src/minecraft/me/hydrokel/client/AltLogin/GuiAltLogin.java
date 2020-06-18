@@ -60,18 +60,19 @@ extends GuiScreen {
          	case 2: {
          		this.thread = new AltLoginThread(userpass.split(":")[0], userpass.split(":")[1]);
                 this.thread.start();
-                Display.setTitle("Hydrokel | Username : Eloping");
+                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
             break;
          	}    
          	case 1: {
                 this.mc.displayGuiScreen(this.previousScreen);
-                Display.setTitle("Hydrokel | Username : Eloping");
+                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
                 break;
             }
             case 0: {
                 this.thread = new AltLoginThread(this.username.getText(), this.password.getText());
-                Display.setTitle("Hydrokel | Username : Eloping");
                 this.thread.start();
+
+                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
             }
         }
     }
