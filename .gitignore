@@ -2,9 +2,7 @@
 /out/
 bin
 jars/
-!jars/options.txt
-!jars/optionsof.txt
-!jars/libraries/
+!jars/libraries/    
 !jars/assets/
 !jars/versions/
 
