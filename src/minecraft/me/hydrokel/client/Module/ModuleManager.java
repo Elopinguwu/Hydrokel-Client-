@@ -38,6 +38,7 @@ public class  ModuleManager {
 			modules.add(new Bhop());
 			modules.add(new Step());
 			modules.add(new Safewalk());
+			modules.add(new FlyHypixel());
 
 		//Combat
 			modules.add(new Antibot());

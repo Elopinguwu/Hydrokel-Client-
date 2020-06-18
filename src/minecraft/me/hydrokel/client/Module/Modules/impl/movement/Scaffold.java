@@ -31,7 +31,7 @@ public class Scaffold extends Module {
             return;
         }
 
-            BlockPos p_block = this.getProximityBlock(this.mc.thePlayer.);
+            BlockPos p_block = this.getProximityBlock(this.mc.thePlayer);
         if (p_block == null) {
             return;
         }

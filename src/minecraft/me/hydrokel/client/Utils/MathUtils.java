@@ -239,4 +239,8 @@ public class MathUtils
     static {
         MathUtils.rng = new Random();
     }
+    public static double randomNumber(double max, double min) {
+        /* 18 */     return Math.random() * (max - min) + min;
+        /*    */   }
+
 }

@@ -24,7 +24,9 @@ import me.hydrokel.client.Module.Module;
 import java.util.ArrayList;
 
 public class Fly extends Module {
+
 	public Fly() {
+
 		super("Fly", Keyboard.KEY_F, Category.MOVEMENT);
 
 	}
@@ -40,7 +42,7 @@ public class Fly extends Module {
 
 		}
 	}
-
+	protected int state2 = 0;
 	@Override
 	public void onDisable() {
 		mc.timer.timerSpeed = 1F;
@@ -50,9 +52,10 @@ public class Fly extends Module {
 		mc.thePlayer.motionX = 0F;
 		mc.thePlayer.motionZ = 0F;
 		NotificationManager.show(new Notification(NotificationType.INFO, "Fly", "You untoggled Fly.", 1));
-		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel"))
-
+	//	if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel"))
+		this.state2 = 0;
 		super.onDisable();
+
 		state = false;
 
 	}
@@ -83,29 +86,47 @@ public class Fly extends Module {
 		}
 
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
-			if (MovementUtils.isMoving() && mc.thePlayer.onGround && mc.thePlayer.isCollidedVertically) {
-				PlayerUtils.damage();
-				MovementUtils.setSpeed(1.5);
-				//spemed ici
-			}
-
-			if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
-				mc.timer.timerSpeed = 0.24F;
-				if (MovementUtils.isMoving()) {
-					MovementUtils.setSpeed(0.38);
-					if (mc.thePlayer.ticksExisted % 3 == 0) {
-						mc.thePlayer.motionY = 0.25;
-						MovementUtils.setSpeed(2.65);
-					} else {
-						mc.thePlayer.motionY -= 0.15;
-					}
+			if (this.mc.thePlayer.onGround) {
+				this.mc.thePlayer.jump();
+			} else {
+				this.mc.thePlayer.motionY = 0;
+				this.state2 += 1;
+				switch (this.state2) {
+					case 1:
+						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY + 1.0E-12D,
+								this.mc.thePlayer.posZ);
+						break;
+					case 2:
+						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY - 1.0E-12D,
+								this.mc.thePlayer.posZ);
+						break;
+					case 3:
+						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY + 1.0E-12D,
+								this.mc.thePlayer.posZ);
+						this.state2 = 0;
+						break;
+					default:
+						break;
 				}
 
+				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
+					mc.timer.timerSpeed = 0.24F;
+					if (MovementUtils.isMoving()) {
+						MovementUtils.setSpeed(0.38);
+						if (mc.thePlayer.ticksExisted % 3 == 0) {
+							mc.thePlayer.motionY = 0.25;
+							MovementUtils.setSpeed(2.65);
+						} else {
+							mc.thePlayer.motionY -= 0.15;
+						}
+					}
+
+				}
+
+
 			}
 
-
 		}
-
 	}
 	@EventTarget
 	public void ptdrtg(EventMotion anarghtquisklid) {

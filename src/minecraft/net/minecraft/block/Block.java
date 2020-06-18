@@ -1542,4 +1542,9 @@ public class Block
             return this.getBreakSound();
         }
     }
+
+    public boolean isSolidFullCube() {
+        return this.blockMaterial.blocksMovement() && this.isFullCube();
+
+    }
 }
