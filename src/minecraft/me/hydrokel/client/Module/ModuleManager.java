@@ -34,7 +34,7 @@ public class  ModuleManager {
 		modules.add(new Disabler());
 		modules.add(new Regen());
 		modules.add(new DisablerHypixel());
-		//modules.add(new NoSlowDown());
+		//modules.add(new HypixelFly());
 		//modules.add(new Negre());
 		//modules.add(new BaseModule());
 	}
