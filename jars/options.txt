@@ -3,7 +3,7 @@ mouseSensitivity:0.34507042
 fov:-0.025
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:15
 guiScale:2
 particles:0
 bobView:true
@@ -63,7 +63,7 @@ key_key.left:16
 key_key.back:31
 key_key.right:18
 key_key.jump:57
-key_key.sneak:42
+key_key.sneak:58
 key_key.sprint:32
 key_key.drop:56
 key_key.inventory:30

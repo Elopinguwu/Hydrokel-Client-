@@ -19,4 +19,5 @@ public class EventGetPacket extends Event {
             this.packet = packet;
         }
     }
+
 }
