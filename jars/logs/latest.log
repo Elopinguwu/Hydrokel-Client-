@@ -53,3 +53,4 @@ java.lang.RuntimeException: invalid frameindex 1
 [04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
 [04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
 [04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[04:43:32] [Client Shutdown Thread/INFO]: Stopping server
