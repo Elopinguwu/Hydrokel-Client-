@@ -29,7 +29,7 @@ public class Antibot extends Module {
 
     @Override
     public void onEnable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "Fly", "You toggled Antibot.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "Antibot", "You toggled Antibot.", 1));
 
         super.onEnable();
 
@@ -37,7 +37,7 @@ public class Antibot extends Module {
 
     @Override
     public void onDisable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "Disabler", "You untoggled Antibot.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "Antibot", "You untoggled Antibot.", 1));
         super.onDisable();
 
     }

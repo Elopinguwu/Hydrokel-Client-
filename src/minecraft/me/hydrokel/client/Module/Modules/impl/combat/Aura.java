@@ -69,7 +69,6 @@ public class Aura extends Module {
     public void setup(){
     	ArrayList<String> options = new ArrayList<String>();
     	options.add("Normal");
-    	options.add("Dev");
 
     	Main.instance.setmgr.rSetting(new Setting("Aura Mode", this, "Normal", options));
     	Main.instance.setmgr.rSetting(new Setting("CPS", this, 8, 1, 20, true));

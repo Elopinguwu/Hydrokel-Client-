@@ -59,9 +59,6 @@ public class Fly extends Module {
 	public void setup() {
 		ArrayList<String> options = new ArrayList<>();
 		options.add("Vanilla");
-		options.add("VanillaKickBypass");
-		options.add("Erisium");
-		options.add("AirJump");
 		options.add("DamageFly");
 		options.add("CubecraftInfinite");
 		options.add("Cubecraft15Seconds");
