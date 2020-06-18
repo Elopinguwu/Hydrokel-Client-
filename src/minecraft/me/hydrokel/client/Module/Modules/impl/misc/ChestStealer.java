@@ -6,6 +6,9 @@ import me.hydrokel.client.Eventbus.Events.EventUpdate;
 import me.hydrokel.client.Main;
 import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
+import me.hydrokel.client.notifications.Notification;
+import me.hydrokel.client.notifications.NotificationManager;
+import me.hydrokel.client.notifications.NotificationType;
 import net.minecraft.client.gui.inventory.GuiChest;
 import net.minecraft.inventory.Slot;
 
@@ -32,7 +35,7 @@ public class ChestStealer extends Module {
     }
     @Override
     public void onEnable() {
-
+        NotificationManager.show(new Notification(NotificationType.INFO, "ChestStealer", "You toggled ChestStealer.", 1));
         this.isContainerOpen = false;
         current_miliseconds = System.currentTimeMillis();
 
@@ -40,6 +43,7 @@ public class ChestStealer extends Module {
     }
     @Override
     public void onDisable() {
+        NotificationManager.show(new Notification(NotificationType.INFO, "ChestStealer", "You untoggled ChestStealer.", 1));
         current_miliseconds = System.currentTimeMillis();
 
         super.onDisable();

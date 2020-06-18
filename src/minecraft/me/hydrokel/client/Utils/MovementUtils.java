@@ -9,7 +9,7 @@ import net.minecraft.potion.Potion;
 import net.minecraft.util.MathHelper;
 
 public class MovementUtils {
-	
+
 	private static Minecraft mc = Minecraft.getMinecraft();
 
 	public static float getDirection(EntityLivingBase e) {
@@ -33,32 +33,32 @@ public class MovementUtils {
 		mc.thePlayer.motionX = -Math.sin(yaw) * speed;
 		mc.thePlayer.motionZ = Math.cos(yaw) * speed;
 	}
-	
+
 	public static void setSpeed(Entity e, double speed){
 		e.motionX = (-MathHelper.sin(getDirection()) * speed);
 		e.motionZ = (MathHelper.cos(getDirection()) * speed);
 	}
-	
+
 	public static double getSpeed(EntityLivingBase e){
 	    return Math.sqrt(square(e.motionX) + square(e.motionZ));
 	}
-	
+
 	public static float getDirection() { return MovementUtils.getDirection(mc.thePlayer); }
 	public static void setSpeed(double speed){ MovementUtils.setSpeed((Entity)mc.thePlayer, speed); }
 	public static double getSpeed() { return MovementUtils.getSpeed(mc.thePlayer); }
-	
+
 	public static double square(double in){
 	    return in * in;
 	}
-	  
+
 	public static boolean isMoving(){
 		return mc.thePlayer.moveForward != 0.0f || mc.thePlayer.moveStrafing != 0.0f;
 	}
-	
+
 	public static float getSpeedMotion() {
         return (float)Math.sqrt(mc.thePlayer.motionX * mc.thePlayer.motionX + mc.thePlayer.motionZ * mc.thePlayer.motionZ);
      }
-	
+
     public static void setMotion(EventMove em, double speed) {
         double forward = mc.thePlayer.movementInput.moveForward;
         double strafe = mc.thePlayer.movementInput.moveStrafe;
@@ -84,7 +84,7 @@ public class MovementUtils {
             em.setZ(forward * speed * Math.sin(Math.toRadians(yaw + 90.0F)) - strafe * speed * Math.cos(Math.toRadians(yaw + 90.0F)));
         }
     }
-    
+
 	public static void Damage(){
 		for (int i = 0; i < 80.0 + 40.0 * (0.5 - 0.5); ++i) {
  			Minecraft.getMinecraft().thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(Minecraft.getMinecraft().thePlayer.posX, Minecraft.getMinecraft().thePlayer.posY + 0.049, Minecraft.getMinecraft().thePlayer.posZ, false));
@@ -92,7 +92,7 @@ public class MovementUtils {
  		}
  		Minecraft.getMinecraft().thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(Minecraft.getMinecraft().thePlayer.posX, Minecraft.getMinecraft().thePlayer.posY, Minecraft.getMinecraft().thePlayer.posZ, true));
 	}
-    
+
 	public static double getBaseMoveSpeed() {
 		double baseSpeed = 0.272;
         if (mc.thePlayer.isPotionActive(Potion.moveSpeed)) {
@@ -101,15 +101,15 @@ public class MovementUtils {
         }
         return baseSpeed;
     }
-	
+
 	public static void vClip(double d) {
 	    mc.thePlayer.setPosition(mc.thePlayer.posX, mc.thePlayer.posY + d, mc.thePlayer.posZ);
 	}
-	
+
 	public static void hClip(double offset) {
         mc.thePlayer.setPosition(mc.thePlayer.posX + -MathHelper.sin(getDirection()) * offset, mc.thePlayer.posY, mc.thePlayer.posZ + MathHelper.cos(getDirection()) * offset);
 	}
-	
+
 	public static void HclipMotion(double offset) {
 	  if(mc.thePlayer.ticksExisted % (1 * 1)== 0) {
 		  MovementUtils.setSpeed(offset);
@@ -128,6 +128,17 @@ public class MovementUtils {
 				mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY + offset1, mc.thePlayer.posZ, false));
 				mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY, mc.thePlayer.posZ, (i == ((1 + damage) / offset1))));
 			}
+
 		}
 	}
+	public static double getJumpBoostModifier(double baseJumpHeight) {
+		if (mc.thePlayer.isPotionActive(Potion.jump)) {
+			int amplifier = mc.thePlayer.getActivePotionEffect(Potion.jump).getAmplifier();
+			baseJumpHeight += ((amplifier + 1) * 0.1F);
+		}
+
+		return baseJumpHeight;
+	}
+
 }
+
