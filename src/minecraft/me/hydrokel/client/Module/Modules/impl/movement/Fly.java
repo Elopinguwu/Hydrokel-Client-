@@ -62,6 +62,7 @@ public class Fly extends Module {
 		options.add("DamageFly");
 		options.add("CubecraftInfinite");
 		options.add("Cubecraft15Seconds");
+		options.add("Hypixel");
 
 		Main.instance.setmgr.rSetting(new Setting("Fly Mode", this, "Vanilla", options));
 
@@ -76,8 +77,14 @@ public class Fly extends Module {
 
 		}
 
+		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
+		mc.thePlayer.damagePlayer();
+			if (mc.thePlayer.hurtTime > 0 && !state) {
 
-		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
+			}
+
+		}
+			if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
 			mc.timer.timerSpeed = 0.24F;
 			if (MovementUtils.isMoving()) {
 				MovementUtils.setSpeed(0.38);

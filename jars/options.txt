@@ -16,7 +16,7 @@ ao:0
 renderClouds:fast
 resourcePacks:["A Simple PvP Experience!(Beta)"]
 incompatibleResourcePacks:[]
-lastServer:eu.cubecraft.net
+lastServer:eu.loyisa.cn
 lang:en_US
 chatVisibility:0
 chatColors:true

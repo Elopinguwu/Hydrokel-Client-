@@ -1,13 +1,13 @@
-[04:40:50] [Client thread/INFO]: Setting user: §dHitler
-[04:40:50] [Client thread/INFO]: (Session ID is token:0:§dHitler)
-[04:40:50] [Client thread/INFO]: LWJGL Version: 2.9.4
-[04:40:51] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[04:40:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[04:40:52] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[04:40:52] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[04:40:52] [Thread-7/INFO]: OpenAL initialized.
-[04:40:52] [Sound Library Loader/INFO]: Sound engine started
-[04:40:53] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[13:40:01] [Client thread/INFO]: Setting user: §dHitler
+[13:40:01] [Client thread/INFO]: (Session ID is token:0:§dHitler)
+[13:40:01] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:40:02] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[13:40:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:40:02] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[13:40:02] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:40:03] [Thread-7/INFO]: OpenAL initialized.
+[13:40:03] [Sound Library Loader/INFO]: Sound engine started
+[13:40:04] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -20,7 +20,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[04:40:53] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[13:40:04] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -33,24 +33,1052 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[04:40:53] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[04:40:58] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[04:40:58] [Server thread/INFO]: Generating keypair
-[04:40:58] [Server thread/INFO]: Preparing start region for level 0
-[04:40:59] [Server thread/INFO]: Changing view distance to 15, from 10
-[04:41:00] [Server thread/INFO]: §dHitler[local:E:f5a03e28] logged in with entity id 237 at (83.40512471212637, 64.875, 293.9250826469084)
-[04:41:00] [Server thread/INFO]: §dHitler joined the game
-[04:41:00] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[04:41:04] [Server thread/INFO]: Saving and pausing game...
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[04:41:11] [Server thread/INFO]: Saving and pausing game...
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[04:41:16] [Server thread/INFO]: Saving and pausing game...
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[04:43:32] [Client Shutdown Thread/INFO]: Stopping server
+[13:40:04] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[13:40:07] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[13:40:07] [Server thread/INFO]: Generating keypair
+[13:40:07] [Server thread/INFO]: Preparing start region for level 0
+[13:40:07] [Server thread/INFO]: Changing view distance to 15, from 10
+[13:40:08] [Server thread/INFO]: §dHitler[local:E:42c1d3d0] logged in with entity id 233 at (140.12665963245382, 89.0, 384.30327236401325)
+[13:40:08] [Server thread/INFO]: §dHitler joined the game
+[13:40:09] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[13:40:10] [Server thread/INFO]: Saving and pausing game...
+[13:40:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:40:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:40:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:40:37] [Server thread/INFO]: [§dHitler: Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds]
+[13:40:37] [Client thread/INFO]: [CHAT] Given Saturation (ID 23) * 255 to §dHitler for 999999 seconds
+[13:40:46] [Server thread/INFO]: [§dHitler: Given Regeneration (ID 10) * 255 to §dHitler for 999999 seconds]
+[13:40:46] [Client thread/INFO]: [CHAT] Given Regeneration (ID 10) * 255 to §dHitler for 999999 seconds
+[13:40:57] [Server thread/WARN]: §dHitler moved wrongly!
+[13:41:00] [Server thread/INFO]: Saving and pausing game...
+[13:41:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:41:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:41:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:41:20] [Server thread/WARN]: §dHitler moved wrongly!
+[13:41:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2182ms behind, skipping 43 tick(s)
+[13:41:38] [Server thread/INFO]: Saving and pausing game...
+[13:41:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:41:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:41:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:41:40] [Server thread/INFO]: Stopping server
+[13:41:40] [Server thread/INFO]: Saving players
+[13:41:40] [Server thread/INFO]: Saving worlds
+[13:41:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:41:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:41:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:42:39] [Client thread/INFO]: Connecting to eu.loyisa.cn, 25565
+[13:42:59] [Alt Login Thread/INFO]: Logging in with username & password
+[13:43:01] [Client thread/INFO]: Connecting to eu.loyisa.cn, 25565
+[13:43:03] [Client thread/INFO]: [CHAT] [+] jadekearney01
+[13:43:03] [Client thread/INFO]: [CHAT] You selected: AAC
+[13:43:06] [Client thread/INFO]: Connecting to eu.loyisa.cn, 25565
+[13:43:07] [Client thread/INFO]: [CHAT] [+] jadekearney01
+[13:43:07] [Client thread/INFO]: [CHAT] You selected: AAC
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 30.65
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 43.52
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 50.46
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 49.43
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed move(vl:4): at: 211.500,61.000,162.500 move: 0.000,0.045,0.000 pred: 0.000,-0.000,0.000 dist: 0.045 info: ++ PLAYER 
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 57.32
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 63.27
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 65.23
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 69.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 67.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 67.12
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 67.10
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 70.04
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 73.00
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 77.96
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 79.93
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 84.89
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 85.86
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 89.83
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 92.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 125.62
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.59
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 132.57
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 135.55
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 139.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 137.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 135.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 133.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 134.38
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 135.33
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 133.33
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.33
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 133.07
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.07
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.99
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 129.99
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.94
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 129.92
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.88
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.88
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.83
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.83
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 127.76
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.76
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 127.71
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 125.71
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.65
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 124.65
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 125.59
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 123.59
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 123.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 122.53
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 123.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 121.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 122.43
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 120.43
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 120.36
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 119.36
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 120.31
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 118.31
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 118.26
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 117.26
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 118.21
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 117.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 115.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 113.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 111.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 109.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 110.06
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 113.03
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 113.01
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 111.01
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 111.95
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 109.95
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 110.89
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 108.89
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 106.89
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 104.89
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 104.79
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 105.77
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 104.76
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 102.76
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 102.69
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 103.67
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 101.67
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.67
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 100.60
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.60
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.56
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 98.55
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 98.51
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.51
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 98.47
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 96.47
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.41
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 95.41
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 96.35
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.35
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 95.29
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 93.29
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.23
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 92.23
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 93.17
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.17
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 92.13
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.11
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.08
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 89.08
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (BAC) jadekearney01 failed TooManyMoves(vl:166.0): stopped unnecessary packet (blink?)
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 129.44
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 138.41
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 146.39
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 155.36
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 163.35
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 172.33
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 181.31
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 187.28
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 196.26
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 209.23
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 219.20
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 231.17
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 245.14
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 258.11
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 263.09
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 269.07
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 273.05
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 280.03
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 285.01
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 289.99
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 295.98
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 302.96
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 308.94
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 314.92
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 319.90
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 326.88
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 330.87
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 338.84
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 345.82
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 350.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 353.78
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 356.76
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 363.73
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 370.71
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 378.68
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 385.66
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 392.64
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 400.61
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 406.60
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 416.57
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 424.55
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 434.52
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 445.49
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 447.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 445.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 443.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 441.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 439.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 437.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 435.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 433.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 431.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 429.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 427.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 425.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 423.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 421.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 419.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 417.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 415.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 413.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 411.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 409.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 407.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 405.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 403.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 401.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 399.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 397.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 395.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 393.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 391.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 389.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 387.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 385.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 383.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 381.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 379.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 377.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 375.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 373.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 371.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 369.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 367.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 365.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 363.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 361.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 359.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 357.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 355.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 353.48
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 351.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 349.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 347.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 345.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 343.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 341.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 339.19
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 342.93
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 341.92
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 339.92
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 337.92
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 338.81
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 337.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 335.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 333.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 331.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 329.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 327.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 325.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 323.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 321.80
+[13:43:07] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 320.50
+[13:43:08] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 581.26
+[13:43:08] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 570.37
+[13:43:09] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 560.62
+[13:43:09] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 556.50
+[13:43:10] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 547.34
+[13:43:10] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 544.50
+[13:43:11] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 543.63
+[13:43:12] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 542.58
+[13:43:12] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 521.73
+[13:43:13] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 515.62
+[13:43:14] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 498.51
+[13:43:14] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 487.74
+[13:43:15] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 479.61
+[13:43:16] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 473.84
+[13:43:16] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 460.61
+[13:43:17] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 453.70
+[13:43:18] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 433.67
+[13:43:18] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 424.69
+[13:43:19] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 416.73
+[13:43:20] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 398.65
+[13:43:20] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 397.78
+[13:43:21] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 378.72
+[13:43:23] [Client thread/INFO]: Connecting to eu.loyisa.cn, 25565
+[13:43:24] [Client thread/INFO]: [CHAT] You selected: AAC
+[13:43:24] [Client thread/INFO]: [CHAT] [+] jadekearney01
+[13:43:25] [Client thread/INFO]: [CHAT] [-] 1IIIIIIIIIIIIII1
+[13:43:28] [Client thread/INFO]: [CHAT] You selected: AAC
+[13:43:30] [Client thread/INFO]: [CHAT] ServerChan // All items on the ground will be cleaned in 30 seconds!
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 148.12
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed move(vl:4): at: 194.961,62.000,159.850 move: 0.000,0.045,0.000 pred: -0.016,0.000,-0.016 dist: 0.050 info: ++ PLAYER 
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 152.08
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 153.05
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 154.04
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed move(vl:5): at: 194.961,62.000,159.850 move: 0.000,0.045,0.000 pred: 0.000,-0.000,0.000 dist: 0.045 info: ++ PLAYER 
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 157.00
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 157.98
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 159.94
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 160.92
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 162.88
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 163.85
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 165.82
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 165.79
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 166.76
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 167.73
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 168.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 170.67
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 171.65
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 173.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 174.58
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 175.55
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 176.52
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 178.49
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 179.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 180.43
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 181.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 183.36
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 184.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 186.29
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 187.26
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 189.22
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 190.20
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 192.17
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 194.14
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 196.11
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 198.09
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 200.07
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 201.05
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 203.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 203.99
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 204.98
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 206.95
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 208.92
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 209.90
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 211.87
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 213.85
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 215.83
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 217.81
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 219.78
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 221.76
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 224.74
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 225.72
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 227.70
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 228.68
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 229.66
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 230.64
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 232.62
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 234.60
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 237.57
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 239.55
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 242.52
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 243.51
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 244.49
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 245.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 246.44
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 247.42
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 249.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 249.38
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 251.34
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 252.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 250.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 248.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 246.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 244.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 242.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 240.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 238.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 236.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 234.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 232.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 230.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 228.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 226.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 224.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 222.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 220.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 218.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 216.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 214.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 212.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 210.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 208.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 206.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 204.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 202.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 200.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 198.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 196.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 194.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 192.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 190.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 188.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 186.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 184.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 182.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 180.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 178.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 176.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 174.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 172.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 170.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 168.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 166.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 164.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 162.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 160.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 158.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 156.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 154.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 152.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 150.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 148.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 146.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 144.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 142.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 140.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 138.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 136.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 134.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 132.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.33
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.83
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.80
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.78
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 129.76
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.74
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 129.73
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.68
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.67
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.65
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.64
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.62
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 124.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 122.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 120.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 118.61
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 117.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 115.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 113.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 111.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 109.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 107.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 105.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 103.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 101.46
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 100.30
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.28
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.28
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 96.24
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.24
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 92.24
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 90.24
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 88.24
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 88.14
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 86.14
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 87.10
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 87.08
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 88.06
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 88.04
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 90.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.00
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 93.98
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.97
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 95.95
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.90
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 102.88
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 105.86
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 108.85
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 111.83
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 114.81
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 119.79
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 123.77
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 125.76
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.74
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 131.72
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 130.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 128.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 124.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 122.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 120.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 118.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 116.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 114.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 112.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 112.48
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 110.48
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 109.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 107.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 105.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 103.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 101.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 99.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 95.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 93.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 89.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 87.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 85.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 83.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 81.45
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 81.08
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 83.05
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 86.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 91.00
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.98
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 97.97
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 100.95
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 102.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 100.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 98.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 96.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 94.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 92.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 90.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 88.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 86.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 84.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 82.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 80.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 78.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 76.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 74.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 72.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 70.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 68.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 66.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 64.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 62.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 62.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 61.39
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 64.34
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 65.31
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 69.29
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 71.26
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 69.26
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 67.26
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 68.18
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 71.16
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 72.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 75.13
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 78.11
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 81.09
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 79.09
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 78.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 76.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 74.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 72.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 70.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 68.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 66.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 64.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 62.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 60.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 58.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 56.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 54.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 52.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 50.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 48.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 46.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 44.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 42.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 40.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 38.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 36.03
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 36.44
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 39.41
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 38.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 36.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 34.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 32.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 30.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 28.40
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 29.25
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 34.22
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 37.20
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 35.20
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 35.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 33.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 31.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 29.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 27.15
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 26.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 24.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 22.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 20.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 18.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 16.02
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 15.85
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.84
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 13.80
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 15.78
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 19.74
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 22.72
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 21.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 19.71
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 18.64
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 18.62
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 16.62
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.62
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 15.51
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 19.48
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 17.48
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 15.48
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.37
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 12.37
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 10.37
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed move(vl:6): at: 194.961,62.000,159.850 move: -0.016,0.045,-0.016 pred: 0.000,0.000,0.000 dist: 0.050 info: ++ PLAYER  vel: 0.000,-0.078,0.000
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 12.18
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 16.13
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 16.10
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.10
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 12.10
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 10.10
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 18.94
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 18.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 16.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 12.93
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 13.82
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 14.80
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 12.80
+[13:43:33] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 10.80
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 126.06
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 137.02
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 144.99
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 148.96
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 156.93
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 160.90
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 167.87
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 171.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 178.80
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 182.77
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 192.74
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 198.71
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 205.67
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 212.64
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 219.61
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 225.58
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 232.55
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 239.52
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 262.43
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 268.40
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 274.37
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 274.34
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 280.30
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 282.23
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 297.17
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 306.13
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 313.09
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 322.06
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 328.03
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 331.01
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 336.97
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 340.94
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 343.92
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 346.90
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 352.87
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 354.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 352.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 350.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 348.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 346.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 344.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 342.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 340.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 338.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 336.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 334.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 332.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 330.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 328.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 326.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 324.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 328.43
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 332.41
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 336.39
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 340.37
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 344.36
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 347.34
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 350.32
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 355.30
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 361.26
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 364.24
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 368.22
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 374.19
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 380.16
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 385.14
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 388.11
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 396.08
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 401.07
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 404.05
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 409.03
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 418.99
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 421.95
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 424.93
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 429.90
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 431.88
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 434.86
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 437.84
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 440.82
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 443.80
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 445.78
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 447.77
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 452.75
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 456.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 456.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 454.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 452.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 450.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 448.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 446.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 444.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 442.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 440.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 438.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 436.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 434.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 432.73
+[13:43:35] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 928.20
+[13:43:36] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 910.76
+[13:43:37] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 909.92
+[13:43:37] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 898.75
+[13:43:38] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 897.83
+[13:43:39] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 885.97
+[13:43:39] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 875.89
+[13:43:40] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 869.92
+[13:43:40] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 855.93
+[13:43:41] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 835.05
+[13:43:42] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 830.82
+[13:43:42] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 812.88
+[13:43:43] [Client thread/INFO]: [CHAT] ServerChan // Scaffold Area will be cleaned up in 30 seconds
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 798.99
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 798.01
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 796.01
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 796.01
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 794.01
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 793.73
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 791.73
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 791.64
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 789.64
+[13:43:43] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 789.91
+[13:43:44] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 782.12
+[13:43:45] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 770.89
+[13:43:45] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 762.94
+[13:43:46] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 748.95
+[13:43:47] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 727.99
+[13:43:47] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 724.06
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 701.96
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 700.02
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 699.10
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 697.10
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 696.89
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 694.89
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 694.92
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 692.92
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 692.89
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 690.89
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 690.82
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 689.12
+[13:43:48] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 687.12
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 687.83
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 686.89
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 684.89
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 684.86
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 682.86
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 682.89
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 680.89
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 680.70
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 678.70
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 678.59
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 676.59
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 676.92
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 674.92
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 674.93
+[13:43:49] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 673.90
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 673.00
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 671.00
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 670.87
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 668.87
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 668.88
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 666.88
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 666.93
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 664.93
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 664.99
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 662.99
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 662.93
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 660.93
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 659.15
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 659.83
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 657.91
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 656.99
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 654.99
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 654.78
+[13:43:50] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 652.78
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 652.89
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 650.89
+[13:43:51] [Client thread/INFO]: [CHAT] ServerChan // All items on the ground will be cleaned in 10 seconds!
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 650.97
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 648.97
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 648.91
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 646.91
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 646.90
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 644.90
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 644.90
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 642.90
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 642.92
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 640.92
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 640.91
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 638.91
+[13:43:51] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 638.90
+[13:43:52] [Client thread/INFO]: [CHAT] [Flag] (AAC) jadekearney01 failed timer(vl:1): moved too many times: 635.92
+[13:44:03] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
+[13:44:22] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[13:44:23] [Client thread/INFO]: [CHAT] 
+[13:44:23] [Client thread/INFO]: [CHAT] 
+[13:44:23] [Client thread/INFO]: [CHAT] ? Bienvenue jadekearney01 sur Epikube ! Bon jeu !
+[13:44:23] [Client thread/INFO]: [CHAT] 
+[13:44:23] [Client thread/INFO]: [CHAT] 
+[13:44:23] [Client thread/INFO]: [CHAT]        
+[13:44:27] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[13:44:28] [Client thread/INFO]: [CHAT]        
+[13:44:32] [Client thread/INFO]: [CHAT] ? Kit sélectionné : Plus de vie.
+[13:44:34] [Client thread/INFO]: [CHAT] ? Léquipe {0} a été sélectionnée.
+[13:44:38] [Client thread/INFO]: [CHAT] ? Léquipe {0} a été sélectionnée.
+[13:44:50] [Client thread/INFO]: [CHAT] ? Début de la partie, bon jeu !
+[13:44:51] [Client thread/INFO]: [CHAT] Démarrage dans 3 secondes !
+[13:44:51] [Client thread/INFO]: [CHAT] Démarrage dans 2 secondes !
+[13:44:52] [Client thread/INFO]: [CHAT] Démarrage dans 1 seconde !
+[13:44:53] [Client thread/INFO]: [CHAT] ?§r![Global] Bleue ? Mister_Kazu » gl
+[13:44:53] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton à fragmentation
+[13:45:25] [Alt Login Thread/INFO]: Logging in with username & password
+[13:45:28] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[13:45:29] [Client thread/INFO]: [CHAT] 
+[13:45:29] [Client thread/INFO]: [CHAT] 
+[13:45:29] [Client thread/INFO]: [CHAT] ? Bienvenue _FNG20_ sur Epikube ! Bon jeu !
+[13:45:29] [Client thread/INFO]: [CHAT] 
+[13:45:29] [Client thread/INFO]: [CHAT] 
+[13:45:29] [Client thread/INFO]: [CHAT]        
+[13:45:32] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[13:45:32] [Client thread/INFO]: [CHAT]        
+[13:45:39] [Client thread/INFO]: [CHAT] ?§r_Gab1 » Gzb1_ sur twitch !
+[13:45:58] [Client thread/INFO]: [CHAT] ?§r_Gab1 » Je stream les gars :) !
+[13:46:01] [Client thread/INFO]: [CHAT] ?§r_Gab1 » Gzb1_ sur twitch !
+[13:46:02] [Client thread/INFO]: [CHAT] ?§r_FNG20_ » Osef
+[13:46:05] [Client thread/INFO]: [CHAT] ?§r_Gab1 » aiiie
+[13:46:06] [Client thread/INFO]: [CHAT] ?§rVIP ? ELF_PUNSHER » on s'en fout
+[13:46:07] [Client thread/INFO]: [CHAT] ?§rFrapppe » oké
+[13:46:10] [Client thread/INFO]: [CHAT] ?§rElbotbot » on s en fout
+[13:46:12] [Client thread/INFO]: [CHAT] ?§rValentinLeLapin » cool
+[13:46:15] [Client thread/INFO]: [CHAT] ? Début de la partie, bon jeu !
+[13:46:16] [Client thread/INFO]: [CHAT] Démarrage dans 3 secondes !
+[13:46:16] [Client thread/INFO]: [CHAT] Démarrage dans 2 secondes !
+[13:46:17] [Client thread/INFO]: [CHAT] Démarrage dans 1 seconde !
+[13:46:18] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton du tremblement de terre
+[13:46:31] [Alt Login Thread/INFO]: Logging in with username & password
+[13:47:10] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[13:47:11] [Client thread/INFO]: [CHAT] 
+[13:47:11] [Client thread/INFO]: [CHAT] 
+[13:47:11] [Client thread/INFO]: [CHAT] ? Bienvenue theWhitMan212 sur Epikube ! Bon jeu !
+[13:47:11] [Client thread/INFO]: [CHAT] 
+[13:47:11] [Client thread/INFO]: [CHAT] 
+[13:47:11] [Client thread/INFO]: [CHAT]        
+[13:47:13] [Client thread/INFO]: [CHAT] Legend ? ? Dawaaa a rejoint le hub !
+[13:47:17] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[13:47:18] [Client thread/INFO]: [CHAT]        
+[13:48:08] [Client thread/INFO]: [CHAT] ? Début de la partie, bon jeu !
+[13:48:09] [Client thread/INFO]: [CHAT] Démarrage dans 3 secondes !
+[13:48:09] [Client thread/INFO]: [CHAT] Démarrage dans 2 secondes !
+[13:48:10] [Client thread/INFO]: [CHAT] Démarrage dans 1 seconde !
+[13:48:11] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton explosif
+[13:48:26] [Client thread/INFO]: [CHAT]  Laines Bonus - Tirez sur les Blocs Magiques !
+[13:48:29] [Client thread/INFO]: [CHAT] ? Plastic_Duck a été tué par le vide et theWhitMan212.
+[13:48:29] [Client thread/INFO]: [CHAT] Coins +8.0 (kill)
+[13:48:30] [Client thread/INFO]: [CHAT] Shimmay a activé le booster Nausée (10 secondes) !
+[13:48:31] [Client thread/INFO]: [CHAT] ? creep_creep13 a été tué par theWhitMan212.
+[13:48:31] [Client thread/INFO]: [CHAT] Coins +8.0 (kill)
+[13:48:36] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton explosif
+[13:48:42] [Client thread/INFO]: [CHAT] ?§r![Global] Bleue ? NeYiz » Faite gaffe un cheateur
+[13:48:45] [Client thread/INFO]: [CHAT] ? Shimmay a été tué par theWhitMan212.
+[13:48:45] [Client thread/INFO]: [CHAT] Coins +8.0 (kill)
+[13:48:49] [Client thread/INFO]: [CHAT] ? Ittai384 a été tué par theWhitMan212.
+[13:48:49] [Client thread/INFO]: [CHAT] Coins +8.0 (kill)
+[13:48:59] [Client thread/INFO]: [CHAT] NeYiz a activé le booster Flèches de recul (15 secondes) !
+[13:49:01] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton incendiaire
+[13:49:09] [Client thread/INFO]: [CHAT] ? _Meumeuh_ a été tué par le vide et le Wither.
+[13:49:09] [Client thread/INFO]: [CHAT] L'équipe Bleue a gagné la partie ! ||||| Félicitations |||||
+[13:49:09] [Client thread/INFO]: [CHAT] Coins +20.0 (victoire)
+[13:49:11] [Client thread/INFO]: [CHAT] ?§r[SPEC] Bleue ? ArspacS_ » gg
+[13:49:13] [Client thread/INFO]: [CHAT] 
+[13:49:13] [Client thread/INFO]: [CHAT]                                SheepWars
+[13:49:13] [Client thread/INFO]: [CHAT] 
+[13:49:13] [Client thread/INFO]: [CHAT] Gagnant : Bleue - Dunwear, Nocxiss, ArspacS_, theWhitMan212, NeYiz
+[13:49:13] [Client thread/INFO]: [CHAT] 
+[13:49:13] [Client thread/INFO]: [CHAT]                     1er tueur : theWhitMan212 (4)
+[13:49:13] [Client thread/INFO]: [CHAT]                        2ème tueur : Dunwear (0)
+[13:49:13] [Client thread/INFO]: [CHAT]                   3ème tueur : creep_creep13 (0)
+[13:49:13] [Client thread/INFO]: [CHAT] 
+[13:49:13] [Client thread/INFO]: [CHAT] 
+[13:49:28] [Alt Login Thread/INFO]: Logging in with username & password
+[13:49:30] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[13:49:31] [Client thread/INFO]: [CHAT] 
+[13:49:31] [Client thread/INFO]: [CHAT] 
+[13:49:31] [Client thread/INFO]: [CHAT] ? Bienvenue jeff2170 sur Epikube ! Bon jeu !
+[13:49:31] [Client thread/INFO]: [CHAT] 
+[13:49:31] [Client thread/INFO]: [CHAT] 
+[13:49:31] [Client thread/INFO]: [CHAT]        
+[13:49:34] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[13:49:35] [Client thread/INFO]: [CHAT]        
+[13:50:42] [Client thread/INFO]: [CHAT] ? Il n'y a pas assez de joueurs. Le compte à rebours a été stoppé.
+[13:52:03] [Client thread/INFO]: [CHAT] ? Début de la partie, bon jeu !
+[13:52:04] [Client thread/INFO]: [CHAT] Démarrage dans 3 secondes !
+[13:52:04] [Client thread/INFO]: [CHAT] Démarrage dans 2 secondes !
+[13:52:05] [Client thread/INFO]: [CHAT] Démarrage dans 1 seconde !
+[13:52:06] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton chercheur
+[13:52:16] [Client thread/INFO]: [CHAT] ? Dawaaa a été tué par jeff2170.
+[13:52:16] [Client thread/INFO]: [CHAT] Coins +18.4 (kill) (Booster 130%)
+[13:52:20] [Client thread/INFO]: [CHAT] ? jeff2170 a été tué par Dawaaa et Beschrelle.
+[13:52:20] [Client thread/INFO]: [CHAT] 
+[13:52:20] [Client thread/INFO]: [CHAT] ? Vous avez été éliminé !
+[13:52:20] [Client thread/INFO]: [CHAT] 
+[13:52:20] [Client thread/INFO]: [CHAT] -|-------------( Mode spectateur )-------------|-
+[13:52:20] [Client thread/INFO]: [CHAT] 
+[13:52:20] [Client thread/INFO]: [CHAT] ? Vous êtes en mode SPECTATEUR, faites /leave pour quitter.
+[13:52:20] [Client thread/INFO]: [CHAT] ? Uniquement les spectateurs voient vos messages.
+[13:52:20] [Client thread/INFO]: [CHAT]  
+[13:52:20] [Client thread/INFO]: [CHAT] ? Faites /re pour relancer une partie immédiatement !
+[13:52:20] [Client thread/INFO]: [CHAT] ? Appuyez sur votre touche inventaire ("E" par défaut) pour accèder au menu.
+[13:52:20] [Client thread/INFO]: [CHAT] 
+[13:52:20] [Client thread/INFO]: [CHAT] -|-------------------------------------------------|-
+[13:52:21] [Client thread/INFO]: [CHAT]  Laines Bonus - Tirez sur les Blocs Magiques !
+[13:52:26] [Client thread/INFO]: [CHAT] ? Ajouté à la file d'attente (SheepWars)...
+[13:52:26] [Client thread/INFO]: [CHAT] ? Ajouté à la file d'attente (SheepWars)...
+[13:52:27] [Client thread/INFO]: [CHAT]        
+[13:54:06] [Client thread/INFO]: [CHAT] ?§rVIP+ ? Beschrelle » on dit tous au revoir a @jeff2170
+[13:54:07] [Client thread/INFO]: [CHAT] ? Début de la partie, bon jeu !
+[13:54:08] [Client thread/INFO]: [CHAT] Démarrage dans 3 secondes !
+[13:54:08] [Client thread/INFO]: [CHAT] Démarrage dans 2 secondes !
+[13:54:09] [Client thread/INFO]: [CHAT] Démarrage dans 1 seconde !
+[13:54:10] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton ténébreux
+[13:54:10] [Client thread/INFO]: [CHAT] ?§r![Global] Bleue ? jeff2170 » aurevoir
+[13:54:18] [Client thread/INFO]: [CHAT] ? SkyWhite64 est mort (déconnexion).
+[13:54:18] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton glouton
+[13:54:21] [Client thread/INFO]: [CHAT] ? Cuillere2Soupe a été tué par jeff2170.
+[13:54:21] [Client thread/INFO]: [CHAT] Coins +20.0 (kill) (Booster 150%)
+[13:54:21] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton invocateur de foudre
+[13:54:25] [Client thread/INFO]: [CHAT]  Laines Bonus - Tirez sur les Blocs Magiques !
+[13:54:28] [Client thread/INFO]: [CHAT] ? Elbotbot a été tué par jeff2170 et Pranco.
+[13:54:28] [Client thread/INFO]: [CHAT] Coins +20.0 (kill) (Booster 150%)
+[13:54:28] [Client thread/INFO]: [CHAT] AminYeet a activé le booster Flèches de feu (15 secondes) !
+[13:54:28] [Client thread/INFO]: [CHAT] Vous avez reçu : Mouton à fragmentation
+[13:54:32] [Client thread/INFO]: [CHAT] ? jeff2170 a été tué par Cuillere2Soupe et Beschrelle.
+[13:54:32] [Client thread/INFO]: [CHAT] 
+[13:54:32] [Client thread/INFO]: [CHAT] ? Vous avez été éliminé !
+[13:54:32] [Client thread/INFO]: [CHAT] 
+[13:54:32] [Client thread/INFO]: [CHAT] -|-------------( Mode spectateur )-------------|-
+[13:54:32] [Client thread/INFO]: [CHAT] 
+[13:54:32] [Client thread/INFO]: [CHAT] ? Vous êtes en mode SPECTATEUR, faites /leave pour quitter.
+[13:54:32] [Client thread/INFO]: [CHAT] ? Uniquement les spectateurs voient vos messages.
+[13:54:32] [Client thread/INFO]: [CHAT]  
+[13:54:32] [Client thread/INFO]: [CHAT] ? Faites /re pour relancer une partie immédiatement !
+[13:54:32] [Client thread/INFO]: [CHAT] ? Appuyez sur votre touche inventaire ("E" par défaut) pour accèder au menu.
+[13:54:32] [Client thread/INFO]: [CHAT] 
+[13:54:32] [Client thread/INFO]: [CHAT] -|-------------------------------------------------|-
+[13:54:36] [Client thread/INFO]: [CHAT] ?§r[SPEC] Elbotbot » report
+[13:54:40] [Client thread/INFO]: [CHAT] ? ELF_PUNSHER est mort (déconnexion).
+[13:54:41] [Client thread/INFO]: [CHAT] ? ValentinLeLapin est mort (déconnexion).
+[13:54:44] [Client thread/INFO]: [CHAT] AminYeet a activé le booster Résistance (30 secondes) !
+[13:54:58] [Client thread/INFO]: [CHAT] Pranco a activé le booster Poison (4 secondes) !
+[13:55:14] [Client thread/INFO]: [CHAT] Beschrelle a activé le booster Regénération (6 secondes) !
+[13:55:27] [Client thread/INFO]: [CHAT] Mister_Kazu a activé le booster Poison (4 secondes) !
+[13:55:29] [Client thread/INFO]: [CHAT] ? Pranco a été tué par une chute et lightning.
+[13:55:39] [Client thread/INFO]: [CHAT] ?§r[SPEC] Elbotbot » en tout cas jeff etait tres fort
+[13:55:43] [Client thread/INFO]: [CHAT] Mister_Kazu a activé le booster Nausée (10 secondes) !
+[13:55:53] [Client thread/INFO]: Stopping!
+[13:55:53] [Client thread/INFO]: SoundSystem shutting down...
+[13:55:53] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
