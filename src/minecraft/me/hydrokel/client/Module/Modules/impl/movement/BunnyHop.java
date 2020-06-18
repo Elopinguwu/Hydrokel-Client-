@@ -66,15 +66,7 @@ public class BunnyHop extends Module {
     }
 
     {
-        if (Main.instance.setmgr.getSettingByName("Bhop Mode").getValString().equalsIgnoreCase("Vanilla"))
 
-            if (mc.thePlayer.onGround && MovementUtils.isMoving()) {
-                mc.thePlayer.jump();
-                mc.thePlayer.motionY = 0.4;
-                MovementUtils.setSpeed(0.8);
-                mc.thePlayer.speedInAir = 0.027F;
-            }
+
     }
 }
-
-
