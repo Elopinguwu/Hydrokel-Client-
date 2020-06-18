@@ -17,27 +17,34 @@ public class  ModuleManager {
 	
 	public ModuleManager() {
 		//Module-register//
-		modules.add(new HUD());
-		modules.add(new Velocity());
-		modules.add(new Fly());
-		modules.add(new Sprint());
-		modules.add(new ClickGUI());
-		modules.add(new HighJump());
-		modules.add(new NoFall ());
-		modules.add(new LongJump());
-		modules.add(new Fullbright());
-		modules.add(new Bhop());
-		modules.add(new PlayerESP());
-		modules.add(new Antibot());
-		modules.add(new Aura());
-		modules.add(new Step());
-		modules.add(new Disabler());
-		modules.add(new Regen());
-		modules.add(new DisablerHypixel());
-		//modules.add(new InvCleaner());
-		//modules.add(new HypixelFly());
-		//modules.add(new Negre());
-		//modules.add(new BaseModule());
+
+		//Render
+			modules.add(new HUD());
+			modules.add(new ClickGUI());
+			modules.add(new Fullbright());
+			modules.add(new PlayerESP());
+
+		//Player
+			modules.add(new NoFall());
+			modules.add(new Regen());
+
+		//Movement
+			modules.add(new Velocity());
+			modules.add(new Fly());
+			modules.add(new Sprint());
+			modules.add(new HighJump());
+			modules.add(new LongJump());
+			modules.add(new Bhop());
+			modules.add(new Step());
+
+		//Combat
+			modules.add(new Antibot());
+			modules.add(new Aura());
+
+		//Misc
+			modules.add(new Disabler());
+			modules.add(new ChestStealer());
+
 	}
 	
     public ArrayList<Module> getModules() {
