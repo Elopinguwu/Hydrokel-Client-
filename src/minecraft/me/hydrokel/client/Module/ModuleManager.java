@@ -26,13 +26,16 @@ public class  ModuleManager {
 		modules.add(new NoFall ());
 		modules.add(new LongJump());
 		modules.add(new Fullbright());
-		modules.add(new BunnyHop());
+		modules.add(new Bhop());
 		modules.add(new PlayerESP());
 		modules.add(new Antibot());
 		modules.add(new Aura());
 		modules.add(new Step());
 		modules.add(new Disabler());
 		modules.add(new Regen());
+		modules.add(new DisablerHypixel());
+		modules.add(new NoSlowDown());
+		//modules.add(new HypixelFly());
 		//modules.add(new Negre());
 		//modules.add(new BaseModule());
 	}
