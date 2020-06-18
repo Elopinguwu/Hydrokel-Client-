@@ -1,9 +1,9 @@
 invertYMouse:false
 mouseSensitivity:0.34507042
-fov:-0.025
+fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:2
 guiScale:2
 particles:0
 bobView:true
@@ -12,7 +12,7 @@ maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:false
-ao:2
+ao:0
 renderClouds:fast
 resourcePacks:["A Simple PvP Experience!(Beta)"]
 incompatibleResourcePacks:[]
@@ -39,7 +39,7 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:4
+mipmapLevels:3
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
 streamSystemVolume:1.0
@@ -61,12 +61,12 @@ key_key.use:-99
 key_key.forward:44
 key_key.left:16
 key_key.back:31
-key_key.right:18
+key_key.right:32
 key_key.jump:57
-key_key.sneak:58
-key_key.sprint:32
-key_key.drop:56
-key_key.inventory:30
+key_key.sneak:42
+key_key.sprint:30
+key_key.drop:17
+key_key.inventory:18
 key_key.chat:28
 key_key.playerlist:15
 key_key.pickItem:-98

@@ -1,0 +1,82 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 18/06/20 02:46
+Description: Updating screen events
+
+java.lang.IllegalArgumentException: Name and ID cannot both be blank
+	at com.mojang.authlib.GameProfile.<init>(GameProfile.java:25)
+	at net.minecraft.util.Session.getProfile(Session.java:53)
+	at net.minecraft.client.Minecraft.launchIntegratedServer(Minecraft.java:2324)
+	at net.minecraft.client.gui.GuiSelectWorld.func_146615_e(GuiSelectWorld.java:196)
+	at net.minecraft.client.gui.GuiSelectWorld$List.elementClicked(GuiSelectWorld.java:270)
+	at net.minecraft.client.gui.GuiSlot.handleMouseInput(GuiSlot.java:354)
+	at net.minecraft.client.gui.GuiSelectWorld.handleMouseInput(GuiSelectWorld.java:81)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:568)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1777)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1104)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:420)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:58)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.mojang.authlib.GameProfile.<init>(GameProfile.java:25)
+	at net.minecraft.util.Session.getProfile(Session.java:53)
+	at net.minecraft.client.Minecraft.launchIntegratedServer(Minecraft.java:2324)
+	at net.minecraft.client.gui.GuiSelectWorld.func_146615_e(GuiSelectWorld.java:196)
+	at net.minecraft.client.gui.GuiSelectWorld$List.elementClicked(GuiSelectWorld.java:270)
+	at net.minecraft.client.gui.GuiSlot.handleMouseInput(GuiSlot.java:354)
+	at net.minecraft.client.gui.GuiSelectWorld.handleMouseInput(GuiSelectWorld.java:81)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:568)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiMainMenu
+Stacktrace:
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1777)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1104)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:420)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.uiDesigner.snapShooter.SnapShooter.main(SnapShooter.java:58)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 8.1 (amd64) version 6.3
+	CPU: 2x Intel(R) Celeron(R) CPU B815 @ 1.60GHz
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 404262584 bytes (385 MB) / 695730176 bytes (663 MB) up to 1411383296 bytes (1346 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) HD Graphics GL version 3.1.0 - Build 9.17.10.4459, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: A Simple PvP Experience!(Beta)
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 2x Intel(R) Celeron(R) CPU B815 @ 1.60GHz

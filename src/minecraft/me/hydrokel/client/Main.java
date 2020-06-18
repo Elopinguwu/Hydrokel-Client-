@@ -6,9 +6,11 @@ import me.hydrokel.client.Eventbus.EventManager;
 import me.hydrokel.client.Eventbus.EventTarget;
 import me.hydrokel.client.Eventbus.Events.EventKey;
 import me.hydrokel.client.Module.ModuleManager;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.opengl.Display;
 
 public class Main {
-	public static String name = "ClientBase", version = "b1", creators = "Eloping & whispered";
+	public static String name = "Hydrokel", version = "b1", creators = "Eloping & whispered";
 	
     public static Main instance = new Main();
     
@@ -25,6 +27,8 @@ public class Main {
 		eventManager = new EventManager();
 		moduleManager = new ModuleManager();
 		clickGui = new ClickGUI();
+
+		Display.setTitle(Main.name + " | Username : " + Minecraft.getMinecraft().getSession().getUsername());
 	}
 	
 	public void stopClient() {

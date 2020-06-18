@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import com.thealtening.auth.TheAlteningAuthentication;
 import com.thealtening.auth.service.AlteningServiceType;
+import me.hydrokel.client.Main;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiButton;
@@ -60,21 +61,21 @@ extends GuiScreen {
          	case 2: {
          		this.thread = new AltLoginThread(userpass.split(":")[0], userpass.split(":")[1]);
                 this.thread.start();
-                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
             break;
          	}    
          	case 1: {
                 this.mc.displayGuiScreen(this.previousScreen);
-                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
                 break;
             }
             case 0: {
                 this.thread = new AltLoginThread(this.username.getText(), this.password.getText());
                 this.thread.start();
 
-                Display.setTitle("Hydrokel | Username : "+this.mc.getSession().getUsername());
+
             }
         }
+
+        Display.setTitle(Main.name + " | Username : " + this.mc.getSession().getUsername());
     }
 
     @Override

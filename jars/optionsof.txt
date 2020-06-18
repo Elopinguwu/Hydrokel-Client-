@@ -1,11 +1,11 @@
-ofRenderDistanceChunks:8
-ofFogType:1
-ofFogStart:0.8
+ofRenderDistanceChunks:2
+ofFogType:3
+ofFogStart:0.2
 ofMipmapType:0
 ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:true
-ofAoLevel:1.0
+ofAoLevel:0.0
 ofClouds:0
 ofCloudsHeight:0.0
 ofTrees:0
@@ -32,7 +32,7 @@ ofLagometer:false
 ofShowFps:false
 ofAutoSaveTicks:4000
 ofBetterGrass:3
-ofConnectedTextures:2
+ofConnectedTextures:3
 ofWeather:true
 ofSky:true
 ofStars:true
