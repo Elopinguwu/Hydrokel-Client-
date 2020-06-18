@@ -56,3 +56,23 @@ java.lang.RuntimeException: invalid frameindex 1
 [18:25:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
 [18:25:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
 [18:25:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:44:14] [Server thread/INFO]: Saving and pausing game...
+[18:44:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:44:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:44:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:44:16] [Server thread/INFO]: Stopping server
+[18:44:16] [Server thread/INFO]: Saving players
+[18:44:16] [Server thread/INFO]: Saving worlds
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:44:26] [Alt Login Thread/INFO]: Logging in with username & password
+[18:44:37] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[18:44:38] [Client thread/INFO]: [CHAT] 
+[18:44:38] [Client thread/INFO]: [CHAT] 
+[18:44:38] [Client thread/INFO]: [CHAT] ? Bienvenue short_cookie sur Epikube ! Bon jeu !
+[18:44:38] [Client thread/INFO]: [CHAT] 
+[18:44:38] [Client thread/INFO]: [CHAT] 
+[18:44:39] [Client thread/INFO]: [CHAT]        
+[18:44:41] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[18:44:42] [Client thread/INFO]: [CHAT]        
