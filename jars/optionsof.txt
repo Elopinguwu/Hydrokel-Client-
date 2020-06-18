@@ -1,11 +1,11 @@
-ofRenderDistanceChunks:2
+ofRenderDistanceChunks:13
 ofFogType:3
 ofFogStart:0.2
 ofMipmapType:0
 ofOcclusionFancy:false
-ofSmoothFps:false
+ofSmoothFps:true
 ofSmoothWorld:true
-ofAoLevel:0.0
+ofAoLevel:1.0
 ofClouds:0
 ofCloudsHeight:0.0
 ofTrees:0
@@ -55,7 +55,7 @@ ofCustomColors:true
 ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:false
-ofLazyChunkLoading:true
+ofLazyChunkLoading:false
 ofFullscreenMode:Default
 ofFastMath:false
 ofFastRender:false

@@ -1,13 +1,13 @@
-[04:40:50] [Client thread/INFO]: Setting user: §dHitler
-[04:40:50] [Client thread/INFO]: (Session ID is token:0:§dHitler)
-[04:40:50] [Client thread/INFO]: LWJGL Version: 2.9.4
-[04:40:51] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
-[04:40:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[04:40:52] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[04:40:52] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[04:40:52] [Thread-7/INFO]: OpenAL initialized.
-[04:40:52] [Sound Library Loader/INFO]: Sound engine started
-[04:40:53] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
+[11:50:24] [Client thread/INFO]: Setting user: Player881
+[11:50:24] [Client thread/INFO]: (Session ID is token:0:Player881)
+[11:50:25] [Client thread/INFO]: LWJGL Version: 2.9.4
+[11:50:26] [Client thread/INFO]: Reloading ResourceManager: Default, A Simple PvP Experience!(Beta)
+[11:50:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:50:27] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[11:50:27] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:50:27] [Thread-7/INFO]: OpenAL initialized.
+[11:50:27] [Sound Library Loader/INFO]: Sound engine started
+[11:50:30] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_3.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -20,7 +20,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[04:40:53] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
+[11:50:30] [Client thread/ERROR]: Unable to parse metadata from minecraft:textures/blocks/potatoes_stage_2.png
 java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.renderer.texture.TextureAtlasSprite.loadSprite(TextureAtlasSprite.java:355) ~[OwO2/:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:189) [OwO2/:?]
@@ -33,23 +33,1063 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
-[04:40:53] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[04:40:58] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[04:40:58] [Server thread/INFO]: Generating keypair
-[04:40:58] [Server thread/INFO]: Preparing start region for level 0
-[04:40:59] [Server thread/INFO]: Changing view distance to 15, from 10
-[04:41:00] [Server thread/INFO]: §dHitler[local:E:f5a03e28] logged in with entity id 237 at (83.40512471212637, 64.875, 293.9250826469084)
-[04:41:00] [Server thread/INFO]: §dHitler joined the game
-[04:41:00] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[04:41:04] [Server thread/INFO]: Saving and pausing game...
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[04:41:11] [Server thread/INFO]: Saving and pausing game...
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[04:41:16] [Server thread/INFO]: Saving and pausing game...
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:50:31] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[11:51:19] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[11:51:19] [Server thread/INFO]: Generating keypair
+[11:51:19] [Server thread/INFO]: Converting map!
+[11:51:19] [Server thread/INFO]: Scanning folders...
+[11:51:19] [Server thread/INFO]: Total conversion count is 0
+[11:51:19] [Server thread/INFO]: Preparing start region for level 0
+[11:51:20] [Server thread/INFO]: Preparing spawn area: 14%
+[11:51:21] [Server thread/INFO]: Preparing spawn area: 34%
+[11:51:22] [Server thread/INFO]: Preparing spawn area: 58%
+[11:51:24] [Server thread/INFO]: Preparing spawn area: 79%
+[11:51:24] [Server thread/INFO]: Changing view distance to 32, from 10
+[11:51:26] [Server thread/INFO]: Player881[local:E:cdc50b5f] logged in with entity id 388 at (40.5, 75.0, 258.5)
+[11:51:26] [Server thread/INFO]: Player881 joined the game
+[11:51:26] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[11:51:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 29216ms behind, skipping 584 tick(s)
+[11:51:55] [Server thread/INFO]: Saving and pausing game...
+[11:51:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:53:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:53:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:53:23] [Server thread/INFO]: Player881 has just earned the achievement [Taking Inventory]
+[11:53:24] [Server thread/INFO]: Stopping server
+[11:53:24] [Server thread/INFO]: Saving players
+[11:53:24] [Server thread/INFO]: Saving worlds
+[11:53:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:53:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:53:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:53:27] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[11:53:27] [Server thread/INFO]: Generating keypair
+[11:53:27] [Server thread/INFO]: Preparing start region for level 0
+[11:53:28] [Server thread/INFO]: Changing view distance to 32, from 10
+[11:53:28] [Server thread/INFO]: Player881[local:E:6054fd46] logged in with entity id 2298 at (40.5, 75.0, 258.5)
+[11:53:28] [Server thread/INFO]: Player881 joined the game
+[11:53:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5859ms behind, skipping 117 tick(s)
+[11:53:51] [Server thread/INFO]: Saving and pausing game...
+[11:53:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:54:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:54:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:55:02] [Server thread/INFO]: Changing view distance to 13, from 32
+[11:55:07] [Server thread/INFO]: Saving and pausing game...
+[11:55:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:55:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:55:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:55:37] [Server thread/INFO]: Saving and pausing game...
+[11:55:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:55:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:55:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:55:55] [Server thread/INFO]: Saving and pausing game...
+[11:55:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:56:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:56:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:56:10] [Server thread/INFO]: Saving and pausing game...
+[11:56:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:56:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:56:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:56:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2199ms behind, skipping 43 tick(s)
+[11:56:49] [Server thread/INFO]: Saving and pausing game...
+[11:56:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:57:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:57:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:57:04] [Server thread/INFO]: [Player881: Set own game mode to Survival Mode]
+[11:57:04] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:57:43] [Server thread/INFO]: Saving and pausing game...
+[11:57:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:57:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:57:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:57:59] [Server thread/INFO]: Saving and pausing game...
+[11:57:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:58:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:58:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:58:15] [Server thread/INFO]: Saving and pausing game...
+[11:58:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:58:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:58:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:58:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 27686ms behind, skipping 553 tick(s)
+[11:58:55] [Server thread/INFO]: Saving and pausing game...
+[11:58:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:58:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:58:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:59:03] [Server thread/INFO]: Saving and pausing game...
+[11:59:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:59:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:59:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:59:16] [Server thread/INFO]: Saving and pausing game...
+[11:59:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:59:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:59:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:03:08] [Server thread/INFO]: Saving and pausing game...
+[12:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:03:31] [Server thread/INFO]: Saving and pausing game...
+[12:03:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:03:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:03:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:03:43] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[12:03:44] [Server thread/INFO]: [Player881: Set own game mode to Creative Mode]
+[12:03:44] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:04:06] [Server thread/INFO]: Saving and pausing game...
+[12:04:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:04:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:04:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:04:38] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[12:04:40] [Server thread/INFO]: [Player881: Set own game mode to Survival Mode]
+[12:04:40] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:04:51] [Server thread/WARN]: Player881 moved wrongly!
+[12:04:54] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[12:04:55] [Server thread/INFO]: [Player881: Set own game mode to Survival Mode]
+[12:04:55] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:04:57] [Server thread/INFO]: [Player881: Set own game mode to Creative Mode]
+[12:04:57] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:05:11] [Server thread/INFO]: Saving and pausing game...
+[12:05:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:05:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:05:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:05:28] [Server thread/INFO]: Saving and pausing game...
+[12:05:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:05:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:05:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:05:37] [Server thread/INFO]: Saving and pausing game...
+[12:05:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:05:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:05:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:05:54] [Server thread/INFO]: Saving and pausing game...
+[12:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:05:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:06:34] [Client thread/ERROR]: Item entity 28983 has no item?!
+[12:06:34] [Client thread/ERROR]: Item entity 28983 has no item?!
+[12:07:27] [Server thread/INFO]: Saving and pausing game...
+[12:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:08:36] [Server thread/INFO]: Stopping server
+[12:08:36] [Server thread/INFO]: Saving players
+[12:08:36] [Server thread/INFO]: Saving worlds
+[12:08:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:08:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:08:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:08:36] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:08:36] [Client thread/ERROR]: @ Pre render
+[12:08:36] [Client thread/ERROR]: 1282: Invalid operation
+[12:08:44] [Alt Login Thread/INFO]: Logging in with username & password
+[12:08:57] [Client thread/INFO]: Connecting to funcraft.net, 25565
+[12:08:57] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:08:57] [Client thread/ERROR]: @ Pre render
+[12:08:57] [Client thread/ERROR]: 1282: Invalid operation
+[12:09:07] [Client thread/INFO]: Connecting to eu.cubecraft.net, 25565
+[12:09:07] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:09:07] [Client thread/ERROR]: @ Pre render
+[12:09:07] [Client thread/ERROR]: 1282: Invalid operation
+[12:09:17] [Client thread/INFO]: Connecting to eu.cubecraft.fr, 25565
+[12:09:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:09:17] [Client thread/ERROR]: @ Pre render
+[12:09:17] [Client thread/ERROR]: 1282: Invalid operation
+[12:09:21] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:09:21] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:09:21] [Client thread/ERROR]: @ Pre render
+[12:09:21] [Client thread/ERROR]: 1282: Invalid operation
+[12:09:39] [Alt Login Thread/INFO]: Logging in with username & password
+[12:09:42] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:09:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:09:42] [Client thread/ERROR]: @ Pre render
+[12:09:42] [Client thread/ERROR]: 1282: Invalid operation
+[12:10:07] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:10:07] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:10:07] [Client thread/ERROR]: @ Pre render
+[12:10:07] [Client thread/ERROR]: 1282: Invalid operation
+[12:10:23] [Alt Login Thread/INFO]: Logging in with username & password
+[12:10:26] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:10:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:10:26] [Client thread/ERROR]: @ Pre render
+[12:10:26] [Client thread/ERROR]: 1282: Invalid operation
+[12:10:41] [Alt Login Thread/INFO]: Logging in with username & password
+[12:10:44] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:10:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:10:44] [Client thread/ERROR]: @ Pre render
+[12:10:44] [Client thread/ERROR]: 1282: Invalid operation
+[12:10:56] [Alt Login Thread/INFO]: Logging in with username & password
+[12:10:59] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:10:59] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:10:59] [Client thread/ERROR]: @ Pre render
+[12:10:59] [Client thread/ERROR]: 1282: Invalid operation
+[12:11:05] [Client thread/INFO]: Connecting to play.erisium.fr, 25565
+[12:11:05] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:11:05] [Client thread/ERROR]: @ Pre render
+[12:11:05] [Client thread/ERROR]: 1282: Invalid operation
+[12:11:07] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:11:07] [Client thread/ERROR]: @ Pre render
+[12:11:07] [Client thread/ERROR]: 1282: Invalid operation
+[12:11:09] [Client thread/INFO]: [CHAT] 
+  ERISIUM ? Version beta 
+ 
+    PRIDE MONTH
+      En soutien à l'association Le Refuge une partie des
+      revenus du SUB leur seront reversés (? Clique).
+
+    LANGUE
+      Modifie ta langue avec la commande /lang (? Clique).
+
+[12:11:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.knockback
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[12:11:27] [Client thread/ERROR]: @ Pre render
+[12:11:27] [Client thread/ERROR]: 1282: Invalid operation
+[12:11:30] [Client thread/INFO]: [CHAT] RESP Tymothi ? ? ? ? » WeeDgi ? Nous fêtons le mois de la pride !
+[12:11:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:34] [Client thread/INFO]: [CHAT] Luprax_ » hey
+[12:11:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:entity.player.attack.nodamage
+[12:11:35] [Client thread/INFO]: [CHAT] arkomega » de la pride???
+[12:11:43] [Client thread/INFO]: [CHAT] arkomega » c'est quoi c'est comme paque??
+[12:11:43] [Client thread/INFO]: [CHAT] Lootbox » Luprax_ a obtenu: Scénario NoSword Unique
+[12:11:56] [Client thread/INFO]: [CHAT] Lootbox » Luprax_ a obtenu: Scénario NoBreak Commun
+[12:11:58] [Client thread/INFO]: [CHAT] 
+  ? PARTAGE TON EXPERIENCE ?
+
+? [!] Signaler un bug: ERI.SI/BUG
+? [?] Rédiger une suggestion: ERI.SI/IDEE
+
+[12:12:08] [Client thread/INFO]: [CHAT] Lootbox » Luprax_ a obtenu: Scénario FireEnchantLess Commun
+[12:12:11] [Client thread/INFO]: [CHAT] RESP Tymothi ? ? ? ? » arkomega ?  Tout est expliqué sur les panneaux :p
+[12:12:27] [Client thread/INFO]: [CHAT] Lootbox » Luprax_ a obtenu: Scénario Bleeding Sweets Epique
+[12:12:39] [Client thread/INFO]: [CHAT] arkomega » Aaah c'est pour les gays?
+[12:12:43] [Client thread/INFO]: [CHAT] Luprax_ » ouai
+[12:12:48] [Client thread/INFO]: [CHAT] arkomega » Ah euh
+[12:12:52] [Client thread/INFO]: [CHAT] arkomega » ok
+[12:12:54] [Client thread/INFO]: [CHAT] Luprax_ » mdr
+[12:12:54] [Client thread/INFO]: [CHAT] nemelios2315 » quoi euh ?
+[12:13:01] [Client thread/INFO]: [CHAT] arkomega » nn cque je savais pas
+[12:13:04] [Client thread/INFO]: [CHAT] nemelios2315 » ok
+[12:13:27] [Client thread/INFO]: [CHAT] ULTRA KnoWkS a lancé son serveur.  [? Jouer]
+[12:14:53] [Client thread/INFO]: [CHAT] ULTRA KnoWkS a lancé son serveur.  [? Jouer]
+[12:15:01] [Client thread/INFO]: [CHAT] ULTRA ChromV2_ a lancé son serveur.  [? Jouer]
+[12:15:33] [Client thread/INFO]: [CHAT] ULTRA KnoWkS a lancé son serveur.  [? Jouer]
+[12:15:33] [Client thread/INFO]: [CHAT] ULTRA ChromV2_ a lancé son serveur.  [? Jouer]
+[12:15:43] [Client thread/INFO]: [CHAT] ELITE Azlanns a lancé son serveur.  [? Jouer]
+[12:16:14] [Client thread/INFO]: [CHAT] Lootbox » Zeltronia a obtenu: Scénario RandomTeam Commun
+[12:16:19] [Client thread/INFO]: [CHAT] ELITE Azlanns a lancé son serveur.  [? Jouer]
+[12:16:35] [Client thread/INFO]: [CHAT] Lootbox » Zeltronia a obtenu: Scénario OneHeart Commun
+[12:17:08] [Client thread/INFO]: [CHAT] Lootbox » Zeltronia a obtenu: Scénario ToxicFood Commun
+[12:17:18] [Client thread/INFO]: [CHAT] RESP Tymothi ? ? a rejoint le hub.
+[12:17:25] [Client thread/INFO]: [CHAT] ELITE Force_bleu a lancé son serveur.  [? Jouer]
+[12:17:30] [Client thread/INFO]: [CHAT] ELITE Azlanns a lancé son serveur.  [? Jouer]
+[12:18:10] [Client thread/INFO]: [CHAT] ELITE Azlanns a lancé son serveur.  [? Jouer]
+[12:18:17] [Client thread/INFO]: [CHAT] ELITE ZePot2KaramL a lancé son serveur.  [? Jouer]
+[12:18:26] [Client thread/INFO]: [CHAT] Lootbox » MaSelJuYs a obtenu: Scénario HorseLess Commun
+[12:19:03] [Client thread/INFO]: [CHAT] GUEST Godie a lancé son serveur.  [? Jouer]
+[12:19:41] [Client thread/INFO]: [CHAT] VIP NayTeX a lancé son serveur.  [? Jouer]
+[12:19:43] [Client thread/INFO]: [CHAT] GUEST Godie a lancé son serveur.  [? Jouer]
+[12:19:58] [Client thread/INFO]: [CHAT] 
+ ? FLASH SPECIAL ?  Phénomènes étranges... 
+
+?  Le hub a subi d’importants dégâts,
+?  alors qu'une faille est apparue en UHC 
+
+?  L'administration se veut rassurante :
+?  "Nous enquêtons, continuez à profiter des festivités !"
+
+[12:20:17] [Client thread/INFO]: [CHAT] GUEST Godie a lancé son serveur.  [? Jouer]
+[12:20:28] [Client thread/INFO]: [CHAT] VIP Blasphemee a lancé son serveur.  [? Jouer]
+[12:21:27] [Client thread/INFO]: [CHAT] VIP Unizz a lancé son serveur.  [? Jouer]
+[12:21:27] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:27] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:28] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:28] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:28] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:28] [Client thread/INFO]: [CHAT] Erisium » Veuillez patienter 10 secondes !
+[12:21:43] [Client thread/INFO]: [CHAT] +---------------------------------------------------+
+  
+  » Pas encore d'Abonnement ?!
+    
+  ? Info: Vous souhaitez devenir Subscriber [?] ?
+  [?] Comment devenir Subscriber ? [Cliquez-ici]
+  
++---------------------------------------------------+
+[12:21:45] [Client thread/INFO]: [CHAT] VIP _SYAH a lancé son serveur.  [? Jouer]
+[12:21:56] [Client thread/INFO]: Connecting to play.epikub.com, 25565
+[12:22:09] [Client thread/INFO]: Connecting to play.epikube.fr, 25565
+[12:22:10] [Client thread/INFO]: [CHAT] 
+[12:22:10] [Client thread/INFO]: [CHAT] 
+[12:22:10] [Client thread/INFO]: [CHAT] ? Bienvenue MHgod sur Epikube ! Bon jeu !
+[12:22:10] [Client thread/INFO]: [CHAT] 
+[12:22:10] [Client thread/INFO]: [CHAT] 
+[12:22:11] [Client thread/INFO]: [CHAT]        
+[12:22:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [OwO2/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1094) [OwO2/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:420) [OwO2/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
+	at Start.main(Start.java:11) [OwO2/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[OwO2/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:2001) ~[OwO2/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:140) ~[OwO2/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[OwO2/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[OwO2/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[OwO2/:?]
+	... 4 more
+[12:22:18] [Client thread/INFO]: [CHAT] ? Ajouté à la file dattente ({0})...
+[12:22:19] [Client thread/INFO]: [CHAT]        
+[12:24:07] [Client thread/INFO]: Connecting to eu.cubecraft.fr, 25565
+[12:24:07] [Server Connector #13/ERROR]: Couldn't connect to server
+java.net.UnknownHostException: eu.cubecraft.fr
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(InetAddress.java:1076) ~[?:1.8.0_51]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
+[12:24:17] [Client thread/INFO]: Connecting to mc.cubecraft/net, 25565
+[12:24:17] [Server Connector #14/ERROR]: Couldn't connect to server
+java.net.UnknownHostException: mc.cubecraft/net
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(InetAddress.java:1076) ~[?:1.8.0_51]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
+[12:24:21] [Client thread/INFO]: Connecting to mc.cubecraft.net, 25565
+[12:24:21] [Server Connector #15/ERROR]: Couldn't connect to server
+java.net.UnknownHostException: mc.cubecraft.net
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(InetAddress.java:1076) ~[?:1.8.0_51]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
+[12:24:26] [Client thread/INFO]: Connecting to eu.cubecraft.net, 25565
+[12:24:26] [Server Connector #16/ERROR]: Couldn't connect to server
+java.net.UnknownHostException: eu.cubecraft.net
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(InetAddress.java:1076) ~[?:1.8.0_51]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
+[12:24:37] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:24:39] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:24:39] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:24:39] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:24:39] [Client thread/INFO]: [CHAT]                                  
+                     Privacy Agreement
+           We collect data to process in line with our 
+         Privacy Policy. By playing on ||CubeCraft||, you
+         are confirming that you are over 13 years of
+         age, or have the permission of your guardian,
+        and consent to us processing your data in these
+                              ways.
+
+          You can opt-out at anytime by simply visiting
+                your Settings or by clicking here.
+                                 
+[12:24:43] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:24:44] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:24:44] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:24:44] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:24:47] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:24:52] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
+[12:24:56] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:24:57] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:24:57] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:24:57] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:24:57] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
+[12:24:57] [Client thread/INFO]: [CHAT] Unexpected? Report this (g0106): [Proxy] Lost connection to server.
+[12:24:57] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
+[12:25:28] [Alt Login Thread/INFO]: Logging in with username & password
+[12:25:32] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
+[12:25:34] [Client thread/INFO]: [CHAT] §e§ka§a>>   §aAchievement Unlocked: §6§6Achievement Get! Hypixel Server!§a   <<§e§ka
+[12:25:34] [Client thread/INFO]: [CHAT]                                      
+[12:25:34] [Client thread/INFO]: [CHAT]                          
+[12:25:34] [pool-2-thread-7/ERROR]: Textures payload has been tampered with (signature invalid)
+[12:25:35] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:25:35] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:25:36] [Client thread/INFO]: [CHAT] 
+
+Welcome to the Hypixel Server!
+
+By playing on the Hypixel Server, you consent to follow the rules and agree to our privacy policies. For moderation purposes, further information may be saved while playing.
+More information: hypixel.net/rules-and-policies
+
+You can chat with our staff and other players at hypixel.net/forums
+
+For cool perks and additional cosmetic features, you can support the Hypixel Network at store.hypixel.net
+[12:26:08] [Client thread/INFO]: [CHAT]                                      
+[12:26:08] [Client thread/INFO]: [CHAT]                          
+[12:26:08] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:26:08] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:26:09] [Client thread/INFO]: [CHAT] 
+[12:26:09] [Client thread/INFO]: [CHAT] Click here or do /resource to open the resource pack book.
+[12:26:09] [Client thread/INFO]: [CHAT] 
+[12:26:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:39] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Gravitational80§f§6 joined the lobby!
+[12:26:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:26:55] [Client thread/INFO]: [CHAT] §b[MVP§2+§b] ur_short_lmao§f§6 joined the lobby!
+[12:27:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:27:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:27:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:27:25] [Client thread/INFO]: [CHAT] §b[MVP§3+§b] Bulkbuster§f§6 joined the lobby!
+[12:27:55] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§5++§b] LittleT_FAN_XD§f§6 joined the lobby! §a<§c<§b<
+[12:28:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:announcer.select
+[12:28:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Gravitational80§f§6 joined the lobby!
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:28:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:Tinman.select
+[12:29:36] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] 4pk§f§6 joined the lobby! §a<§c<§b<
+[12:29:42] [Client thread/INFO]: [CHAT] Resource pack not working? Type /resource to fix it!
+[12:29:46] [Client thread/INFO]: [CHAT] §b[MVP§6+§b] Gravitational80§f§6 joined the lobby!
+[12:30:05] [Client thread/INFO]: Connecting to eu.mineplex.ocm, 25565
+[12:30:05] [Server Connector #23/ERROR]: Couldn't connect to server
+java.net.UnknownHostException: eu.mineplex.ocm
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(InetAddress.java:1076) ~[?:1.8.0_51]
+	at net.minecraft.client.multiplayer.GuiConnecting$1.run(GuiConnecting.java:64) [OwO2/:?]
+[12:30:08] [Client thread/INFO]: Connecting to eu.mineplex.com, 25565
+[12:30:10] [Client thread/INFO]: [CHAT] Mission> You started 8 new missions. Visit Sam The Slime to view them.
+[12:30:11] [Client thread/INFO]: [CHAT]  
+[12:30:11] [Client thread/INFO]: [CHAT] =============================================
+[12:30:11] [Client thread/INFO]: [CHAT]  
+[12:30:11] [Client thread/INFO]: [CHAT] Get the new IMMORTAL rank today & get access to XP boosters, the skin changer, and more from https://www.mineplex.com/shop
+[12:30:11] [Client thread/INFO]: [CHAT]  
+[12:30:11] [Client thread/INFO]: [CHAT] =============================================
+[12:30:11] [Client thread/INFO]: [CHAT]  
+[12:30:13] [Client thread/INFO]: [CHAT] =============================================
+[12:30:13] [Client thread/INFO]: [CHAT] 
+[12:30:13] [Client thread/INFO]: [CHAT]   Mineplex Network
+[12:30:13] [Client thread/INFO]: [CHAT]   Welcome DrTeaBag!
+[12:30:13] [Client thread/INFO]: [CHAT] 
+[12:30:13] [Client thread/INFO]: [CHAT] =============================================
+[12:30:14] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:30:14] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:30:18] [Client thread/INFO]: [CHAT] =============================================
+[12:30:18] [Client thread/INFO]: [CHAT] 
+[12:30:18] [Client thread/INFO]: [CHAT]   We offer a huge range of free to play games!
+[12:30:18] [Client thread/INFO]: [CHAT] 
+[12:30:18] [Client thread/INFO]: [CHAT] =============================================
+[12:30:21] [Client thread/INFO]: [CHAT] Tutorial> You completed the Welcome Tutorial.
+[12:30:22] [Client thread/INFO]: [CHAT] §75 01_3Y39TOP1_01 WTF
+[12:30:26] [Client thread/INFO]: [CHAT] §710 Franklinsztajn xddd?
+[12:30:28] [Client thread/INFO]: [CHAT] §75 01_3Y39TOP1_01 cheater
+[12:30:31] [Client thread/INFO]: [CHAT] §929 zaperax nice hacks
+[12:30:33] [Client thread/INFO]: [CHAT] §79 PizzaSteve567 who
+[12:30:38] [Client thread/INFO]: [CHAT] §74 ivegotbreadbabe me
+[12:30:38] [Client thread/INFO]: [CHAT] §73 Fragardo what
+[12:30:44] [Client thread/INFO]: [CHAT] §929 zaperax fragardo hacks
+[12:30:46] [Client thread/INFO]: [CHAT] Butch> You are searching for The Bridges.
+[12:30:46] [Client thread/INFO]: [CHAT] 
+[12:30:46] [Client thread/INFO]: [CHAT]  CLICK HERE to stop searching for a game!
+[12:30:46] [Client thread/INFO]: [CHAT] 
+[12:30:47] [Client thread/INFO]: [CHAT] §73 Fragardo ujust got ******
+[12:30:48] [Client thread/INFO]: [CHAT] §75 01_3Y39TOP1_01 +
+[12:30:53] [Client thread/INFO]: [CHAT] §73 Fragardo what
+[12:30:58] [Client thread/INFO]: [CHAT] §711 Kxres h
+[12:30:58] [Client thread/INFO]: [CHAT] Parkour> Started Lava.
+[12:30:58] [Client thread/INFO]: [CHAT] Parkour> Complete this parkour and receive 500 Gems.
+[12:31:00] [Client thread/INFO]: [CHAT] §929 zaperax u take no knock back
+[12:31:02] [Client thread/INFO]: [CHAT] Parkour> Reset your time for Lava.
+[12:31:06] [Client thread/INFO]: [CHAT] §73 Fragardo really
+[12:31:07] [Client thread/INFO]: [CHAT] Parkour> Reset your time for Lava.
+[12:31:11] [Client thread/INFO]: [CHAT] §929 zaperax yea
+[12:31:12] [Client thread/INFO]: [CHAT] Parkour> Reset your time for Lava.
+[12:31:19] [Client thread/INFO]: [CHAT] Parkour> You cannot stop running on the Lava Parkour.
+[12:31:19] [Client thread/INFO]: [CHAT] Parkour> Reset your time for Lava.
+[12:31:32] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:31:34] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:31:34] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:31:34] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:31:34] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
+[12:31:34] [Client thread/INFO]: [CHAT]                                  
+                     Privacy Agreement
+           We collect data to process in line with our 
+         Privacy Policy. By playing on ||CubeCraft||, you
+         are confirming that you are over 13 years of
+         age, or have the permission of your guardian,
+        and consent to us processing your data in these
+                              ways.
+
+          You can opt-out at anytime by simply visiting
+                your Settings or by clicking here.
+                                 
+[12:31:38] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:31:39] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:31:39] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:31:39] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:31:39] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
+[12:31:44] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[12:31:44] [Server thread/INFO]: Generating keypair
+[12:31:44] [Server thread/INFO]: Preparing start region for level 0
+[12:31:45] [Server thread/INFO]: Changing view distance to 13, from 10
+[12:31:45] [Server thread/INFO]: DrTeaBag[local:E:323efdaa] logged in with entity id 2266279 at (-91.20183521964096, 71.0, -222.18400126221565)
+[12:31:45] [Server thread/INFO]: DrTeaBag joined the game
+[12:31:47] [Server thread/INFO]: Saving and pausing game...
+[12:31:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:31:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:31:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:31:55] [Server thread/INFO]: Saving and pausing game...
+[12:31:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:31:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:31:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:31:56] [Server thread/INFO]: Stopping server
+[12:31:56] [Server thread/INFO]: Saving players
+[12:31:56] [Server thread/INFO]: Saving worlds
+[12:31:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:31:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:31:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:31:58] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:32:00] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:32:00] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:32:00] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:32:00] [Client thread/INFO]: [CHAT] A chest has been scattered around the Lobby with some goodies inside!
+[12:32:24] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:32:26] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:32:26] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:32:26] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:32:28] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:32:33] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:32:34] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:32:34] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:32:34] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:32:34] [Client thread/INFO]: [CHAT] Unexpected? Report this (g0106): [Proxy] Lost connection to server.
+[12:32:34] [Client thread/INFO]: [CHAT] Connecting you to a lobby...
+[12:32:38] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[12:32:38] [Server thread/INFO]: Generating keypair
+[12:32:38] [Server thread/INFO]: Preparing start region for level 0
+[12:32:38] [Server thread/INFO]: DrTeaBag[local:E:f79d5d93] logged in with entity id 2267589 at (-91.20183521964096, 71.0, -222.18400126221565)
+[12:32:38] [Server thread/INFO]: DrTeaBag joined the game
+[12:32:39] [Server thread/INFO]: Changing view distance to 13, from 10
+[12:32:48] [Server thread/INFO]: Saving and pausing game...
+[12:32:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:32:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:32:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:33:03] [Server thread/INFO]: Saving and pausing game...
+[12:33:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:33:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:33:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:33:04] [Server thread/INFO]: Stopping server
+[12:33:04] [Server thread/INFO]: Saving players
+[12:33:04] [Server thread/INFO]: Saving worlds
+[12:33:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:33:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:33:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:33:06] [Client thread/INFO]: Connecting to eu.mineplex.com, 25565
+[12:33:09] [Client thread/INFO]: [CHAT]  
+[12:33:09] [Client thread/INFO]: [CHAT] =============================================
+[12:33:09] [Client thread/INFO]: [CHAT]  
+[12:33:09] [Client thread/INFO]: [CHAT] Get the new IMMORTAL rank today & get access to XP boosters, the skin changer, and more from https://www.mineplex.com/shop
+[12:33:09] [Client thread/INFO]: [CHAT]  
+[12:33:09] [Client thread/INFO]: [CHAT] =============================================
+[12:33:09] [Client thread/INFO]: [CHAT]  
+[12:33:13] [Client thread/INFO]: Connecting to play.cubecraft.net, 25565
+[12:33:14] [Client thread/INFO]: [CHAT] §f §f §1 §0 §2 §4§f §f §2 §0 §4 §8§0§1§0§1§2§f§f§0§1§3§4§f§f§0§1§5§f§f§0§1§6§f§f§0§1§8§9§a§b§f§f§0§1§7§f§f§3 §9 §2 §0 §0 §1§3 §9 §2 §0 §0 §2§3 §9 §2 §0 §0 §3§0§0§1§f§e§0§0§2§f§e§0§0§3§4§5§6§7§8§f§e§3 §6 §3 §6 §3 §6 §e§3 §6 §3 §6 §3 §6 §d
+[12:33:14] [Client thread/INFO]: [CHAT]                     Welcome to ||CubeCraft||
+                             Links
+                 Website, Store, Twitter, Discord
+                           Commands
+                   Friends, Parties, Extra help
+                                  
+[12:33:14] [Client thread/INFO]: [CHAT] §c §r§5 §r§1 §r§f §r§8 §r§3 §r§8 §r§9 §r§2 §r§3 §r§1 
+[12:33:18] [Client thread/INFO]: Connecting to eu.mineplex.com, 25565
+[12:33:20] [Client thread/INFO]: [CHAT]  
+[12:33:20] [Client thread/INFO]: [CHAT] =============================================
+[12:33:20] [Client thread/INFO]: [CHAT]  
+[12:33:20] [Client thread/INFO]: [CHAT] Get the new IMMORTAL rank today & get access to XP boosters, the skin changer, and more from https://www.mineplex.com/shop
+[12:33:20] [Client thread/INFO]: [CHAT]  
+[12:33:20] [Client thread/INFO]: [CHAT] =============================================
+[12:33:20] [Client thread/INFO]: [CHAT]  
+[12:33:22] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:33:22] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:33:43] [Client thread/INFO]: [CHAT] Butch> You are searching for Skywars.
+[12:33:43] [Client thread/INFO]: [CHAT] 
+[12:33:43] [Client thread/INFO]: [CHAT]  CLICK HERE to stop searching for a game!
+[12:33:43] [Client thread/INFO]: [CHAT] 
+[12:34:00] [Client thread/INFO]: [CHAT] §9Join> §7§e§lIMMORTAL §fAbseybell§7 has joined the lobby.
+[12:34:21] [Client thread/INFO]: [CHAT] §9Portal> §7You have been sent from Lobby-2 to SKY-1.
+[12:34:23] [Client thread/INFO]: [CHAT] Join> DrTeaBag
+[12:34:23] [Client thread/INFO]: [CHAT] Join> Slypszy
+[12:34:25] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:34:25] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:34:34] [Client thread/INFO]: [CHAT] Join> 2_ANC
+[12:34:37] [Client thread/INFO]: [CHAT] Chocoland won the vote!
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT] =============================================
+[12:34:53] [Client thread/INFO]: [CHAT] Game - Skywars
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT]   Free for all battle in the sky!
+[12:34:53] [Client thread/INFO]: [CHAT]   Craft or loot gear for combat
+[12:34:53] [Client thread/INFO]: [CHAT]   Last player alive wins!
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT] Map - Chocoland created by Blast & Dutty
+[12:34:53] [Client thread/INFO]: [CHAT] =============================================
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:34:53] [Client thread/INFO]: [CHAT]   CLICK HERE if you want to change your kit!
+[12:34:53] [Client thread/INFO]: [CHAT] 
+[12:35:02] [Client thread/INFO]: [CHAT] Chat> Chat is no longer silenced.
+[12:35:04] [Client thread/INFO]: [CHAT] §78 Lukhas14 nikola balkan
+[12:35:08] [Client thread/INFO]: [CHAT] §920 BestWWS balkan
+[12:35:21] [Client thread/INFO]: [CHAT] Game> Slypszy drew First Blood!
+[12:35:21] [Client thread/INFO]: [CHAT] Death> respuesta2012 killed by Slypszy with Snowball.
+[12:35:27] [Client thread/INFO]: Connecting to eu.mineplex.com, 25565
+[12:35:30] [Client thread/INFO]: [CHAT] Carl the Creeper> Hey DrTeaBag! I have sssome amazing rewardsss for you! Come sssee me!
+[12:35:30] [Client thread/INFO]: [CHAT]  
+[12:35:30] [Client thread/INFO]: [CHAT] =============================================
+[12:35:30] [Client thread/INFO]: [CHAT]  
+[12:35:30] [Client thread/INFO]: [CHAT] Get the new IMMORTAL rank today & get access to XP boosters, the skin changer, and more from https://www.mineplex.com/shop
+[12:35:30] [Client thread/INFO]: [CHAT]  
+[12:35:30] [Client thread/INFO]: [CHAT] =============================================
+[12:35:30] [Client thread/INFO]: [CHAT]  
+[12:35:32] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:35:32] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:35:42] [Client thread/INFO]: [CHAT] Treasure> SgtJellybeanz is opening an Ancient Treasure.
+[12:35:44] [Client thread/INFO]: [CHAT] §9Join> §7§e§lIMMORTAL §fAbseybell§7 has joined the lobby.
+[12:35:54] [Client thread/INFO]: [CHAT] Butch> You are searching for Skywars.
+[12:35:54] [Client thread/INFO]: [CHAT] 
+[12:35:54] [Client thread/INFO]: [CHAT]  CLICK HERE to stop searching for a game!
+[12:35:54] [Client thread/INFO]: [CHAT] 
+[12:36:10] [Client thread/INFO]: Connecting to eu.mineplex.com, 25565
+[12:36:12] [Client thread/INFO]: [CHAT] §9Join> §7§e§lIMMORTAL §fShiiuw§7 has joined the lobby.
+[12:36:12] [Client thread/INFO]: [CHAT]  
+[12:36:12] [Client thread/INFO]: [CHAT] =============================================
+[12:36:12] [Client thread/INFO]: [CHAT]  
+[12:36:12] [Client thread/INFO]: [CHAT] Get the new IMMORTAL rank today & get access to XP boosters, the skin changer, and more from https://www.mineplex.com/shop
+[12:36:12] [Client thread/INFO]: [CHAT]  
+[12:36:12] [Client thread/INFO]: [CHAT] =============================================
+[12:36:12] [Client thread/INFO]: [CHAT]  
+[12:36:16] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:36:16] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:36:19] [Client thread/INFO]: [CHAT] Butch> You are searching for Skywars.
+[12:36:19] [Client thread/INFO]: [CHAT] 
+[12:36:19] [Client thread/INFO]: [CHAT]  CLICK HERE to stop searching for a game!
+[12:36:19] [Client thread/INFO]: [CHAT] 
+[12:36:19] [Client thread/INFO]: [CHAT] §71 Kr4ftyy how to spend gems?
+[12:36:24] [Client thread/INFO]: [CHAT] §79 chuwbac idk
+[12:36:28] [Client thread/INFO]: [CHAT] §712 ADI777PL 4Kit
+[12:36:53] [Client thread/INFO]: [CHAT] §9Join> §7§e§lIMMORTAL §fOMGsophie§7 has joined the lobby.
+[12:36:54] [Client thread/INFO]: [CHAT] §9Portal> §7You have been sent from Lobby-2 to SKY-1.
+[12:36:56] [Client thread/INFO]: [CHAT] Join> DrTeaBag
+[12:36:56] [Client thread/INFO]: [CHAT] Join> Lukhas14
+[12:36:56] [Client thread/INFO]: [CHAT] Join> COMPLET3D
+[12:36:56] [Client thread/INFO]: [CHAT] Join> N1NG0RILA
+[12:36:56] [Client thread/INFO]: [CHAT] Join> Szemi_Doge_
+[12:36:56] [Client thread/INFO]: [CHAT] Join> Jacoob_Doge_
+[12:36:58] [Client thread/INFO]: [CHAT] Game> Converting your Kits to our shiny new system. This will take a few seconds...
+[12:36:58] [Client thread/INFO]: [CHAT] Game> We're all finished. All your Kits were successfully transferred over! You may need to rejoin/switch servers in order for all of your kit levels and upgrades to apply!
+[12:36:59] [Client thread/INFO]: [CHAT] Quit> Lukhas14
+[12:37:07] [Client thread/INFO]: [CHAT] Join> Bids_38
+[12:37:07] [Client thread/INFO]: [CHAT] Join> leqit_good
+[12:37:07] [Client thread/INFO]: [CHAT] Join> Nolent
+[12:37:10] [Client thread/INFO]: [CHAT] Aquarius won the vote!
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT] =============================================
+[12:37:27] [Client thread/INFO]: [CHAT] Game - Skywars
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT]   Free for all battle in the sky!
+[12:37:27] [Client thread/INFO]: [CHAT]   Craft or loot gear for combat
+[12:37:27] [Client thread/INFO]: [CHAT]   Last player alive wins!
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT] Map - Aquarius created by Mineplex Build Team
+[12:37:27] [Client thread/INFO]: [CHAT] =============================================
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:27] [Client thread/INFO]: [CHAT]   CLICK HERE if you want to change your kit!
+[12:37:27] [Client thread/INFO]: [CHAT] 
+[12:37:36] [Client thread/INFO]: [CHAT] Chat> Chat is no longer silenced.
+[12:38:04] [Client thread/INFO]: [CHAT] Death> AnneGarn killed by World Border.
+[12:38:05] [Client thread/INFO]: [CHAT] Quit> AnneGarn
+[12:38:26] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
+[12:38:28] [Client thread/INFO]: [CHAT]                                      
+[12:38:28] [Client thread/INFO]: [CHAT]                          
+[12:38:32] [Client thread/INFO]: Connecting to eu.hypixel.net, 25565
+[12:38:34] [Client thread/INFO]: [CHAT]                                      
+[12:38:34] [Client thread/INFO]: [CHAT]                          
+[12:38:34] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:38:34] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:38:35] [Client thread/INFO]: [CHAT] 
+[12:38:35] [Client thread/INFO]: [CHAT] Click here or do /resource to open the resource pack book.
+[12:38:35] [Client thread/INFO]: [CHAT] 
+[12:38:42] [Client thread/INFO]: [CHAT]                                      
+[12:38:42] [Client thread/INFO]: [CHAT]                          
+[12:38:42] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:38:42] [Client thread/INFO]: [CHAT] 
+[12:38:42] [Client thread/INFO]: [CHAT]                            Bed Wars Experience
+[12:38:42] [Client thread/INFO]: [CHAT]           Level 0                                           Level 1
+[12:38:42] [Client thread/INFO]: [CHAT]           [??????????????????????????????????]
+[12:38:42] [Client thread/INFO]: [CHAT]                MN  LEVEL UP! You are now Level 1!  NM
+[12:38:42] [Client thread/INFO]: [CHAT] 
+[12:38:42] [Client thread/INFO]: [CHAT] You earned 500 Bed Wars Experience (First Join)
+[12:38:42] [Client thread/INFO]: [CHAT] You earned 1x Bed Wars Loot Chest
+[12:38:42] [Client thread/INFO]: [CHAT] 
+[12:38:42] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:38:42] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:38:42] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:39:04] [Client thread/INFO]: [CHAT] Parkour challenge started!
+[12:39:04] [Client thread/INFO]: [CHAT] Use /parkour checkpoint to teleport to the last checkpoint or /parkour cancel to cancel!
+[12:39:12] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] IMPULSIVE_FIRE§f§6 joined the lobby! §a<§c<§b<
+[12:39:14] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:21] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:26] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:29] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:35] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:38] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:43] [Client thread/INFO]: [CHAT] Reset your timer to 00:00! Get to the finish line!
+[12:39:44] [Client thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§c++§b] iTiny§f§6 joined the lobby! §a<§c<§b<
+[12:39:57] [Client thread/INFO]: [CHAT] §b[MVP§c+§b] Spag0ot§f§6 joined the lobby!
+[12:40:10] [Client thread/INFO]: [CHAT] §b[MVP§a+§b] quzila§f§6 joined the lobby!
+[12:40:18] [Client thread/INFO]: [CHAT] Sending you to mini125C!
+[12:40:19] [Client thread/INFO]: [CHAT]                                      
+[12:40:19] [Client thread/INFO]: [CHAT]        
+[12:40:19] [Client thread/INFO]: [CHAT] DrTeaBag has joined (10/12)!
+[12:40:24] [Client thread/INFO]: [CHAT] cbigmonster has joined (11/12)!
+[12:40:24] [Client thread/INFO]: [CHAT] We don't have enough players! Start cancelled.
+[12:40:24] [Client thread/INFO]: [CHAT] DarkPrescense has quit!
+[12:40:28] [Client thread/INFO]: [CHAT] xXR89Xx: HELLO
+[12:40:33] [Client thread/INFO]: [CHAT] Stingy69 has joined (11/12)!
+[12:40:34] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[12:40:44] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[12:40:49] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[12:40:50] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[12:40:51] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[12:40:52] [Client thread/INFO]: [CHAT] kokosik64 has joined (12/12)!
+[12:40:52] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[12:40:53] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[12:40:54] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:40:54] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[12:40:54] [Client thread/INFO]: [CHAT] 
+[12:40:54] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[12:40:54] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[12:40:54] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[12:40:54] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[12:40:54] [Client thread/INFO]: [CHAT] 
+[12:40:54] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:40:57] [Client thread/ERROR]: Item entity 1253 has no item?!
+[12:40:58] [Client thread/ERROR]: Item entity 1268 has no item?!
+[12:40:58] [Client thread/ERROR]: Item entity 1268 has no item?!
+[12:40:59] [Client thread/ERROR]: Item entity 1275 has no item?!
+[12:40:59] [Client thread/ERROR]: Item entity 1280 has no item?!
+[12:41:00] [Client thread/ERROR]: Item entity 1297 has no item?!
+[12:41:00] [Client thread/ERROR]: Item entity 1297 has no item?!
+[12:41:00] [Client thread/ERROR]: Item entity 1297 has no item?!
+[12:41:00] [Client thread/ERROR]: Item entity 1297 has no item?!
+[12:41:03] [Client thread/ERROR]: Item entity 1330 has no item?!
+[12:41:03] [Client thread/ERROR]: Item entity 1335 has no item?!
+[12:41:04] [Client thread/ERROR]: Item entity 1361 has no item?!
+[12:41:05] [Client thread/ERROR]: Item entity 1372 has no item?!
+[12:41:07] [Client thread/ERROR]: Item entity 1400 has no item?!
+[12:41:10] [Client thread/ERROR]: Item entity 1448 has no item?!
+[12:41:13] [Client thread/INFO]: [CHAT] [3?] [YELLOW] Stingy69: I go for diamond, u protect
+[12:41:13] [Client thread/ERROR]: Item entity 1502 has no item?!
+[12:41:16] [Client thread/INFO]: [CHAT] You purchased Stone Sword
+[12:41:17] [Client thread/ERROR]: Item entity 1564 has no item?!
+[12:41:18] [Client thread/INFO]: [CHAT] You can only break blocks placed by a player!
+[12:41:18] [Client thread/ERROR]: Item entity 1585 has no item?!
+[12:41:19] [Client thread/ERROR]: Item entity 1598 has no item?!
+[12:41:19] [Client thread/ERROR]: Item entity 1598 has no item?!
+[12:41:20] [Client thread/INFO]: [CHAT] §e§ka§a>>   §aAchievement Unlocked: §6§6You Can't Do That!§a   <<§e§ka
+[12:41:20] [Client thread/INFO]: [CHAT] You can't destroy your own bed!
+[12:41:20] [Client thread/ERROR]: Item entity 1615 has no item?!
+[12:41:21] [Client thread/ERROR]: Item entity 1621 has no item?!
+[12:41:21] [Client thread/ERROR]: Item entity 1633 has no item?!
+[12:41:21] [Client thread/ERROR]: Item entity 1633 has no item?!
+[12:41:23] [Client thread/ERROR]: Item entity 1660 has no item?!
+[12:41:26] [Client thread/ERROR]: Item entity 1698 has no item?!
+[12:41:34] [Client thread/INFO]: [CHAT] You purchased Wool
+[12:41:39] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[12:41:39] [Client thread/INFO]: [CHAT] +10 coins! (Triple Coins + EXP)  (Time Played)
+[12:41:39] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[12:41:43] [Client thread/ERROR]: Item entity 1922 has no item?!
+[12:41:49] [Client thread/ERROR]: Item entity 2001 has no item?!
+[12:41:52] [Client thread/ERROR]: Item entity 2042 has no item?!
+[12:42:02] [Client thread/INFO]: [CHAT] An exception occurred in your connection, so you have been routed to limbo!
+[12:42:04] [Client thread/INFO]: [CHAT] You were spawned in Limbo.
+[12:42:04] [Client thread/INFO]: [CHAT] /limbo for more information.
+[12:42:42] [Client thread/INFO]: [CHAT]                                      
+[12:42:42] [Client thread/INFO]: [CHAT]                          
+[12:42:42] [pool-2-thread-8/ERROR]: Textures payload has been tampered with (signature invalid)
+[12:42:44] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:42:44] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:42:50] [Client thread/INFO]: [CHAT]                                      
+[12:42:50] [Client thread/INFO]: [CHAT]                          
+[12:42:51] [Client thread/INFO]: [CHAT] §aYou have §b1 §aunclaimed leveling reward!
+[12:42:51] [Client thread/INFO]: [CHAT] §eClick here to view it!
+[12:42:52] [Client thread/INFO]: [CHAT] §7[64?§7] §a[VIP§6+§a] AbsoluteRed§f: g
+[12:42:54] [Client thread/INFO]: [CHAT] §7[9?§7] §7seva_HD§7: Serv is open
+[12:42:59] [Client thread/INFO]: [CHAT] Sending you to mini363S!
+[12:43:01] [Client thread/INFO]: [CHAT]                                      
+[12:43:01] [Client thread/INFO]: [CHAT]        
+[12:43:01] [Client thread/INFO]: [CHAT] DrTeaBag has joined (6/12)!
+[12:43:01] [Client thread/INFO]: [CHAT] Milkp129 has joined (7/12)!
+[12:43:02] [Client thread/INFO]: [CHAT] dead_anarchist: ???? ???? ?? ?????? ??
+[12:43:03] [Client thread/INFO]: [CHAT] wert9cal120 has joined (8/12)!
+[12:43:03] [Client thread/INFO]: [CHAT] ImperatorEnder has joined (9/12)!
+[12:43:03] [Client thread/INFO]: [CHAT] kreshTU has joined (10/12)!
+[12:43:19] [Client thread/INFO]: [CHAT] dead_anarchist: ??? ??????? ???????? ??????
+[12:43:20] [Client thread/INFO]: [CHAT] Lazer2328 has joined (11/12)!
+[12:43:21] [Client thread/INFO]: [CHAT] The game starts in 20 seconds!
+[12:43:31] [Client thread/INFO]: [CHAT] The game starts in 10 seconds!
+[12:43:34] [Client thread/INFO]: [CHAT] [VIP] SnowWell: ???????????????
+[12:43:35] [Client thread/INFO]: [CHAT] xSoAloNeZ_: &*&*&78
+[12:43:36] [Client thread/INFO]: [CHAT] The game starts in 5 seconds!
+[12:43:37] [Client thread/INFO]: [CHAT] The game starts in 4 seconds!
+[12:43:38] [Client thread/INFO]: [CHAT] The game starts in 3 seconds!
+[12:43:39] [Client thread/INFO]: [CHAT] The game starts in 2 seconds!
+[12:43:40] [Client thread/INFO]: [CHAT] The game starts in 1 second!
+[12:43:41] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:43:41] [Client thread/INFO]: [CHAT]                                   Bed Wars
+[12:43:41] [Client thread/INFO]: [CHAT] 
+[12:43:41] [Client thread/INFO]: [CHAT]      Protect your bed and destroy the enemy beds.
+[12:43:41] [Client thread/INFO]: [CHAT]       Upgrade yourself and your team by collecting
+[12:43:41] [Client thread/INFO]: [CHAT]     Iron, Gold, Emerald and Diamond from generators
+[12:43:41] [Client thread/INFO]: [CHAT]                   to access powerful upgrades.
+[12:43:41] [Client thread/INFO]: [CHAT] 
+[12:43:41] [Client thread/INFO]: [CHAT] ????????????????????????????????????????????????????????????????
+[12:43:42] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[12:43:42] [Client thread/INFO]: [CHAT] +10 coins! (Triple Coins + EXP)  (Time Played)
+[12:43:44] [Client thread/INFO]: [CHAT] You can't break blocks here!
+[12:43:46] [Client thread/ERROR]: Item entity 311 has no item?!
+[12:43:47] [Client thread/ERROR]: Item entity 317 has no item?!
+[12:43:47] [Client thread/ERROR]: Item entity 317 has no item?!
+[12:43:48] [Client thread/ERROR]: Item entity 321 has no item?!
+[12:43:51] [Client thread/ERROR]: Item entity 350 has no item?!
+[12:43:54] [Client thread/INFO]: [CHAT] kreshTU fell into the void.
+[12:43:57] [Client thread/INFO]: [CHAT] You purchased Stone Sword
+[12:44:02] [Client thread/INFO]: [CHAT] You purchased Wool
+[12:44:02] [Client thread/INFO]: [CHAT] You don't have enough Iron! Need 1 more!
+[12:44:09] [Client thread/ERROR]: Item entity 482 has no item?!
+[12:44:10] [Client thread/INFO]: [CHAT] xSoAloNeZ_ fell into the void.
+[12:44:11] [Client thread/ERROR]: Item entity 498 has no item?!
+[12:44:15] [Client thread/ERROR]: Item entity 526 has no item?!
+[12:44:22] [Client thread/INFO]: [CHAT] 
+[12:44:22] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Blue Bed was deep fried by SnowWell!
+[12:44:22] [Client thread/INFO]: [CHAT] 
+[12:44:22] [Client thread/INFO]: [CHAT] 
+[12:44:22] [Client thread/INFO]: [CHAT] BED DESTRUCTION > Your bed was destroyed by dead_anarchist!
+[12:44:22] [Client thread/INFO]: [CHAT] 
+[12:44:26] [Client thread/ERROR]: Item entity 573 has no item?!
+[12:44:26] [Client thread/INFO]: [CHAT] If you get disconnected use /rejoin to join back in the game.
+[12:44:32] [Client thread/ERROR]: Item entity 596 has no item?!
+[12:44:32] [Client thread/ERROR]: Item entity 597 has no item?!
+[12:44:35] [Client thread/ERROR]: Item entity 612 has no item?!
+[12:44:37] [Client thread/ERROR]: Item entity 625 has no item?!
+[12:44:38] [Client thread/INFO]: [CHAT] xSoAloNeZ_ fell into the void.
+[12:44:39] [Client thread/ERROR]: Item entity 630 has no item?!
+[12:44:42] [Client thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[12:44:42] [Client thread/INFO]: [CHAT] +10 coins! (Triple Coins + EXP)  (Time Played)
+[12:44:42] [Client thread/ERROR]: Item entity 641 has no item?!
+[12:44:42] [Client thread/ERROR]: Item entity 641 has no item?!
+[12:44:42] [Client thread/ERROR]: Item entity 643 has no item?!
+[12:44:43] [Client thread/INFO]: [CHAT] SnowWell was given the cold shoulder by wert9cal120.
+[12:44:46] [Client thread/ERROR]: Item entity 667 has no item?!
+[12:44:47] [Client thread/INFO]: [CHAT] WhairVerzied was killed by ImperatorEnder.
+[12:44:51] [Client thread/ERROR]: Item entity 835 has no item?!
+[12:44:53] [Client thread/INFO]: [CHAT] Lazer2328 was knocked into the void by dead_anarchist. FINAL KILL!
+[12:45:05] [Client thread/INFO]: Stopping!
+[12:45:05] [Client thread/INFO]: SoundSystem shutting down...
+[12:45:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
