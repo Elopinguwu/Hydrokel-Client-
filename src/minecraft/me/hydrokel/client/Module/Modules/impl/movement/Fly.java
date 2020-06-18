@@ -78,12 +78,11 @@ public class Fly extends Module {
 		}
 
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
-		mc.thePlayer.damagePlayer();
-			if (mc.thePlayer.hurtTime > 0 && !state) {
 
-			}
 
 		}
+
+
 			if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
 			mc.timer.timerSpeed = 0.24F;
 			if (MovementUtils.isMoving()) {
