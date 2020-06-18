@@ -8,7 +8,7 @@ import me.hydrokel.client.Eventbus.Events.EventKey;
 import me.hydrokel.client.Module.ModuleManager;
 
 public class Main {
-	public String name = "ClientBase", verssion = "0.1", creator = "Eloping";
+	public static String name = "ClientBase", version = "b1", creators = "Eloping & whispered";
 	
     public static Main instance = new Main();
     
