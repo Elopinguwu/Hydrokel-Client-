@@ -1,7 +1,7 @@
 # Project exclude paths
 /out/
 bin
-jars/
+jars/*
 !jars/libraries/    
 !jars/assets/
 !jars/versions/

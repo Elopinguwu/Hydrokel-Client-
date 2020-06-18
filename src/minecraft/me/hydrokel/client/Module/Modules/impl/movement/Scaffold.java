@@ -69,8 +69,7 @@ public class Scaffold extends Module {
         if (block_arround.size() > 0) {
             return block_arround.get(0);
         } else {
-            return null;
+            return new BlockPos(e.posX,e.posY-1,e.posZ);
         }
-       // return new BlockPos(e.posX,e.posY-1,e.posZ);
     }
 }
