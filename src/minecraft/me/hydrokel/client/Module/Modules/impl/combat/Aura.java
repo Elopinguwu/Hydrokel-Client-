@@ -95,6 +95,7 @@ public class Aura extends Module {
 			// System.out.println(target.ticksExisted);
 			
 			  facing = CombatUtils.getEntityRotations(mc.thePlayer, target);
+
 	          e.setYaw(facing[0]);
 	          e.setPitch(facing[1]);
 			  //mc.thePlayer.rotationYawHead = facing[0];

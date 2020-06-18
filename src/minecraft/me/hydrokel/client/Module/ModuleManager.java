@@ -31,11 +31,13 @@ public class  ModuleManager {
 		//Movement
 			modules.add(new Velocity());
 			modules.add(new Fly());
+			modules.add(new Scaffold());
 			modules.add(new Sprint());
 			modules.add(new HighJump());
 			modules.add(new LongJump());
 			modules.add(new Bhop());
 			modules.add(new Step());
+			modules.add(new Safewalk());
 
 		//Combat
 			modules.add(new Antibot());

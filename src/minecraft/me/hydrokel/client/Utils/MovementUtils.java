@@ -117,20 +117,17 @@ public class MovementUtils {
 		  MovementUtils.setSpeed(0);
 	  }
 	}
-	  
-		public static void SelfDamage(int damage) {
-			if (damage < 1)
-				damage = 1;
-			if (damage > MathHelper.floor_double(mc.thePlayer.getMaxHealth()))
-				damage = MathHelper.floor_double(mc.thePlayer.getMaxHealth());
-
-			double offset1 = 0.3;
-			if (mc.thePlayer != null && mc.thePlayer != null && mc.thePlayer.onGround) {
-				for (int i = 0; i <= ((3 + damage) / offset1); i++) {
-					mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY + offset1, mc.thePlayer.posZ, false));
-					mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY, mc.thePlayer.posZ, (i == ((1 + damage) / offset1))));
-				}
+	public static void SelfDamage(int damage) {
+		if (damage < 1)
+			damage = 1;
+		if (damage > MathHelper.floor_double(mc.thePlayer.getMaxHealth()))
+			damage = MathHelper.floor_double(mc.thePlayer.getMaxHealth());
+		double offset1 = 0.3;
+		if (mc.thePlayer != null && mc.thePlayer != null && mc.thePlayer.onGround) {
+			for (int i = 0; i <= ((3 + damage) / offset1); i++) {
+				mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY + offset1, mc.thePlayer.posZ, false));
+				mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(mc.thePlayer.posX,mc.thePlayer.posY, mc.thePlayer.posZ, (i == ((1 + damage) / offset1))));
 			}
-	  
+		}
 	}
 }
