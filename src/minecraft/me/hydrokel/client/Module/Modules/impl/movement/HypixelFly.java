@@ -14,7 +14,7 @@ import net.minecraft.client.gui.GuiChat;
 import net.minecraft.potion.Potion;
 import org.lwjgl.input.Keyboard;
 
-import static me.hydrokel.client.Utils.MovementUtils.getBaseMoveSpeed;
+import me.hydrokel.client.Utils.MovementUtils;
 
 public class HypixelFly extends Module {
     private int level = 1;
@@ -137,7 +137,7 @@ public class HypixelFly extends Module {
                 }
             } else if (level == 3) {
                 level = 4;
-                double difference = 0.23D * (lastDist - getBaseMoveSpeed());
+                double difference = 0.23D * (lastDist - MovementUtils.getBaseMoveSpeed());
                 moveSpeed = lastDist - difference;
             } else {
                 if (mc.theWorld.getCollidingBoundingBoxes(mc.thePlayer, mc.thePlayer.getEntityBoundingBox().offset(0.0D, mc.thePlayer.motionY, 0.0D)).size() > 0 || mc.thePlayer.isCollidedVertically) {
@@ -148,9 +148,9 @@ public class HypixelFly extends Module {
         } else {
             level = 2;
             double boost = mc.thePlayer.isPotionActive(Potion.moveSpeed) ? 1.526 : 2.034;
-            moveSpeed = boost * getBaseMoveSpeed() - 0.01D;
+            moveSpeed = boost * MovementUtils.getBaseMoveSpeed() - 0.01D;
         }
-        moveSpeed = Math.max(moveSpeed, getBaseMoveSpeed());
+        moveSpeed = Math.max(moveSpeed, MovementUtils.getBaseMoveSpeed());
         event.setX(forward * moveSpeed * mx + strafe * moveSpeed * mz);
         event.setZ(forward * moveSpeed * mz - strafe * moveSpeed * mx);
         if (forward == 0.0F && strafe == 0.0F) {
