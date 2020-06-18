@@ -33,6 +33,7 @@ java.lang.RuntimeException: invalid frameindex 1
 	at net.minecraft.client.Minecraft.run(Minecraft.java:400) [OwO2/:?]
 	at net.minecraft.client.main.Main.main(Main.java:113) [OwO2/:?]
 	at Start.main(Start.java:11) [OwO2/:?]
+<<<<<<< HEAD
 [11:50:31] [Client thread/INFO]: Created: 2048x1024 textures-atlas
 [11:51:19] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
 [11:51:19] [Server thread/INFO]: Generating keypair
@@ -1093,3 +1094,26 @@ java.net.UnknownHostException: eu.mineplex.ocm
 [12:45:05] [Client thread/INFO]: Stopping!
 [12:45:05] [Client thread/INFO]: SoundSystem shutting down...
 [12:45:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+=======
+[04:40:53] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[04:40:58] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[04:40:58] [Server thread/INFO]: Generating keypair
+[04:40:58] [Server thread/INFO]: Preparing start region for level 0
+[04:40:59] [Server thread/INFO]: Changing view distance to 15, from 10
+[04:41:00] [Server thread/INFO]: §dHitler[local:E:f5a03e28] logged in with entity id 237 at (83.40512471212637, 64.875, 293.9250826469084)
+[04:41:00] [Server thread/INFO]: §dHitler joined the game
+[04:41:00] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[04:41:04] [Server thread/INFO]: Saving and pausing game...
+[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[04:41:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[04:41:11] [Server thread/INFO]: Saving and pausing game...
+[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[04:41:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[04:41:16] [Server thread/INFO]: Saving and pausing game...
+[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[04:41:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[04:43:32] [Client Shutdown Thread/INFO]: Stopping server
+>>>>>>> 7781eb195f7f8c9a812e07db0d4e30ae1beae4b0

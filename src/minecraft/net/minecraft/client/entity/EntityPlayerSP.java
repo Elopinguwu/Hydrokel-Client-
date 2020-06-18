@@ -389,6 +389,16 @@ public class EntityPlayerSP extends AbstractClientPlayer
             this.hasValidHealth = true;
         }
     }
+    public void damagePlayer() {
+        if (!onGround) return;
+        int count = 67 + (int) (getActivePotionEffect(Potion.jump) != null ? getActivePotionEffect(Potion.jump).getAmplifier() / 3f : 0);
+        for (int i = 0; i < count; i++) {
+            mc.getNetHandler().addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(posX, posY + 0.045, posZ, false));
+            mc.getNetHandler().addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(posX, posY, posZ, false));
+            mc.getNetHandler().addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(posX, posY + 0.0000000025, posZ, false));
+        }
+        mc.getNetHandler().addToSendQueue(new C03PacketPlayer.C04PacketPlayerPosition(posX, posY, posZ, true));
+    }
 
     /**
      * Adds a value to a statistic field.

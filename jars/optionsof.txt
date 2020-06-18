@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ofRenderDistanceChunks:13
+=======
+ofRenderDistanceChunks:15
+>>>>>>> 7781eb195f7f8c9a812e07db0d4e30ae1beae4b0
 ofFogType:3
 ofFogStart:0.2
 ofMipmapType:0
