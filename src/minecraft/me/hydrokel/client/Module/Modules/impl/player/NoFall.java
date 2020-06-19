@@ -5,6 +5,7 @@ import me.hydrokel.client.Eventbus.EventTarget;
 import me.hydrokel.client.Eventbus.Events.*;
 import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
+import me.hydrokel.client.Utils.MovementUtils;
 import me.hydrokel.client.notifications.Notification;
 import me.hydrokel.client.notifications.NotificationManager;
 import me.hydrokel.client.notifications.NotificationType;
@@ -21,20 +22,20 @@ public class NoFall extends Module {
     }
     @Override
     public void onDisable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "NoFall", "You untoggled NoFall.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "NoFall", "You untoggled NoFall (Vanilla).", 1));
         super.onDisable();
     }
 
     @Override
     public void onEnable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "NoFall", "You toggled NoFall.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "NoFall", "You toggled NoFall (Vanilla).", 1));
         super.onEnable();
 
     }
 
     @EventTarget
     public void onUpdate(EventUpdate event) {
-        if(mc.thePlayer.fallDistance >= 2) {
+        if(mc.thePlayer.fallDistance >= 7.5) {
             mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer(true));
             mc.thePlayer.fallDistance = 0;
         }

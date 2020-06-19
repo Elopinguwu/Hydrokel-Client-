@@ -8,6 +8,7 @@ import me.hydrokel.client.Main;
 import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
 import me.hydrokel.client.Utils.MovementUtils;
+import me.hydrokel.client.Utils.PlayerUtils;
 import me.hydrokel.client.notifications.Notification;
 import me.hydrokel.client.notifications.NotificationManager;
 import me.hydrokel.client.notifications.NotificationType;
@@ -27,19 +28,18 @@ public class Bhop extends Module {
     public void setup() {
         ArrayList<String> options = new ArrayList<>();
         options.add("Cubecraft");
-        options.add("Vanilla");
 
-        Main.instance.setmgr.rSetting(new Setting("Bhop Mode", this, "Vanilla", options));
+        Main.instance.setmgr.rSetting(new Setting("Bhop Mode", this, "Cubecraft", options));
     }
 
     public void onDisable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "BunnyHop", "You untoggled BunnyHop.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "Bhop", "You untoggled Bhop.", 1));
         super.onDisable();
     }
 
     @Override
     public void onEnable() {
-        NotificationManager.show(new Notification(NotificationType.INFO, "BunnyHop", "You toggled BunnyHop.", 1));
+        NotificationManager.show(new Notification(NotificationType.INFO, "Bhop", "You toggled Bhop.", 1));
         super.onEnable();
 
     }
@@ -47,18 +47,23 @@ public class Bhop extends Module {
     @EventTarget
     public void onMotion(EventMotion e) {
         if (Main.instance.setmgr.getSettingByName("Bhop Mode").getValString().equalsIgnoreCase("Cubecraft")) {
+            if (MovementUtils.isMoving())
             MovementUtils.setSpeed(0.15);
             mc.timer.timerSpeed = 1.03F;
             if (mc.thePlayer.onGround) {
-                mc.timer.timerSpeed = 1.1F;
+                if (MovementUtils.isMoving())
+                    mc.timer.timerSpeed = 1.1F;
                 if (MovementUtils.isMoving())
                     //MovementUtils.setSpeed(2.65);
                     MovementUtils.setSpeed(3);
-                //mc.thePlayer.jump();
-                mc.thePlayer.motionY += 0.1;
+
+                  //  mc.thePlayer.jump();
+                if (MovementUtils.isMoving())
+                   mc.thePlayer.motionY += 0.1;
 
             } else {
                 mc.timer.timerSpeed = 1F;
+
                 MovementUtils.setSpeed(0.24);
             }
         }

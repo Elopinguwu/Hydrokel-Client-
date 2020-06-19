@@ -6,6 +6,9 @@ import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
 import me.hydrokel.client.Utils.MovementUtils;
 import me.hydrokel.client.Utils.RotationsUtils;
+import me.hydrokel.client.notifications.Notification;
+import me.hydrokel.client.notifications.NotificationManager;
+import me.hydrokel.client.notifications.NotificationType;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.AxisAlignedBB;
@@ -21,6 +24,18 @@ import java.util.stream.Stream;
 public class Scaffold extends Module {
     public Scaffold() {
         super("Scaffold",0, Category.MOVEMENT);
+    }
+
+    @Override
+    public void onEnable() {
+        NotificationManager.show(new Notification(NotificationType.WARNING, "-- WARNING --", "SCAFFOLD MODULE IS BUGGED AND DOESNT BYPASS YET.", 1));
+        super.onEnable();
+    }
+
+    @Override
+    public void onDisable() {
+        NotificationManager.show(new Notification(NotificationType.INFO, "Scaffold", "You untoggled Scaffold", 1));
+        super.onDisable();
     }
 
     @EventTarget
@@ -63,7 +78,7 @@ public class Scaffold extends Module {
 
 
 
-        System.out.println(block_arround);
+        //System.out.println(block_arround);
 
         return new BlockPos(e.posX,e.posY-1,e.posZ);
 
