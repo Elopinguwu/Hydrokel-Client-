@@ -3,8 +3,10 @@ package me.hydrokel.client.Module.Modules.impl.movement;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 
+import de.Hero.settings.Setting;
 import me.hydrokel.client.Eventbus.EventTarget;
 import me.hydrokel.client.Eventbus.Events.*;
+import me.hydrokel.client.Main;
 import me.hydrokel.client.Module.Category;
 import me.hydrokel.client.Module.Module;
 import me.hydrokel.client.Utils.*;
@@ -50,6 +52,16 @@ public class FlyHypixel extends Module {
     private double moveSpeed;
     private double y;
 
+    @Override
+    public void setup() {
+        ArrayList<String> options = new ArrayList<>();
+        options.add("Hypixel");
+        options.add("Mineplex");
+        options.add("Disabler");
+
+        Main.instance.setmgr.rSetting(new Setting("Fly Mode", this, "Hypixel", options));
+
+    }
 
     @EventTarget
     public final void onSendPacket(SendPacketEvent event) {
@@ -79,7 +91,7 @@ public class FlyHypixel extends Module {
                 event.setCancelled();
             }
         }
-        else if (this.mode.getValue() == Mode.WATCHDOG) {
+       else if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
             if (event.getPacket() instanceof net.minecraft.network.play.server.S08PacketPlayerPosLook) {
                 NotificationManager.show(new Notification(NotificationType.WARNING, "Flag", "Disabled Fly due to flag.", 1));
                 toggle();
@@ -140,7 +152,7 @@ public class FlyHypixel extends Module {
         player.stepHeight = 0.625F;
         player.motionX = 0.0D;
         player.motionZ = 0.0D;
-        if (this.mode.getValue() == Mode.WATCHDOG) {
+        if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
             player.setPosition(player.posX, player.posY + this.y, player.posZ);
         }
     }

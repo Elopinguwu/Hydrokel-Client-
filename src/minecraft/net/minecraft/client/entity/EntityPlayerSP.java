@@ -131,6 +131,10 @@ public class EntityPlayerSP extends AbstractClientPlayer
         this.dimension = 0;
     }
 
+    public final boolean isMoving() {
+        return this.mc.thePlayer.moveForward != 0.0F || this.mc.thePlayer.moveStrafing != 0.0F;
+    }
+
     /**
      * Called when the entity is attacked.
      */
