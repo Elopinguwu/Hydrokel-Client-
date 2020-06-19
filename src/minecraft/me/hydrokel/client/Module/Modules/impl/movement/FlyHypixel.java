@@ -91,7 +91,7 @@ public class FlyHypixel extends Module {
                 event.setCancelled();
             }
         }
-        else if (this.mode.getValue() == Mode.WATCHDOG) {
+       else if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
             if (event.getPacket() instanceof net.minecraft.network.play.server.S08PacketPlayerPosLook) {
                 NotificationManager.show(new Notification(NotificationType.WARNING, "Flag", "Disabled Fly due to flag.", 1));
                 toggle();
@@ -152,7 +152,7 @@ public class FlyHypixel extends Module {
         player.stepHeight = 0.625F;
         player.motionX = 0.0D;
         player.motionZ = 0.0D;
-        if (this.mode.getValue() == Mode.WATCHDOG) {
+        if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
             player.setPosition(player.posX, player.posY + this.y, player.posZ);
         }
     }

@@ -85,30 +85,6 @@ public class Fly extends Module {
 
 		}
 
-		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel")) {
-			if (this.mc.thePlayer.onGround) {
-				this.mc.thePlayer.jump();
-			} else {
-				this.mc.thePlayer.motionY = 0;
-				this.state2 += 1;
-				switch (this.state2) {
-					case 1:
-						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY + 1.0E-12D,
-								this.mc.thePlayer.posZ);
-						break;
-					case 2:
-						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY - 1.0E-12D,
-								this.mc.thePlayer.posZ);
-						break;
-					case 3:
-						this.mc.thePlayer.setPosition(this.mc.thePlayer.posX, this.mc.thePlayer.posY + 1.0E-12D,
-								this.mc.thePlayer.posZ);
-						this.state2 = 0;
-						break;
-					default:
-						break;
-				}
-
 				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
 					mc.timer.timerSpeed = 0.24F;
 					if (MovementUtils.isMoving()) {
@@ -126,8 +102,8 @@ public class Fly extends Module {
 
 			}
 
-		}
-	}
+
+
 	@EventTarget
 	public void ptdrtg(EventMotion anarghtquisklid) {
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("DamageFly")) {
