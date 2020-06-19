@@ -37,12 +37,14 @@ public class Fly extends Module {
 
 		super.onEnable();
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("DamageFly")) {
+			MovementUtils.Damage();
+
+
 
 			okmec = true;
 			state = false;
 		}
 
-		MovementUtils.Damage();
 	}
 	protected int state2 = 0;
 	@Override
@@ -54,7 +56,6 @@ public class Fly extends Module {
 		mc.thePlayer.motionX = 0F;
 		mc.thePlayer.motionZ = 0F;
 		NotificationManager.show(new Notification(NotificationType.INFO, "Fly", "You untoggled Fly.", 1));
-	//	if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Hypixel"))
 		this.state2 = 0;
 		super.onDisable();
 
@@ -70,9 +71,7 @@ public class Fly extends Module {
 		ArrayList<String> options = new ArrayList<>();
 		options.add("Vanilla");
 		options.add("DamageFly");
-		options.add("CubecraftInfinite");
-		options.add("Cubecraft15Seconds");
-		options.add("Hypixel");
+		options.add("Cubecraft");
 
 		Main.instance.setmgr.rSetting(new Setting("Fly Mode", this, "Vanilla", options));
 
@@ -87,7 +86,7 @@ public class Fly extends Module {
 
 		}
 
-				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("CubecraftInfinite")) {
+				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft")) {
 					mc.timer.timerSpeed = 0.24F;
 					if (MovementUtils.isMoving()) {
 						MovementUtils.setSpeed(0.38);
@@ -113,28 +112,20 @@ public class Fly extends Module {
 			if (mc.thePlayer.hurtTime > 0 && !state) {
 				mc.thePlayer.motionY = mc.gameSettings.keyBindSneak.pressed ? (mc.gameSettings.keyBindJump.pressed ? 0.42 : -0.42) : (mc.gameSettings.keyBindJump.pressed ? 0.42 : 0);
 				if (MovementUtils.isMoving())
-					MovementUtils.setSpeed(1f);
+					MovementUtils.setSpeed(3.5f);
 			} else {
 
 			}
 
 		}
-		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft15Seconds")) {
-			mc.timer.timerSpeed = 0.31F;
-			if (MovementUtils.isMoving()) {
-				MovementUtils.setSpeed(0.40);
-				if (mc.thePlayer.ticksExisted % 4 == 0) {
-					mc.thePlayer.motionY = 0.25;
-					MovementUtils.setSpeed(3.20);
-				} else {
-					mc.thePlayer.motionY -= 0.15;
+
 
 				}
 			}
 
-		}
-	}
-}
+
+
+
 
 
 

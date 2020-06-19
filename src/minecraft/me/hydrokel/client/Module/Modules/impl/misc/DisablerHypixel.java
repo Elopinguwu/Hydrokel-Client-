@@ -1,7 +1,6 @@
 package me.hydrokel.client.Module.Modules.impl.misc;
 
 import com.google.common.eventbus.Subscribe;
-import javafx.print.Printer;
 import me.hydrokel.client.Eventbus.EventTarget;
 import me.hydrokel.client.Eventbus.Events.EventAntiKB;
 import me.hydrokel.client.Eventbus.Events.EventGetPacket;

@@ -10,7 +10,6 @@ import java.util.Map;
  */
 public class EventManager {
 
-    //TODO: Comment Event's
 
     private static final Map<Class<? extends Event>, ArrayHelper<Data>> REGISTRY_MAP;
 

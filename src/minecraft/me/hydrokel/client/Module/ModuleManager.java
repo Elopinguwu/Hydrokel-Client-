@@ -36,10 +36,10 @@ public class  ModuleManager {
 			modules.add(new HighJump());
 			modules.add(new LongJump());
 			modules.add(new Bhop());
-			modules.add(new Step());
-			modules.add(new Safewalk());
-			modules.add(new FlyHypixel());
-			modules.add(new Speed());
+			//modules.add(new Step());
+		//	modules.add(new Safewalk());
+		//	modules.add(new FlyHypixel());
+			//modules.add(new Speed());
 
 		//Combat
 			modules.add(new Antibot());

@@ -1,4 +1,4 @@
-package me.hydrokel.client.Module.Modules.impl.movement;
+//package me.hydrokel.client.Module.Modules.impl.movement;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import org.lwjgl.input.Keyboard;
 
 
 
-public class FlyHypixel extends Module {
+/*public class FlyHypixel extends Module {
 
         public FlyHypixel() {
             super("FlyHypixel", Keyboard.KEY_NONE, Category.MOVEMENT);
@@ -365,3 +365,4 @@ public class FlyHypixel extends Module {
         WATCHDOG, DISABLER, CUBECRAFT, MINEPLEX, VANILLA;
     }
 }
+*/

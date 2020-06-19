@@ -26,7 +26,12 @@ public class HUD extends Module {
         super("HUD", Keyboard.KEY_P, Category.RENDER);
 
     }
-
+    @Override
+    public void setup() {
+    	if (!this.isToggled()) {
+    		this.toggle();
+    	}
+    }
 	@Override
 	public void onDisable() {
 		NotificationManager.show(new Notification(NotificationType.INFO, "HUD", "You untoggled HUD.", 1));

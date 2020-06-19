@@ -49,7 +49,7 @@ public class Notification {
 
     public void render() {
         double offset = 0;
-        int width = 120;
+        int width = 300;
         int height = 30;
         long time = getTime();
 
