@@ -37,10 +37,12 @@ public class Fly extends Module {
 
 		super.onEnable();
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("DamageFly")) {
+
 			okmec = true;
 			state = false;
-
 		}
+
+		MovementUtils.Damage();
 	}
 	protected int state2 = 0;
 	@Override
@@ -131,19 +133,13 @@ public class Fly extends Module {
 	@EventTarget
 	public void ptdrtg(EventMotion anarghtquisklid) {
 		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("DamageFly")) {
-			/*systéme de damage de klité*/
-			if (okmec == true && mc.thePlayer.onGround) {
-				mc.thePlayer.jump();
-				anarghtquisklid.setY(mc.thePlayer.posY + 3);
-			} else {
-				okmec = false;
-			}
-			/*-------------------------*/
 
 			if (mc.thePlayer.hurtTime > 0 && !state) {
 				mc.thePlayer.motionY = mc.gameSettings.keyBindSneak.pressed ? (mc.gameSettings.keyBindJump.pressed ? 0.42 : -0.42) : (mc.gameSettings.keyBindJump.pressed ? 0.42 : 0);
 				if (MovementUtils.isMoving())
-					MovementUtils.setSpeed(3f);
+					MovementUtils.setSpeed(1f);
+			} else {
+
 			}
 
 		}
@@ -151,7 +147,7 @@ public class Fly extends Module {
 			mc.timer.timerSpeed = 0.31F;
 			if (MovementUtils.isMoving()) {
 				MovementUtils.setSpeed(0.40);
-				if (mc.thePlayer.ticksExisted % 3 == 0) {
+				if (mc.thePlayer.ticksExisted % 4 == 0) {
 					mc.thePlayer.motionY = 0.25;
 					MovementUtils.setSpeed(3.20);
 				} else {
