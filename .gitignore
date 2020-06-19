@@ -1,11 +1,10 @@
 # Project exclude paths
 /out/
 bin
-jars/*
-!jars/libraries/    
+jars/
+!jars/libraries/
 !jars/assets/
 !jars/versions/
-
 logs
 temp
 docs
