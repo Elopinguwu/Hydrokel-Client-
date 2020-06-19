@@ -47,16 +47,15 @@ public class Bhop extends Module {
     @EventTarget
     public void onMotion(EventMotion e) {
         if (Main.instance.setmgr.getSettingByName("Bhop Mode").getValString().equalsIgnoreCase("Cubecraft")) {
-
-
             MovementUtils.setSpeed(0.15);
             mc.timer.timerSpeed = 1.03F;
             if (mc.thePlayer.onGround) {
                 mc.timer.timerSpeed = 1.1F;
                 if (MovementUtils.isMoving())
-                    MovementUtils.setSpeed(2.65);
+                    //MovementUtils.setSpeed(2.65);
+                    MovementUtils.setSpeed(3);
                 //mc.thePlayer.jump();
-                mc.thePlayer.motionY += 0.24;
+                mc.thePlayer.motionY += 0.1;
 
             } else {
                 mc.timer.timerSpeed = 1F;
