@@ -2,10 +2,9 @@
 /out/
 bin
 jars/
-!jars/libraries/    
+!jars/libraries/
 !jars/assets/
 !jars/versions/
-
 logs
 temp
 docs
