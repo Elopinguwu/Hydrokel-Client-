@@ -1,6 +1,6 @@
 # Project exclude paths
 /out/
-bin
+bin/
 jars/
 !jars/libraries/
 !jars/assets/
