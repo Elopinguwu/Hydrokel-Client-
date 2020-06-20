@@ -39,7 +39,6 @@ public class Disabler extends Module {
     public void setup() {
         ArrayList<String> options = new ArrayList<>();
         options.add("Erisium");
-        options.add("Rinaorc");
         options.add("C18PacketSpectate");
         Main.instance.setmgr.rSetting(new Setting("Disabler Mode", this, "Erisium", options));
     }
