@@ -87,7 +87,7 @@ public class Fly extends Module {
 		}
 
 				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft")) {
-					mc.timer.timerSpeed = 0.24F;
+					mc.timer.timerSpeed = 0.30F;
 					if (MovementUtils.isMoving()) {
 						MovementUtils.setSpeed(0.38);
 						if (mc.thePlayer.ticksExisted % 3 == 0) {
