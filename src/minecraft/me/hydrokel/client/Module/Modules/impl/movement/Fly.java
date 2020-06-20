@@ -73,6 +73,8 @@ public class Fly extends Module {
 		options.add("DamageFly");
 		options.add("Cubecraft");
 
+		options.add("Cubecraft Boost");
+
 		Main.instance.setmgr.rSetting(new Setting("Fly Mode", this, "Vanilla", options));
 
 	}
@@ -86,19 +88,33 @@ public class Fly extends Module {
 
 		}
 
-				if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft")) {
-					mc.timer.timerSpeed = 0.30F;
-					if (MovementUtils.isMoving()) {
-						MovementUtils.setSpeed(0.38);
-						if (mc.thePlayer.ticksExisted % 3 == 0) {
-							mc.thePlayer.motionY = 0.25;
-							MovementUtils.setSpeed(2.65);
-						} else {
-							mc.thePlayer.motionY -= 0.15;
-						}
-					}
-
+		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft")) {
+			mc.timer.timerSpeed = 0.24F;
+			if (MovementUtils.isMoving()) {
+				MovementUtils.setSpeed(0.38);
+				if (mc.thePlayer.ticksExisted % 3 == 0) {
+					mc.thePlayer.motionY = 0.25;
+					MovementUtils.setSpeed(2.65);
+				} else {
+					mc.thePlayer.motionY -= 0.15;
 				}
+			}
+
+		}
+		if (Main.instance.setmgr.getSettingByName("Fly Mode").getValString().equalsIgnoreCase("Cubecraft Boost")) {
+
+			mc.timer.timerSpeed = 0.26F;
+			if (MovementUtils.isMoving()) {
+				MovementUtils.setSpeed(0.5);
+				if (mc.thePlayer.ticksExisted % 3 == 0) {
+					mc.thePlayer.motionY = 0.25;
+					MovementUtils.setSpeed(2.65);
+				} else {
+					mc.thePlayer.motionY -= 0.15;
+				}
+			}
+
+		}
 
 
 			}
