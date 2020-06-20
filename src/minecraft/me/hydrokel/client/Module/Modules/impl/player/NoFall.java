@@ -1,6 +1,5 @@
 package me.hydrokel.client.Module.Modules.impl.player;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
 import me.hydrokel.client.Eventbus.EventTarget;
 import me.hydrokel.client.Eventbus.Events.*;
 import me.hydrokel.client.Module.Category;

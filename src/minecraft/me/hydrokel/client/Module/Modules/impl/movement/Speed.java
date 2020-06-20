@@ -24,8 +24,8 @@ public class Speed extends Module {
     private double moveSpeed;
     private double lastDist;
     private double y;
-    private int stage;
-    private int hops;
+    private int stage_;
+    private int hops_;
     /////////////////////////
 
     public Speed() {
@@ -44,10 +44,10 @@ public class Speed extends Module {
     public void onEnable() {
 
         this.y = 0.0D;
-        this.hops = 1;
+        this.hops_ = 1;
         this.moveSpeed = MovementUtils.getBaseMoveSpeed();
         this.lastDist = 0.0D;
-        this.stage = 0;
+        this.stage_ = 0;
         NotificationManager.show(new Notification(NotificationType.INFO, "Speed", "You toggled Speed.", 1));
         super.onEnable();
 
@@ -84,9 +84,9 @@ public class Speed extends Module {
                 this.moveSpeed = this.lastDist + difference;
 
                 if (mc.theWorld.getCollidingBoundingBoxes((Entity) player, player.getEntityBoundingBox().offset(0.0D, player.motionY, 0.0D)).size() > 0 || (player.isCollidedVertically && player.onGround)) {
-                    this.stage = 1;
+                    this.stage_ = 1;
                     mc.timer.timerSpeed = 1.085F;
-                    this.hops++;
+                    this.hops_++;
                 }
                 this.moveSpeed = this.lastDist - this.lastDist / 149.0D;
 
@@ -94,8 +94,8 @@ public class Speed extends Module {
             this.moveSpeed = Math.max(this.moveSpeed, MovementUtils.getBaseMoveSpeed());
 
         }
-        MovementUtils.setSpeed(1);
-        this.stage++;
+        MovementUtils.setSpeed(this.moveSpeed);
+        this.stage_++;
     }
 
 
